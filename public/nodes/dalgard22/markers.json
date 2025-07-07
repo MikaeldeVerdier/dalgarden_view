@@ -27,7 +27,7 @@
         },
         "type": "tree",
         "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-        "image": "/trees/katsura-leaves.png"
+        "image": "./trees/katsura-leaves.png"
     },
     {
         "id": "rhododendron_1",
@@ -42,7 +42,7 @@
         },
         "type": "tree",
         "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-        "image": "/trees/katsura-leaves.png"
+        "image": "./trees/katsura-leaves.png"
     },
     {
         "id": "gulbladig_jasmin",
@@ -57,7 +57,7 @@
         },
         "type": "tree",
         "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-        "image": "/trees/katsura-leaves.png"
+        "image": "./trees/katsura-leaves.png"
     },
     {
         "id": "rhododendron_2",
@@ -72,7 +72,7 @@
         },
         "type": "tree",
         "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-        "image": "/trees/katsura-leaves.png"
+        "image": "./trees/katsura-leaves.png"
     },
     {
         "id": "kopparbjork",
@@ -87,7 +87,7 @@
         },
         "type": "tree",
         "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-        "image": "/trees/katsura-leaves.png"
+        "image": "./trees/katsura-leaves.png"
     },
     {
         "id": "hosta_1",
@@ -222,7 +222,7 @@
         },
         "type": "tree",
         "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-        "image": "/trees/katsura-leaves.png"
+        "image": "./trees/katsura-leaves.png"
     },
     {
         "id": "navehagg_2",
@@ -237,7 +237,7 @@
         },
         "type": "tree",
         "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-        "image": "/trees/katsura-leaves.png"
+        "image": "./trees/katsura-leaves.png"
     },
     {
         "id": "ginnalalonn",

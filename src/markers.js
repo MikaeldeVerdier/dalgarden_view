@@ -29,7 +29,7 @@ function getMarkersFromJSON(jsonData, heading = 0) {
     var markers = [];
 
     const typeIconsDict = {
-        "tree": "/icons/leaf.circle.fill@2x.png",
+        "tree": "./icons/leaf.circle.fill@2x.png",
     }
     jsonData.forEach(entry => {
         const marker = {
