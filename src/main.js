@@ -58,9 +58,9 @@ getNodesFromJSONFile("./nodes_head.json")
                 "fullscreen",
                 // "markers",
             ],
-            // rendererParameters: {
-            //     debug: false,
-            // },
+            rendererParameters: {
+                debug: false,
+            },
         });
 
         viewer.addEventListener("ready", () => {

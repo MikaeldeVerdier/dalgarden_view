@@ -20,7 +20,7 @@ export async function getMarkersFromJSONFile(json_file, heading = 0) {
 
     const jsonData = await reponse.json()
     const markers = getMarkersFromJSON(jsonData, heading);
-    console.log("Markers loaded from JSON file:", markers);
+    // console.log("Markers loaded from JSON file:", markers); DEBUG: log
 
     return markers;
 }
@@ -56,10 +56,10 @@ function getMarkersFromJSON(jsonData, heading = 0) {
 
         markers.push(marker)
 
-        console.log(`Marker added: ${entry.id} at position (${entry.position.yaw}, ${entry.position.pitch})`);
+        // console.log(`Marker added: ${entry.id} at position (${entry.position.yaw}, ${entry.position.pitch})`); DEBUG: log
     });
 
-    console.log(`Total markers added: ${markers.length}`);
+    // console.log(`Total markers added: ${markers.length}`); DEBUG: log
 
     return markers;
 }
