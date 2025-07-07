@@ -2,8 +2,8 @@
     {
         "id": "dalgard1",
         "name": "Dalgården (bild 1)",
-        "panoramaFile": "/nodes/dalgard1/IMG_1310.JPG",
-        "markersFile": "/nodes/dalgard1/markers.json",
+        "panoramaFile": "./nodes/dalgard1/IMG_1310.JPG",
+        "markersFile": "./nodes/dalgard1/markers.json",
         "links": [
             {
                 "nodeId": "dalgard2",
@@ -32,8 +32,8 @@
     {
         "id": "dalgard2",
         "name": "Dalgården (bild 2)",
-        "panoramaFile": "/nodes/dalgard2/IMG_1311.JPG",
-        "markersFile": "/nodes/dalgard2/markers.json",
+        "panoramaFile": "./nodes/dalgard2/IMG_1311.JPG",
+        "markersFile": "./nodes/dalgard2/markers.json",
         "links": [
             {
                 "nodeId": "dalgard1",
@@ -62,8 +62,8 @@
     {
         "id": "dalgard3",
         "name": "Dalgården (bild 3)",
-        "panoramaFile": "/nodes/dalgard3/IMG_1308.JPG",
-        "markersFile": "/nodes/dalgard3/markers.json",
+        "panoramaFile": "./nodes/dalgard3/IMG_1308.JPG",
+        "markersFile": "./nodes/dalgard3/markers.json",
         "links": [
             {
                 "nodeId": "dalgard1",
@@ -99,8 +99,8 @@
     {
         "id": "dalgard4",
         "name": "Dalgården (bild 4)",
-        "panoramaFile": "/nodes/dalgard4/IMG_1307.JPG",
-        "markersFile": "/nodes/dalgard4/markers.json",
+        "panoramaFile": "./nodes/dalgard4/IMG_1307.JPG",
+        "markersFile": "./nodes/dalgard4/markers.json",
         "links": [
             {
                 "nodeId": "dalgard3",
@@ -122,8 +122,8 @@
     {
         "id": "dalgard5",
         "name": "Dalgården (bild 5)",
-        "panoramaFile": "/nodes/dalgard5/IMG_1313.JPG",
-        "markersFile": "/nodes/dalgard5/markers.json",
+        "panoramaFile": "./nodes/dalgard5/IMG_1313.JPG",
+        "markersFile": "./nodes/dalgard5/markers.json",
         "links": [
             {
                 "nodeId": "dalgard6",
@@ -152,8 +152,8 @@
     {
         "id": "dalgard6",
         "name": "Dalgården (bild 6)",
-        "panoramaFile": "/nodes/dalgard6/IMG_1328.JPG",
-        "markersFile": "/nodes/dalgard6/markers.json",
+        "panoramaFile": "./nodes/dalgard6/IMG_1328.JPG",
+        "markersFile": "./nodes/dalgard6/markers.json",
         "links": [
             {
                 "nodeId": "dalgard5",
@@ -182,8 +182,8 @@
     {
         "id": "dalgard7",
         "name": "Dalgården (bild 7)",
-        "panoramaFile": "/nodes/dalgard7/IMG_1312.JPG",
-        "markersFile": "/nodes/dalgard7/markers.json",
+        "panoramaFile": "./nodes/dalgard7/IMG_1312.JPG",
+        "markersFile": "./nodes/dalgard7/markers.json",
         "links": [
             {
                 "nodeId": "dalgard5",
@@ -219,8 +219,8 @@
     {
         "id": "dalgard8",
         "name": "Dalgården (bild 8)",
-        "panoramaFile": "/nodes/dalgard8/IMG_1329.JPG",
-        "markersFile": "/nodes/dalgard8/markers.json",
+        "panoramaFile": "./nodes/dalgard8/IMG_1329.JPG",
+        "markersFile": "./nodes/dalgard8/markers.json",
         "links": [
             {
                 "nodeId": "dalgard7",
@@ -256,8 +256,8 @@
     {
         "id": "dalgard9",
         "name": "Dalgården (bild 9)",
-        "panoramaFile": "/nodes/dalgard9/IMG_1314.JPG",
-        "markersFile": "/nodes/dalgard9/markers.json",
+        "panoramaFile": "./nodes/dalgard9/IMG_1314.JPG",
+        "markersFile": "./nodes/dalgard9/markers.json",
         "links": [
             {
                 "nodeId": "dalgard7",
@@ -293,8 +293,8 @@
     {
         "id": "dalgard10",
         "name": "Dalgården (bild 10)",
-        "panoramaFile": "/nodes/dalgard10/IMG_1315.JPG",
-        "markersFile": "/nodes/dalgard10/markers.json",
+        "panoramaFile": "./nodes/dalgard10/IMG_1315.JPG",
+        "markersFile": "./nodes/dalgard10/markers.json",
         "links": [
             {
                 "nodeId": "dalgard8",
@@ -330,8 +330,8 @@
     {
         "id": "dalgard11",
         "name": "Dalgården (bild 11)",
-        "panoramaFile": "/nodes/dalgard11/IMG_1316.JPG",
-        "markersFile": "/nodes/dalgard11/markers.json",
+        "panoramaFile": "./nodes/dalgard11/IMG_1316.JPG",
+        "markersFile": "./nodes/dalgard11/markers.json",
         "links": [
             {
                 "nodeId": "dalgard10",
@@ -353,8 +353,8 @@
     {
         "id": "dalgard12",
         "name": "Dalgården (bild 12)",
-        "panoramaFile": "/nodes/dalgard12/IMG_1317.JPG",
-        "markersFile": "/nodes/dalgard12/markers.json",
+        "panoramaFile": "./nodes/dalgard12/IMG_1317.JPG",
+        "markersFile": "./nodes/dalgard12/markers.json",
         "links": [
             {
                 "nodeId": "dalgard11",
@@ -376,8 +376,8 @@
     {
         "id": "dalgard13",
         "name": "Dalgården (bild 13)",
-        "panoramaFile": "/nodes/dalgard13/IMG_1318.JPG",
-        "markersFile": "/nodes/dalgard13/markers.json",
+        "panoramaFile": "./nodes/dalgard13/IMG_1318.JPG",
+        "markersFile": "./nodes/dalgard13/markers.json",
         "links": [
             {
                 "nodeId": "dalgard12",
@@ -399,8 +399,8 @@
     {
         "id": "dalgard14",
         "name": "Dalgården (bild 14)",
-        "panoramaFile": "/nodes/dalgard14/IMG_1319.JPG",
-        "markersFile": "/nodes/dalgard14/markers.json",
+        "panoramaFile": "./nodes/dalgard14/IMG_1319.JPG",
+        "markersFile": "./nodes/dalgard14/markers.json",
         "links": [
             {
                 "nodeId": "dalgard13",
@@ -429,8 +429,8 @@
     {
         "id": "dalgard15",
         "name": "Dalgården (bild 15)",
-        "panoramaFile": "/nodes/dalgard15/IMG_1320.JPG",
-        "markersFile": "/nodes/dalgard15/markers.json",
+        "panoramaFile": "./nodes/dalgard15/IMG_1320.JPG",
+        "markersFile": "./nodes/dalgard15/markers.json",
         "links": [
             {
                 "nodeId": "dalgard14",
@@ -452,8 +452,8 @@
     {
         "id": "dalgard16",
         "name": "Dalgården (bild 16)",
-        "panoramaFile": "/nodes/dalgard16/IMG_1321.JPG",
-        "markersFile": "/nodes/dalgard16/markers.json",
+        "panoramaFile": "./nodes/dalgard16/IMG_1321.JPG",
+        "markersFile": "./nodes/dalgard16/markers.json",
         "links": [
             {
                 "nodeId": "dalgard10",
@@ -475,8 +475,8 @@
     {
         "id": "dalgard17",
         "name": "Dalgården (bild 17)",
-        "panoramaFile": "/nodes/dalgard17/IMG_1322.JPG",
-        "markersFile": "/nodes/dalgard17/markers.json",
+        "panoramaFile": "./nodes/dalgard17/IMG_1322.JPG",
+        "markersFile": "./nodes/dalgard17/markers.json",
         "links": [
             {
                 "nodeId": "dalgard9",
@@ -512,8 +512,8 @@
     {
         "id": "dalgard18",
         "name": "Dalgården (bild 18)",
-        "panoramaFile": "/nodes/dalgard18/IMG_1323.JPG",
-        "markersFile": "/nodes/dalgard18/markers.json",
+        "panoramaFile": "./nodes/dalgard18/IMG_1323.JPG",
+        "markersFile": "./nodes/dalgard18/markers.json",
         "links": [
             {
                 "nodeId": "dalgard15",
@@ -556,8 +556,8 @@
     {
         "id": "dalgard19",
         "name": "Dalgården (bild 19)",
-        "panoramaFile": "/nodes/dalgard19/IMG_1324.JPG",
-        "markersFile": "/nodes/dalgard19/markers.json",
+        "panoramaFile": "./nodes/dalgard19/IMG_1324.JPG",
+        "markersFile": "./nodes/dalgard19/markers.json",
         "links": [
             {
                 "nodeId": "dalgard1",
@@ -586,8 +586,8 @@
     {
         "id": "dalgard20",
         "name": "Dalgården (bild 20)",
-        "panoramaFile": "/nodes/dalgard20/IMG_1325.JPG",
-        "markersFile": "/nodes/dalgard20/markers.json",
+        "panoramaFile": "./nodes/dalgard20/IMG_1325.JPG",
+        "markersFile": "./nodes/dalgard20/markers.json",
         "links": [
             {
                 "nodeId": "dalgard4",
@@ -623,8 +623,8 @@
     {
         "id": "dalgard21",
         "name": "Dalgården (bild 21)",
-        "panoramaFile": "/nodes/dalgard21/IMG_1326.JPG",
-        "markersFile": "/nodes/dalgard21/markers.json",
+        "panoramaFile": "./nodes/dalgard21/IMG_1326.JPG",
+        "markersFile": "./nodes/dalgard21/markers.json",
         "links": [
             {
                 "nodeId": "dalgard18",
@@ -653,8 +653,8 @@
     {
         "id": "dalgard22",
         "name": "Dalgården (bild 22)",
-        "panoramaFile": "/nodes/dalgard22/IMG_1327.JPG",
-        "markersFile": "/nodes/dalgard22/markers.json",
+        "panoramaFile": "./nodes/dalgard22/IMG_1327.JPG",
+        "markersFile": "./nodes/dalgard22/markers.json",
         "links": [
             {
                 "nodeId": "dalgard1",
