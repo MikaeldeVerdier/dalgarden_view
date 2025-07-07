@@ -4,7 +4,7 @@ import { Viewer } from "@photo-sphere-viewer/core";
 import { VirtualTourPlugin } from "@photo-sphere-viewer/virtual-tour-plugin";
 // import "@photo-sphere-viewer/virtual-tour-plugin/index.css";
 
-import { GalleryPlugin } from "@photo-sphere-viewer/gallery-plugin";
+// import { GalleryPlugin } from "@photo-sphere-viewer/gallery-plugin";
 // import "@photo-sphere-viewer/gallery-plugin/index.css";
 
 import { MarkersPlugin } from "@photo-sphere-viewer/markers-plugin";
@@ -14,6 +14,7 @@ import { getNodesFromJSONFile } from "/src/nodes.js";
 
 getNodesFromJSONFile("/nodes head.json")
     .then(nodes => {
+        /* DEBUG: Gallery
         var gallery = [];
         nodes.forEach(node => {
             gallery.push({
@@ -22,6 +23,7 @@ getNodesFromJSONFile("/nodes head.json")
                 panorama: node.panorama
             })
         });
+        */
 
         const viewer = new Viewer({
             plugins: [
@@ -35,6 +37,7 @@ getNodesFromJSONFile("/nodes head.json")
                     showLinkTooltip: false,
                     renderMode: "2d",  // 3d doesn"t work at all (laggy and wrong position)
                 }],
+                /* DEBUG: Gallery
                 [GalleryPlugin, {
                     items: gallery,
                     // showNodeName: true,
@@ -43,6 +46,7 @@ getNodesFromJSONFile("/nodes head.json")
                     // showNodePosition: true,
                     // showNodeLinks: true,
                 }],
+                */
             ],
             container: document.querySelector("#viewer"),
             navbar: [
@@ -50,9 +54,9 @@ getNodesFromJSONFile("/nodes head.json")
                 "move",
                 "markersList",
                 "caption",
-                "gallery",
+                // "gallery", DEBUG: Gallery
                 "fullscreen",
-                "markers",
+                // "markers",
             ],
             // rendererParameters: {
             //     debug: false,
@@ -72,14 +76,17 @@ getNodesFromJSONFile("/nodes head.json")
             //     });
         }, { once: true });
 
+        /* DEBUG: Click
         viewer.addEventListener("click", ({ data }) => {
             const centerCoordinate = offsetYawPitch(data.yaw, data.pitch, viewer);
             console.log(`${data.rightclick ? "right " : ""}clicked at yaw: ${centerCoordinate.yaw}, pitch: ${centerCoordinate.pitch}`);
             // console.log(`${data.rightclick ? "right " : ""}clicked at yaw: ${centerCoordinate.yaw * 180 / Math.PI} deg, pitch: ${centerCoordinate.pitch* 180 / Math.PI} deg`);
             // console.log(`${data.rightclick ? "right " : ""}clicked at textureX: ${data.textureX} pitch: ${data.textureY}`);
         });
+        */
     })
 
+/* DEBUG: Click
 function offsetYawPitch(yaw, pitch, viewer, offsetX = 0, offsetY = -16) {
     const vFov = viewer.defaultZoomLvl || 50 * (Math.PI / 180); // Default vertical field of view in radians
     const canvas = viewer.container;
@@ -96,3 +103,4 @@ function offsetYawPitch(yaw, pitch, viewer, offsetX = 0, offsetY = -16) {
         pitch: pitch + deltaPitch
     };
 }
+*/
