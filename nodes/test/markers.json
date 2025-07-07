@@ -1,0 +1,32 @@
+[
+    {
+        "id": "katsura",
+        "name": "Katsura",
+        "position": {
+            "yaw": 2.6352139463534945,
+            "pitch": 0.013698828442306302
+        },
+        "size": {
+            "width": 32,
+            "height": 32
+        },
+        "type": "tree",
+        "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
+        "image": "/trees/katsura-leaves.png"
+    },
+    {
+        "id": "blodplommon",
+        "name": "Blodplommon",
+        "position": {
+            "yaw": 1.0208985926846628,
+            "pitch": 0.10703518680184332
+        },
+        "size": {
+            "width": 32,
+            "height": 32
+        },
+        "type": "tree",
+        "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
+        "image": "trees/blodplommon-leaves.png"
+    }
+]
