@@ -1,0 +1,43 @@
+@use '@photo-sphere-viewer/core/index.scss' as psv with (
+    // navbar
+    $navbar-background: rgba(20, 20, 20, 0.9),
+    // buttons
+    $buttons-hover-scale-delay: 100ms,
+    // zoom
+    $zoom-range-tickness: 2px,
+    $zoom-range-diameter: 10px,
+    // tooltip
+    $tooltip-background: rgba(20, 20, 20, 0.9),
+    $tooltip-text-color: rgb(220, 220, 220),
+    $tooltip-shadow-offset: 0px,
+    // panel
+    $panel-background: rgba(20, 20, 20, 0.9),
+    // menu
+    $panel-menu-odd-background: transparent,
+);
+
+// plugins stylesheets
+@use '@photo-sphere-viewer/virtual-tour-plugin/index.scss' as psvVirtualTour;
+@use '@photo-sphere-viewer/gallery-plugin/index.scss' as psvGallery;
+@use '@photo-sphere-viewer/markers-plugin/index.scss' as psvMarkers;
+
+// general styles
+body {
+    margin: 0;
+}
+
+// further psv overrides
+/*
+.psv-panel {
+    max-width: 50% !important;  /* Cosnider adapating for smaller screens (phones) * /
+}
+*/
+
+.psv-panel-resizer {
+    background-color: rgba(0, 0, 0, 1) !important;
+}
+
+.psv-panel-close-button {
+    top: 5px !important;
+    right: 5px !important;
+}

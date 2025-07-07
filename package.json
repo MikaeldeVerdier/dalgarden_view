@@ -1,0 +1,21 @@
+{
+  "name": "dalgarden_view",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "sass-embedded": "^1.89.2",
+    "vite": "^7.0.0"
+  },
+  "dependencies": {
+    "@photo-sphere-viewer/core": "^5.13.3",
+    "@photo-sphere-viewer/gallery-plugin": "^5.13.3",
+    "@photo-sphere-viewer/markers-plugin": "^5.13.3",
+    "@photo-sphere-viewer/virtual-tour-plugin": "^5.13.3"
+  }
+}

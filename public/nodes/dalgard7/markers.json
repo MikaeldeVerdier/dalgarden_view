@@ -1,0 +1,62 @@
+[
+    {
+        "id": "solfjaderslonn",
+        "name": "Solfjäderslönn",
+        "position": {
+            "yaw": 0.7492412492620988,
+            "pitch": -0.1273340531376983
+        },
+        "size": {
+            "width": 32,
+            "height": 32
+        },
+        "type": "tree",
+        "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
+        "image": "/trees/katsura-leaves.png"
+    },
+    {
+        "id": "ask",
+        "name": "Ask",
+        "position": {
+            "yaw": 2.2659765735044655,
+            "pitch": 0.09387878386632531
+        },
+        "size": {
+            "width": 32,
+            "height": 32
+        },
+        "type": "tree",
+        "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
+        "image": "trees/blodplommon-leaves.png"
+    },
+    {
+        "id": "rodbladig_skogslonn",
+        "name": "Rödbladig skogslönn",
+        "position": {
+            "yaw": 4.74819936849612,
+            "pitch": 0.27209741494464024
+        },
+        "size": {
+            "width": 32,
+            "height": 32
+        },
+        "type": "tree",
+        "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
+        "image": "/trees/katsura-leaves.png"
+    },
+    {
+        "id": "magnolia",
+        "name": "Magnolia",
+        "position": {
+            "yaw": 5.950740082351949,
+            "pitch": -0.012725497159008278
+        },
+        "size": {
+            "width": 32,
+            "height": 32
+        },
+        "type": "tree",
+        "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
+        "image": "trees/blodplommon-leaves.png"
+    }
+]
