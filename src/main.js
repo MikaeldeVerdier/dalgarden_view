@@ -12,7 +12,7 @@ import { MarkersPlugin } from "@photo-sphere-viewer/markers-plugin";
 
 import { getNodesFromJSONFile } from "/src/nodes.js";
 
-getNodesFromJSONFile("/nodes head.json")
+getNodesFromJSONFile("/nodes_head.json")
     .then(nodes => {
         /* DEBUG: Gallery
         var gallery = [];
