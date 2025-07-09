@@ -45,7 +45,7 @@
         "image": "./trees/katsura-leaves.png"
     },
     {
-        "id": "rodbladig_skogslonn",
+        "id": "rodbladig_skogslonn_1",
         "name": "Rödbladig skogslönn",
         "position": {
             "yaw": 3.045026177367187,
@@ -75,8 +75,8 @@
         "image": "./trees/katsura-leaves.png"
     },
     {
-        "id": "schuberthagg_2",
-        "name": "Schuberthägg",
+        "id": "rodbladig_skogslonn_2",
+        "name": "Rödbladig skogslönn",
         "position": {
             "yaw": 4.0698121140955195,
             "pitch": 0.16643415342110024

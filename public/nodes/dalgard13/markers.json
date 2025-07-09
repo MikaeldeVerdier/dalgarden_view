@@ -75,26 +75,11 @@
         "image": "./trees/katsura-leaves.png"
     },
     {
-        "id": "schuberthagg",
-        "name": "Schuberthägg",
-        "position": {
-            "yaw": 1.5778767512620504,
-            "pitch": 0.04565278799983075
-        },
-        "size": {
-            "width": 32,
-            "height": 32
-        },
-        "type": "tree",
-        "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-        "image": "./trees/katsura-leaves.png"
-    },
-    {
         "id": "rodbladig_skogslonn",
         "name": "Rödbladig skogslönn",
         "position": {
-            "yaw": 0.2219673190551488,
-            "pitch": 0.11790339375909033
+            "yaw": 1.5778767512620504,
+            "pitch": 0.04565278799983075
         },
         "size": {
             "width": 32,
