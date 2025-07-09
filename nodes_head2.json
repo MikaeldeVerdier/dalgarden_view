@@ -604,6 +604,13 @@
                 }
             },
             {
+                "nodeId": "dalgard15",
+                "position": {
+                    "yaw": 3.499392080498202,
+                    "pitch": 0.048354266154714276
+                }
+            },
+            {
                 "nodeId": "dalgard17",
                 "position": {
                     "yaw": 2.5570803303542853,
