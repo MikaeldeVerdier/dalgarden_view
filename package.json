@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist -b gh-pages"
+    "deploy_gh": "gh-pages -d dist -b gh-pages",
+    "deploy_netlify": "gh-pages -d dist -b netlify"
   },
   "devDependencies": {
     "sass-embedded": "^1.89.2",
