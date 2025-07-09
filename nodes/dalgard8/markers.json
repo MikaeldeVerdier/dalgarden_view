@@ -1,0 +1,122 @@
+[
+    {
+        "id": "ask",
+        "name": "Ask",
+        "position": {
+            "yaw": 1.1857163783362206,
+            "pitch": 0.01622145833280642
+        },
+        "size": {
+            "width": 32,
+            "height": 32
+        },
+        "type": "tree",
+        "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
+        "image": "./trees/katsura-leaves.png"
+    },
+    {
+        "id": "rodbladig_skogslonn",
+        "name": "Rödbladig skogslönn",
+        "position": {
+            "yaw": 4.03826240652837,
+            "pitch": 0.2901938350499922
+        },
+        "size": {
+            "width": 32,
+            "height": 32
+        },
+        "type": "tree",
+        "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
+        "image": "./trees/katsura-leaves.png"
+    },
+    {
+        "id": "kinesisk_sequoia",
+        "name": "Kinesisk sequoia",
+        "position": {
+            "yaw": 4.433260605151536,
+            "pitch": 0.15821638457617215
+        },
+        "size": {
+            "width": 32,
+            "height": 32
+        },
+        "type": "tree",
+        "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
+        "image": "./trees/katsura-leaves.png"
+    },
+    {
+        "id": "katsura",
+        "name": "Katsura",
+        "position": {
+            "yaw": 4.578054843341423,
+            "pitch": 0.1639660066520623
+        },
+        "size": {
+            "width": 32,
+            "height": 32
+        },
+        "type": "tree",
+        "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
+        "image": "./trees/katsura-leaves.png"
+    },
+    {
+        "id": "rhododendron",
+        "name": "Rhododendron",
+        "position": {
+            "yaw": 4.6043325217877005,
+            "pitch": -0.023816276625323592
+        },
+        "size": {
+            "width": 32,
+            "height": 32
+        },
+        "type": "tree",
+        "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
+        "image": "./trees/katsura-leaves.png"
+    },
+    {
+        "id": "nanting_1",
+        "name": "Nånting 1!",
+        "position": {
+            "yaw": 4.678658700752407,
+            "pitch": 0.03227892621766193
+        },
+        "size": {
+            "width": 32,
+            "height": 32
+        },
+        "type": "tree",
+        "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
+        "image": "./trees/katsura-leaves.png"
+    },
+    {
+        "id": "schuberthagg",
+        "name": "Schuberthägg",
+        "position": {
+            "yaw": 4.760167570214787,
+            "pitch": 0.11726149035479994
+        },
+        "size": {
+            "width": 32,
+            "height": 32
+        },
+        "type": "tree",
+        "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
+        "image": "./trees/katsura-leaves.png"
+    },
+    {
+        "id": "hangpil",
+        "name": "Hängpil",
+        "position": {
+            "yaw": 5.41393775953141,
+            "pitch": 0.6025894737323192
+        },
+        "size": {
+            "width": 32,
+            "height": 32
+        },
+        "type": "tree",
+        "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
+        "image": "./trees/katsura-leaves.png"
+    }
+]

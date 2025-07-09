@@ -1,0 +1,92 @@
+[
+    {
+        "id": "rodbladig_skogslonn",
+        "name": "Rödbladig skogslönn",
+        "position": {
+            "yaw": 1.2935417986068931,
+            "pitch": 0.40311179911411577
+        },
+        "size": {
+            "width": 32,
+            "height": 32
+        },
+        "type": "tree",
+        "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
+        "image": "./trees/katsura-leaves.png"
+    },
+    {
+        "id": "katsura",
+        "name": "Katsura",
+        "position": {
+            "yaw": 5.1120944881926,
+            "pitch": -0.01150174704185968
+        },
+        "size": {
+            "width": 32,
+            "height": 32
+        },
+        "type": "tree",
+        "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
+        "image": "./trees/katsura-leaves.png"
+    },
+    {
+        "id": "ask",
+        "name": "Ask",
+        "position": {
+            "yaw": 4.119727151761182,
+            "pitch": 0.0032841385308852757
+        },
+        "size": {
+            "width": 32,
+            "height": 32
+        },
+        "type": "tree",
+        "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
+        "image": "./trees/katsura-leaves.png"
+    },
+    {
+        "id": "lind_winter_orange",
+        "name": "Lind (winter orange)",
+        "position": {
+            "yaw": 4.359202397449047,
+            "pitch": 0.16982702696783436
+        },
+        "size": {
+            "width": 32,
+            "height": 32
+        },
+        "type": "tree",
+        "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
+        "image": "./trees/katsura-leaves.png"
+    },
+    {
+        "id": "schuberthagg",
+        "name": "Schuberthägg",
+        "position": {
+            "yaw": 6.1928551111414025,
+            "pitch": -0.03347786463073543
+        },
+        "size": {
+            "width": 32,
+            "height": 32
+        },
+        "type": "tree",
+        "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
+        "image": "./trees/katsura-leaves.png"
+    },
+    {
+        "id": "kinesisk_sequoia",
+        "name": "Kinesisk sequoia",
+        "position": {
+            "yaw": 0.08780336896942836,
+            "pitch": -0.04092420174788436
+        },
+        "size": {
+            "width": 32,
+            "height": 32
+        },
+        "type": "tree",
+        "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
+        "image": "./trees/katsura-leaves.png"
+    }
+]

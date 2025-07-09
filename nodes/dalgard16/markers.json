@@ -1,0 +1,167 @@
+[
+    {
+        "id": "sibiriskt_korktrad",
+        "name": "Sibiriskt korkträd",
+        "position": {
+            "yaw": 3.615493366366205,
+            "pitch": 0.16867848936084795
+        },
+        "size": {
+            "width": 32,
+            "height": 32
+        },
+        "type": "tree",
+        "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
+        "image": "trees/blodplommon-leaves.png"
+    },
+    {
+        "id": "katsura",
+        "name": "Katsura",
+        "position": {
+            "yaw": 2.6839796932730184,
+            "pitch": 0.12603415965746056
+        },
+        "size": {
+            "width": 32,
+            "height": 32
+        },
+        "type": "tree",
+        "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
+        "image": "./trees/katsura-leaves.png"
+    },
+    {
+        "id": "kinesisk_sequoia",
+        "name": "Kinesisk sequoia",
+        "position": {
+            "yaw": 0.49024430755532883,
+            "pitch": -0.0952001565549838
+        },
+        "size": {
+            "width": 32,
+            "height": 32
+        },
+        "type": "tree",
+        "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
+        "image": "trees/blodplommon-leaves.png"
+    },
+    {
+        "id": "rodbladig_skogslonn",
+        "name": "Rödbladig skogslönn",
+        "position": {
+            "yaw": 0.9883783567056814,
+            "pitch": 0.4020168614466513
+        },
+        "size": {
+            "width": 32,
+            "height": 32
+        },
+        "type": "tree",
+        "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
+        "image": "trees/blodplommon-leaves.png"
+    },
+    {
+        "id": "schuberthagg",
+        "name": "Schuberthägg",
+        "position": {
+            "yaw": 5.505978916919883,
+            "pitch": -0.18940502607311993
+        },
+        "size": {
+            "width": 32,
+            "height": 32
+        },
+        "type": "tree",
+        "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
+        "image": "trees/blodplommon-leaves.png"
+    },
+    {
+        "id": "nanting_1",
+        "name": "Nånting 1!",
+        "position": {
+            "yaw": 6.250390478843083,
+            "pitch": -0.24602782715529314
+        },
+        "size": {
+            "width": 32,
+            "height": 32
+        },
+        "type": "tree",
+        "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
+        "image": "trees/blodplommon-leaves.png"
+    },
+    {
+        "id": "rhododendron",
+        "name": "Rhododendron",
+        "position": {
+            "yaw": 0.06123122634318212,
+            "pitch": -0.33495186870533233
+        },
+        "size": {
+            "width": 32,
+            "height": 32
+        },
+        "type": "tree",
+        "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
+        "image": "trees/blodplommon-leaves.png"
+    },
+    {
+        "id": "vipphortensia",
+        "name": "Vipphortensia",
+        "position": {
+            "yaw": 4.811082271774266,
+            "pitch": -0.0471971512201994
+        },
+        "size": {
+            "width": 32,
+            "height": 32
+        },
+        "type": "tree",
+        "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
+        "image": "trees/blodplommon-leaves.png"
+    },
+    {
+        "id": "kameleontbuske",
+        "name": "Kameleontbuske",
+        "position": {
+            "yaw": 4.952820922252693,
+            "pitch": -0.05359610877400444
+        },
+        "size": {
+            "width": 32,
+            "height": 32
+        },
+        "type": "tree",
+        "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
+        "image": "trees/blodplommon-leaves.png"
+    },
+    {
+        "id": "gyllenlonn",
+        "name": "Gyllenlönn",
+        "position": {
+            "yaw": 5.080892121930008,
+            "pitch": -0.1111293038269796
+        },
+        "size": {
+            "width": 32,
+            "height": 32
+        },
+        "type": "tree",
+        "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
+        "image": "trees/blodplommon-leaves.png"
+    },
+    {
+        "id": "hangpil",
+        "name": "Hängpil",
+        "position": {
+            "yaw": 5.6870979161084625,
+            "pitch": 0.500028424609319
+        },
+        "size": {
+            "width": 32,
+            "height": 32
+        },
+        "type": "tree",
+        "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
+        "image": "./trees/katsura-leaves.png"
+    }
+]
