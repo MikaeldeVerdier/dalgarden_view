@@ -30,7 +30,7 @@
         "image": "./trees/katsura-leaves.png"
     },
     {
-        "id": "rhododendron",
+        "id": "rhododendron_1",
         "name": "Rhododendron",
         "position": {
             "yaw": 3.068356177234528,
@@ -210,7 +210,7 @@
         "image": "./trees/katsura-leaves.png"
     },
     {
-        "id": "rhododendron",
+        "id": "rhododendron_2",
         "name": "Rhododendron",
         "position": {
             "yaw": 5.58416460198934,
