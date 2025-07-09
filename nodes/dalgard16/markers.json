@@ -45,11 +45,26 @@
         "image": "trees/blodplommon-leaves.png"
     },
     {
-        "id": "rodbladig_skogslonn",
+        "id": "rodbladig_skogslonn_1",
         "name": "Rödbladig skogslönn",
         "position": {
             "yaw": 0.9883783567056814,
             "pitch": 0.4020168614466513
+        },
+        "size": {
+            "width": 32,
+            "height": 32
+        },
+        "type": "tree",
+        "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
+        "image": "trees/blodplommon-leaves.png"
+    },
+    {
+        "id": "rodbladig_skogslonn_2",
+        "name": "Rödbladig skogslönn",
+        "position": {
+            "yaw": 3.8237154459046243,
+            "pitch": 0.1410492020009455
         },
         "size": {
             "width": 32,
