@@ -1,5 +1,5 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: "/",
+  base: "/dalgarden_view/",  // "/dalgarden_view/" for GitHub Pages | "/" for Netlify
 });
