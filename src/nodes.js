@@ -1,5 +1,8 @@
 import { getMarkersFromJSON } from "/src/markers.js";
 
+import { jsonData } from "/src/data.js"
+
+/*
 export async function getNodesFromJSONFile(json_file) {
     const reponse = await fetch(json_file);
 
@@ -8,6 +11,14 @@ export async function getNodesFromJSONFile(json_file) {
     }
 
     const jsonData = await reponse.json()
+    const nodes = await getNodesFromJSON(jsonData);
+    // console.log("Nodes loaded from JSON file:", nodes); DEBUG: log
+
+    return nodes;
+}
+*/
+
+export async function getNodes() {
     const nodes = await getNodesFromJSON(jsonData);
     // console.log("Nodes loaded from JSON file:", nodes); DEBUG: log
 

@@ -10,9 +10,9 @@ import { VirtualTourPlugin } from "@photo-sphere-viewer/virtual-tour-plugin";
 import { MarkersPlugin } from "@photo-sphere-viewer/markers-plugin";
 // import "@photo-sphere-viewer/markers-plugin/index.css";
 
-import { getNodesFromJSONFile } from "/src/nodes.js";
+import { getNodes } from "/src/nodes.js";
 
-getNodesFromJSONFile("./data.json")
+getNodes()  // getNodesFromJSONFile("./data.json")
     .then(nodes => {
         /* DEBUG: Gallery
         var gallery = [];
@@ -74,6 +74,15 @@ getNodesFromJSONFile("./data.json")
             //     .catch(err => {
             //         console.error("Failed to load markers.json:", err);
             //     });
+            const preloadImages = [
+                "./trees/blodplommon-leaves.png",
+                "./trees/katsura-leaves.png",
+                "./trees/lönn-leaves.png",
+            ];
+            preloadImages.forEach(image => {
+                const img = new Image();
+                img.src = image;
+            });
         }, { once: true });
 
         /* DEBUG: Click
