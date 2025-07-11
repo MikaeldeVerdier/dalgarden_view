@@ -25,7 +25,7 @@ export async function getMarkersFromJSONFile(json_file, heading = 0) {
     return markers;
 }
 
-function getMarkersFromJSON(jsonData, heading = 0) {
+export function getMarkersFromJSON(jsonData, heading = 0) {
     var markers = [];
 
     const typeIconsDict = {

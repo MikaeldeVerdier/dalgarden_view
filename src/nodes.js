@@ -1,4 +1,4 @@
-import { getMarkersFromJSONFile } from "/src/markers.js";
+import { getMarkersFromJSON } from "/src/markers.js";
 
 export async function getNodesFromJSONFile(json_file) {
     const reponse = await fetch(json_file);
@@ -18,7 +18,7 @@ async function getNodesFromJSON(jsonData) {
     var nodes = [];
 
     for (const entry of jsonData) {
-        const nodeMarkers = await getMarkersFromJSONFile(entry.markersFile, entry.heading);
+        const nodeMarkers = await getMarkersFromJSON(entry.markers, entry.heading);
 
         const links = entry.links.map(link => {
             return {
