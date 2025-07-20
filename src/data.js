@@ -1,4 +1,4 @@
-export const jsonData = [
+export const nodeData = [
     {
         "id": "dalgard1",
         "name": "Dalgården (bild 1)",
@@ -16,8 +16,7 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
+                "description": "Den här planerades något år!",
             },
             {
                 "id": "koreansk_lonn",
@@ -31,8 +30,7 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Lönn av något slag har jag för mig, vet inte vilken.",
-                "image": "trees/lönn-leaves.png"
+                "description": "Den här importerades från Korea!",
             },
             {
                 "id": "katsura",
@@ -46,8 +44,7 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
+                "description": "Morfars favvo!",
             },
             {
                 "id": "ginnalalonn",
@@ -61,8 +58,7 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
+                "description": "Denna ginnalalönn ger mycket bra skugga när man sitter utanför lusthuset!",
             },
             {
                 "id": "hastkastanj",
@@ -76,8 +72,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "skogslonn",
@@ -91,8 +85,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "rhododendron_1",
@@ -106,8 +98,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "hangpil",
@@ -121,8 +111,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "rhododendron_2",
@@ -136,8 +124,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "nanting_4",
@@ -151,8 +137,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Lönn av något slag har jag för mig, vet inte vilken.",
-                "image": "trees/lönn-leaves.png"
             },
             {
                 "id": "smallspirea",
@@ -166,8 +150,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "navehagg",
@@ -181,8 +163,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             }
         ],
         "links": [
@@ -227,8 +207,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Lönn av något slag har jag för mig, vet inte vilken.",
-                "image": "trees/lönn-leaves.png"
             },
             {
                 "id": "koreansk_lonn",
@@ -242,8 +220,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Lönn av något slag har jag för mig, vet inte vilken.",
-                "image": "trees/lönn-leaves.png"
             },
             {
                 "id": "katsura",
@@ -257,8 +233,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "japansk_appelblomma",
@@ -272,8 +246,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Lönn av något slag har jag för mig, vet inte vilken.",
-                "image": "trees/lönn-leaves.png"
             },
             {
                 "id": "gulbladig_jasmin",
@@ -287,8 +259,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Lönn av något slag har jag för mig, vet inte vilken.",
-                "image": "trees/lönn-leaves.png"
             },
             {
                 "id": "hosta",
@@ -302,8 +272,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Lönn av något slag har jag för mig, vet inte vilken.",
-                "image": "trees/lönn-leaves.png"
             },
             {
                 "id": "rhododendron_1",
@@ -317,8 +285,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Lönn av något slag har jag för mig, vet inte vilken.",
-                "image": "trees/lönn-leaves.png"
             },
             {
                 "id": "nanting_4",
@@ -332,8 +298,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Lönn av något slag har jag för mig, vet inte vilken.",
-                "image": "trees/lönn-leaves.png"
             },
             {
                 "id": "hangpil",
@@ -347,8 +311,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "rhododendron_2",
@@ -362,8 +324,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "smallspirea",
@@ -377,8 +337,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "navehagg_1",
@@ -392,8 +350,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "navehagg_2",
@@ -407,8 +363,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             }
         ],
         "links": [
@@ -453,8 +407,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "katsura",
@@ -468,8 +420,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "koreansk_lonn",
@@ -483,8 +433,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "japansk_appelblomma",
@@ -498,8 +446,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "gulbladig_jasmin",
@@ -513,8 +459,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "hangpil",
@@ -528,8 +472,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "hosta",
@@ -543,8 +485,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "kopparbjork",
@@ -558,8 +498,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "Rhododendron",
@@ -573,8 +511,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "smallspirea",
@@ -588,8 +524,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "navehagg_1",
@@ -603,8 +537,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "navehagg_2",
@@ -618,8 +550,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             }
         ],
         "links": [
@@ -671,8 +601,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "ginnalalonn",
@@ -686,8 +614,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "katsura",
@@ -701,8 +627,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "hosta_1",
@@ -716,8 +640,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "hosta_2",
@@ -731,12 +653,10 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "japansk_appelblomma",
-                "name": "Japansk äpppelblomma",
+                "name": "Japansk äppelblomma",
                 "position": {
                     "yaw": 1.7368712853898411,
                     "pitch": -0.39411447228902063
@@ -746,8 +666,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "gulbladig_jasmin",
@@ -761,8 +679,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "azalea_northern_lights",
@@ -776,8 +692,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             }
         ],
         "links": [
@@ -815,8 +729,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "hangpil",
@@ -830,8 +742,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "magnolia",
@@ -845,8 +755,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "ask",
@@ -860,8 +768,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             }
         ],
         "links": [
@@ -906,8 +812,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "ask",
@@ -921,8 +825,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "rodbladig_skogslonn",
@@ -936,8 +838,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             }
         ],
         "links": [
@@ -982,8 +882,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "ask",
@@ -997,8 +895,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "rodbladig_skogslonn",
@@ -1012,8 +908,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "magnolia",
@@ -1027,8 +921,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             }
         ],
         "links": [
@@ -1080,8 +972,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "rodbladig_skogslonn",
@@ -1095,8 +985,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "kinesisk_sequoia",
@@ -1110,8 +998,7 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
+                "description": "Lätt det coolaste trädet här!",
             },
             {
                 "id": "katsura",
@@ -1125,8 +1012,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "rhododendron",
@@ -1140,8 +1025,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "nanting_1",
@@ -1155,8 +1038,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "schuberthagg",
@@ -1170,8 +1051,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "hangpil",
@@ -1185,8 +1064,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             }
         ],
         "links": [
@@ -1238,8 +1115,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "rodbladig_skogslonn",
@@ -1253,8 +1128,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "nanting_1",
@@ -1268,8 +1141,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "hangpil",
@@ -1283,8 +1154,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "nanting_2",
@@ -1298,8 +1167,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "nagon_hagg",
@@ -1313,8 +1180,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "schuberthagg",
@@ -1328,8 +1193,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "kinesisk_sequoia",
@@ -1343,8 +1206,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "katsura",
@@ -1358,8 +1219,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             }
         ],
         "links": [
@@ -1411,8 +1270,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "katsura",
@@ -1426,8 +1283,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "ask",
@@ -1441,8 +1296,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "lind_winter_orange",
@@ -1456,8 +1309,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "schuberthagg",
@@ -1471,8 +1322,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "kinesisk_sequoia",
@@ -1486,8 +1335,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             }
         ],
         "links": [
@@ -1528,6 +1375,19 @@ export const jsonData = [
         "panoramaFile": "./nodes/dalgard11/IMG_1316.JPG",
         "markers": [
             {
+                "id": "ask_1",
+                "name": "Ask",
+                "position": {
+                    "yaw": 3.6786724284477104,
+                    "pitch": -0.06158244549984193
+                },
+                "size": {
+                    "width": 32,
+                    "height": 32
+                },
+                "type": "tree",
+            },
+            {
                 "id": "sibiriskt_korktrad",
                 "name": "Sibiriskt korkträd",
                 "position": {
@@ -1539,11 +1399,9 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
-                "id": "ask",
+                "id": "ask_2",
                 "name": "Ask",
                 "position": {
                     "yaw": 5.807006999055819,
@@ -1554,8 +1412,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "lind_winter_orange",
@@ -1569,8 +1425,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "rodbladig_skogslonn_1",
@@ -1584,8 +1438,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "rodbladig_skogslonn_2",
@@ -1599,8 +1451,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "kinesisk_sequoia",
@@ -1614,8 +1464,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "katsura",
@@ -1629,8 +1477,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "hangpil",
@@ -1644,8 +1490,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "vitoxel",
@@ -1659,8 +1503,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "rhododendron",
@@ -1674,8 +1516,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             }
         ],
         "links": [
@@ -1713,8 +1553,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "sibiriskt_korktrad",
@@ -1728,8 +1566,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "vitoxel",
@@ -1743,8 +1579,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "lind_winter_orange",
@@ -1758,8 +1592,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "vipphortensia",
@@ -1773,8 +1605,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "hangpil",
@@ -1788,8 +1618,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "rodbladig_skogslonn_1",
@@ -1803,8 +1631,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "rodbladig_skogslonn_2",
@@ -1818,8 +1644,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "katsura",
@@ -1833,23 +1657,19 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "ask",
                 "name": "Ask",
                 "position": {
-                    "yaw": 3.789869778187685,
-                    "pitch": 0.297689774187637
+                    "yaw": 4.358226481415589,
+                    "pitch": 0.006446164948796799
                 },
                 "size": {
                     "width": 32,
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "rhododendron",
@@ -1863,8 +1683,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             }
         ],
         "links": [
@@ -1902,8 +1720,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "vitoxel",
@@ -1917,8 +1733,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "lind_winter_orange",
@@ -1932,8 +1746,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "vipphortensia",
@@ -1947,8 +1759,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "hangpil",
@@ -1962,8 +1772,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "rodbladig_skogslonn",
@@ -1977,8 +1785,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "morkbladig_flader_black_lace",
@@ -1992,8 +1798,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "kameleontbuske",
@@ -2007,8 +1811,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "gyllenlonn",
@@ -2022,8 +1824,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "ask",
@@ -2037,8 +1837,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "rhododendron",
@@ -2052,8 +1850,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             }
         ],
         "links": [
@@ -2080,6 +1876,19 @@ export const jsonData = [
         "panoramaFile": "./nodes/dalgard14/IMG_1319.JPG",
         "markers": [
             {
+                "id": "sibiriskt_korktrad",
+                "name": "Sibiriskt korkträd",
+                "position": {
+                    "yaw": 4.024295654116453,
+                    "pitch": 0.16500346200056315
+                },
+                "size": {
+                    "width": 32,
+                    "height": 32
+                },
+                "type": "tree",
+            },
+            {
                 "id": "vitoxel",
                 "name": "Vitoxel",
                 "position": {
@@ -2091,8 +1900,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "vipphortensia",
@@ -2106,8 +1913,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "morkbladig_flader_black_lace",
@@ -2121,8 +1926,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "haxal",
@@ -2136,8 +1939,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "hangpil",
@@ -2151,8 +1952,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "rodbladig_skogslonn_1",
@@ -2166,8 +1965,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "rhododendron",
@@ -2181,8 +1978,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "lind_winter_orange",
@@ -2196,8 +1991,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "rodbladig_skogslonn_2",
@@ -2211,8 +2004,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "ask",
@@ -2226,8 +2017,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             }
         ],
         "links": [
@@ -2261,6 +2050,19 @@ export const jsonData = [
         "panoramaFile": "./nodes/dalgard15/IMG_1320.JPG",
         "markers": [
             {
+                "id": "ask",
+                "name": "Ask",
+                "position": {
+                    "yaw": 3.527114184342609,
+                    "pitch": 0.2249643425992427
+                },
+                "size": {
+                    "width": 32,
+                    "height": 32
+                },
+                "type": "tree",
+            },
+            {
                 "id": "vitoxel",
                 "name": "Vitoxel",
                 "position": {
@@ -2272,8 +2074,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "vipphortensia",
@@ -2287,8 +2087,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "kameleontbuske",
@@ -2302,8 +2100,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "haxal",
@@ -2317,8 +2113,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "gyllenlonn",
@@ -2332,8 +2126,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "magnolia",
@@ -2347,8 +2139,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "praktvide",
@@ -2362,8 +2152,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "hangpil",
@@ -2377,8 +2165,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "rodbladig_skogslonn_1",
@@ -2392,8 +2178,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "schuberthagg",
@@ -2407,8 +2191,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "rodbladig_skogslonn_2",
@@ -2422,8 +2204,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             }
         ],
         "links": [
@@ -2468,8 +2248,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "katsura",
@@ -2483,8 +2261,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "kinesisk_sequoia",
@@ -2498,8 +2274,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "rodbladig_skogslonn_1",
@@ -2513,8 +2287,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "rodbladig_skogslonn_2",
@@ -2528,8 +2300,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "schuberthagg",
@@ -2543,8 +2313,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "nanting_1",
@@ -2558,8 +2326,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "rhododendron",
@@ -2573,8 +2339,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "vipphortensia",
@@ -2588,8 +2352,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "kameleontbuske",
@@ -2603,8 +2365,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "gyllenlonn",
@@ -2618,8 +2378,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "hangpil",
@@ -2633,8 +2391,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             }
         ],
         "links": [
@@ -2661,6 +2417,19 @@ export const jsonData = [
         "panoramaFile": "./nodes/dalgard17/IMG_1322.JPG",
         "markers": [
             {
+                "id": "ask",
+                "name": "Ask",
+                "position": {
+                    "yaw": 4.8889715895685875,
+                    "pitch": 0.17763804896012858
+                },
+                "size": {
+                    "width": 32,
+                    "height": 32
+                },
+                "type": "tree",
+            },
+            {
                 "id": "hangpil",
                 "name": "Hängpil",
                 "position": {
@@ -2672,8 +2441,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "nanting_1",
@@ -2687,8 +2454,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "nagon_hagg",
@@ -2702,8 +2467,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "rodbladig_skogslonn",
@@ -2717,8 +2480,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "kinesisk_sequoia",
@@ -2732,8 +2493,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "rhododendron",
@@ -2747,8 +2506,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "nanting_2",
@@ -2762,8 +2519,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "schuberthagg",
@@ -2777,8 +2532,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "rodgersia",
@@ -2792,8 +2545,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             }
         ],
         "links": [
@@ -2834,6 +2585,19 @@ export const jsonData = [
         "panoramaFile": "./nodes/dalgard18/IMG_1323.JPG",
         "markers": [
             {
+                "id": "ask",
+                "name": "Ask",
+                "position": {
+                    "yaw": 4.386297299531754,
+                    "pitch": 0.1841171081752222
+                },
+                "size": {
+                    "width": 32,
+                    "height": 32
+                },
+                "type": "tree",
+            },
+            {
                 "id": "hangpil",
                 "name": "Hängpil",
                 "position": {
@@ -2845,8 +2609,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "nanting_1",
@@ -2860,8 +2622,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "rhododendron_1",
@@ -2875,8 +2635,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "rodbladig_skogslonn_1",
@@ -2890,8 +2648,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "schuberthagg_1",
@@ -2905,8 +2661,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "rodbladig_skogslonn_2",
@@ -2920,8 +2674,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "koreansk_stevartia_skenkamelia",
@@ -2935,8 +2687,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "rodgersia",
@@ -2950,8 +2700,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "kranskornell",
@@ -2965,8 +2713,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "praktvide",
@@ -2980,8 +2726,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "magnolia",
@@ -2995,8 +2739,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "gulbladig_jasmin",
@@ -3010,8 +2752,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "haxal",
@@ -3025,8 +2765,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "gyllenlonn",
@@ -3040,8 +2778,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "rhododendron_2",
@@ -3055,8 +2791,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "vingad_benved",
@@ -3070,8 +2804,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "hosta_3",
@@ -3085,8 +2817,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "hosta_4",
@@ -3100,8 +2830,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "hosta_5",
@@ -3115,8 +2843,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "japansk_appelblomma",
@@ -3130,8 +2856,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "hosta_1",
@@ -3145,8 +2869,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "hosta_2",
@@ -3160,8 +2882,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             }
         ],
         "links": [
@@ -3209,6 +2929,19 @@ export const jsonData = [
         "panoramaFile": "./nodes/dalgard19/IMG_1324.JPG",
         "markers": [
             {
+                "id": "ask",
+                "name": "Ask",
+                "position": {
+                    "yaw": 3.4666834312337107,
+                    "pitch": 0.22230846055278897
+                },
+                "size": {
+                    "width": 32,
+                    "height": 32
+                },
+                "type": "tree",
+            },
+            {
                 "id": "vingad_benved",
                 "name": "Vingad benved",
                 "position": {
@@ -3220,8 +2953,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "rhododendron",
@@ -3235,8 +2966,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "kameleontbuske",
@@ -3250,8 +2979,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "vipphortensia",
@@ -3265,8 +2992,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "morkbladig_flader_black_lace",
@@ -3280,8 +3005,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "hangpil",
@@ -3295,8 +3018,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "rodgersia",
@@ -3310,8 +3031,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "koreansk_stevartia_skenkamelia",
@@ -3325,8 +3044,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             }
         ],
         "links": [
@@ -3371,8 +3088,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "schuberthagg",
@@ -3386,8 +3101,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "kinesisk_sequoia",
@@ -3401,8 +3114,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "nagonting_1",
@@ -3416,8 +3127,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "nagon_hagg",
@@ -3431,8 +3140,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "rhododendron_1",
@@ -3446,8 +3153,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "rhododendron_2",
@@ -3461,8 +3166,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "magnolia",
@@ -3476,8 +3179,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "japansk_lonn",
@@ -3491,8 +3192,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "praktvide",
@@ -3506,8 +3205,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "hosta_1",
@@ -3521,8 +3218,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "hosta_2",
@@ -3536,12 +3231,10 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "japansk_appelblomma",
-                "name": "Japansk äpppelblomma",
+                "name": "Japansk äppelblomma",
                 "position": {
                     "yaw": 0.05115158015257526,
                     "pitch": -0.04182503526518277
@@ -3551,8 +3244,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "gulbladig_jasmin",
@@ -3566,8 +3257,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "gyllenlonn",
@@ -3581,8 +3270,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "vingad_benved",
@@ -3596,8 +3283,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "kranskornell",
@@ -3611,8 +3296,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "rodgersia",
@@ -3626,8 +3309,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "koreansk_stevartia_skenkamelia",
@@ -3641,8 +3322,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "hosta_3",
@@ -3656,8 +3335,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "hosta_4",
@@ -3671,8 +3348,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "hosta_5",
@@ -3686,23 +3361,19 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "kloverlonn",
                 "name": "Klöverlönn",
                 "position": {
-                    "yaw": 5.558113679152578,
-                    "pitch": -0.16534269071374386
+                    "yaw": 5.5415184431747875,
+                    "pitch": -0.05635664627969894
                 },
                 "size": {
                     "width": 32,
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "kopparbjork",
@@ -3716,8 +3387,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             }
         ],
         "links": [
@@ -3776,8 +3445,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "praktvide",
@@ -3791,8 +3458,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "japansk_lonn",
@@ -3806,8 +3471,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "magnolia",
@@ -3821,8 +3484,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "kranskornell",
@@ -3836,8 +3497,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "nanting_4",
@@ -3851,8 +3510,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "rhododendron_1",
@@ -3866,8 +3523,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "kopparbjork",
@@ -3881,8 +3536,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "hosta_1",
@@ -3896,8 +3549,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "hosta_2",
@@ -3911,8 +3562,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "hosta_3",
@@ -3926,8 +3575,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "hosta_4",
@@ -3941,8 +3588,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "japansk_appelblomma",
@@ -3956,8 +3601,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "vingad_benved",
@@ -3971,8 +3614,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "kloverlonn",
@@ -3986,8 +3627,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "rhododendron_2",
@@ -4001,8 +3640,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             }
         ],
         "links": [
@@ -4047,8 +3684,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "nanting_4",
@@ -4062,8 +3697,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "rhododendron_1",
@@ -4077,8 +3710,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "gulbladig_jasmin",
@@ -4092,8 +3723,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "rhododendron_2",
@@ -4107,8 +3736,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "kopparbjork",
@@ -4122,8 +3749,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "hosta_1",
@@ -4137,8 +3762,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "hosta_2",
@@ -4152,8 +3775,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "hosta_3",
@@ -4167,23 +3788,19 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "kloverlonn",
                 "name": "Klöverlönn",
                 "position": {
-                    "yaw": 0.3091274353360167,
-                    "pitch": -0.01756969944587338
+                    "yaw": 0.31871131281694703,
+                    "pitch": 0.05525917379027878
                 },
                 "size": {
                     "width": 32,
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "japansk_lonn",
@@ -4197,8 +3814,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "magnolia",
@@ -4212,8 +3827,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "katsura",
@@ -4227,8 +3840,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "smallspirea",
@@ -4242,8 +3853,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "navehagg_1",
@@ -4257,8 +3866,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "navehagg_2",
@@ -4272,8 +3879,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Katsura (Cercidiphyllum japonicum) är ett träd!",
-                "image": "./trees/katsura-leaves.png"
             },
             {
                 "id": "ginnalalonn",
@@ -4287,8 +3892,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "hastkastanj",
@@ -4302,8 +3905,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "blodplommon",
@@ -4317,8 +3918,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "skogslonn",
@@ -4332,8 +3931,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             },
             {
                 "id": "koreansk_lonn",
@@ -4347,8 +3944,6 @@ export const jsonData = [
                     "height": 32
                 },
                 "type": "tree",
-                "description": "Blodplommon (Prunus cerasifera 'Pissardii') är ett träd!",
-                "image": "trees/blodplommon-leaves.png"
             }
         ],
         "links": [
@@ -4377,3 +3972,57 @@ export const jsonData = [
         "heading": 5.5229222982468436
     }
 ]
+
+export const imageData = {
+    "Blodplommon": [
+        "./trees/blodplommon-leaves.png",
+    ],
+    "Japansk lönn": [
+        "./trees/lönn-leaves.png",
+    ],
+    "Katsura": [
+        "./trees/katsura-leaves.png",
+        "./trees/katsura-bark.png"
+    ],
+}
+
+export const descriptionData = {
+    "Blodplommon": "Blodplommon (<em>Prunus cerasifera \"Pissardii\"</em>) är ett träd som är känt för sina vackra, mörkröda blad och rosa blommor på våren. Det är en populär prydnadsväxt i trädgårdar.",
+    "Japansk lönn": "Japansk lönn (<em>Acer palmatum</em>) är en liten till medelstor trädart som är känd för sina vackra, flikiga blad som kan vara gröna, röda eller lila beroende på sorten. Den är populär i trädgårdar och landskapsdesign för sin eleganta form och färg.",
+    "Magnolia": "Magnolia är en släkt av träd och buskar som är kända för sina stora, doftande blommor. De finns i många olika färger, inklusive vitt, rosa och lila. Magnolior är ofta tidiga blommare på våren och är uppskattade för sin skönhet och doft.",
+    "Katsura": "Katsura (<em>Cercidiphyllum japonicum</em>) är ett träd som är känt för sina hjärtformade blad och vackra höstfärger. Det är också känt för sin söta doft av förmultnande löv på hösten. Katsura-trädet är populärt i trädgårdar och parker för sin unika form och doft.",
+    "Koreansk lönn": "Koreansk lönn (<em>Acer pseudosieboldianum</em>) är en trädart som är känd för sina vackra, flikiga blad och sin motståndskraft mot kalla klimat. Den har en attraktiv bark och producerar små, röda frukter som är populära bland fåglar. Koreansk lönn är en utmärkt prydnadsväxt för trädgårdar och landskap.",
+    "Gyllenlönn": "Gyllenlönn (<em>Acer shirasawanum \"Aureum\"</em>) är en trädart som är känd för sina gyllene, ljust gröna blad som blir mer intensiva under hösten. Den har en rundad form och är populär för sin ljusa färg och eleganta utseende. Gyllenlönn är en utmärkt prydnadsväxt för trädgårdar och parker.",
+    "Vingad benved": "Vingad benved (<em>Euonymus alatus</em>) är en buske eller litet träd som är känt för sina karakteristiska, vingformade grenar och vackra höstfärger. Den har små, gröna blad som blir röda eller lila på hösten. Vingad benved är populär i trädgårdar och landskap för sin unika form och färg.",
+    "Kranskornell": "Kranskornell (<em>Cornus controversa</em>) är ett träd som är känt för sina horisontella grenar som ger en karakteristisk kransform. Det har vita blommor på våren och bär som är populära bland fåglar. Kranskornell är en utmärkt prydnadsväxt för trädgårdar och parker för sin unika form och attraktiva blommor.",
+    "Rodgersia": "Rodgersia är en släkt av perenner som är kända för sina stora, dekorativa blad och imponerande blomställningar. De trivs bäst i fuktiga miljöer och är populära i trädgårdar för sin tropiska känsla och stora, pråliga blommor.",
+    "Koreansk stevartia (skenkamelia)": "Koreansk stevartia (<em>Stewartia pseudocamellia</em>) är ett träd som är känt för sina vackra, vita blommor som liknar kamelior. Det har en attraktiv bark och producerar små, ätliga frukter. Koreansk stevartia är populär i trädgårdar och parker för sin eleganta form och vackra blommor.",
+    "Hosta": "Hosta är en populär perenn växt som är känd för sina stora, dekorativa blad och vackra blommor. De trivs bäst i skuggiga eller halvskuggiga områden och finns i många olika färger och storlekar. Hosta är en utmärkt växt för trädgårdar och landskap för sin tålighet och skönhet.",
+    "Klöverlönn": "Klöverlönn (<em>Acer campestre</em>) är en liten till medelstor trädart som är känd för sina små, klöverliknande blad och sin motståndskraft mot urbana miljöer. Den har en rundad form och producerar små, gröna frukter som är populära bland fåglar. Klöverlönn är en utmärkt prydnadsväxt för trädgårdar och parker för sin tålighet och attraktiva form.",
+    "Kopparbjörk": "Kopparbjörk (<em>Betula nana \"Purpurea\"</em>) är en trädart som är känd för sin karakteristiska kopparfärgade bark och sina små, triangulära blad. Den har en upprätt växtsätt och producerar små, hängande kottar. Kopparbjörk är populär i trädgårdar och parker för sin unika bark och eleganta form.",
+    "Hangpil": "Hangpil (<em>Salix babylonica</em>) är en trädart som är känd för sina långa, hängande grenar och smala, lansettformade blad. Den trivs bäst i fuktiga miljöer och är populär i trädgårdar och parker för sin karakteristiska form och eleganta utseende.",
+    "Praktvide": "Praktvide (<em>Salix matsudana \"Tortusa\"</em>) är en trädart som är känd för sina vridna, spiralformade grenar och smala, lansettformade blad. Den har en karakteristisk form och producerar små, hängande kottar. Praktvide är populär i trädgårar och parker för sin unika form och eleganta utseende.",
+    "Rhododendron": "Rhododendron är en släkt av buskar och träd som är kända för sina stora, färgglada blommor. De finns i många olika färger och storlekar och trivs bäst i sur jord. Rhododendron är en populär prydnadsväxt i trädgårdar och parker för sina vackra blommor and lush foliage.",
+    "Japansk äppelblomma": "Japansk äppelblomma (<em>Malus floribunda</em>) är en trädart som är känd för sina vackra, rosa blommor och små, ätliga frukter. Den har en rundad form och producerar små, röda frukter som är populära bland fåglar. Japansk äppelblomma är en utmärkt prydnadsväxt för trädgårdar och parker för sin skönhet och attraktiva frukter.",
+    "Nävehägg": "Nävehägg (<em>Prunus padus</em>) är ett träd som är känt för sina vita blommor som blommar på våren och producerar små, svarta bär som är populära bland fåglar. Den har en rundad form och producerar små, hängande kottar. Nävehägg är en utmärkt prydnadsväxt för trädgårdar och parker för sin skönhet och attraktiva bär.",
+    "Ginnalalönn": "Ginnalalönn (<em>Acer ginnala</em>) är en liten till medelstor trädart som är känd för sina små, klöverliknande blad och sin motståndskraft mot urbana miljöer. Den har en rundad form och producerar små, gröna frukter som är populära bland fåglar. Ginnalalönn är en utmärkt prydnadsväxt for trädgårdar och parker för sin tålighet och attraktiva form.",
+    "Hästkastanj": "Hästkastanj (<em>Aesculus hippocastanum</em>) är ett stort träd som är känt för sina stora, vita blommor och stora, handflikiga blad. Den har en rundad form och producerar stora, bruna frukter som är inte ätliga.",
+    "Skogslönn": "Skogslönn (<em>Acer platanoides</em>) är en trädart som är känd för sina stora, handflikiga blad och sina gula blommor som blommar på våren. Den har en rundad form och producerar små, gröna frukter som är populära bland fåglar. Skogslönn är en utmärkt prydnadsväxt för trädgårdar och parker för sin skönhet och attraktiva frukter.",
+    "Smällspirea": "Smällspirea (<em>Spiraea japonica</em>) är en buske som är känd för sina små, rosa eller vita blommor som blommar på sommaren. Den har små, gröna blad och en buskig form. Smällspirea är populär i trädgårdar och parker för sin skönhet och låga underhåll.",
+    "Hängpil": "Hängpil (<em>Salix babylonica</em>) är en trädart som är känd för sina långa, hängande grenar och smala, lansettformade blad. Den trivs bäst i fuktiga miljöer och är populär i trädgårdar och parker för sin karakteristiska form och eleganta utseende.",
+    "Rödbladig skogslönn": "Rödbladig skogslönn (<em>Acer platanoides \"Crimson King\"</em>) är en trädart som är känd för sina mörkröda blad som behåller sin färg under hela växtsäsongen. Den har en rundad form och producerar små, gröna frukter som är populära bland fåglar. Rödbladig skogslönn är en utmärkt prydnadsväxt för trädgårdar och parker för sin unika färg och attraktiva form.",
+    "Schuberthägg": "Schuberthägg (<em>Prunus subhirtella</em>) är ett träd som är känt för sina rosa blommor som blommar tidigt på våren. Den har en rundad form och producerar små, ätliga frukter som är populära bland fåglar. Schuberthägg är en utmärkt prydnadsväxt för trädgårdar och parker för sin skönhet och attraktiva blommor.",
+    "Häxal": "Häxal (<em>Hamamelis</em>) är en buske eller litet träd som är känt för sina gula, spindelliknande blommor som blommar på vintern. Den har en buskig form och producerar små, ätliga frukter som är populära bland fåglar. Häxal är en utmärkt prydnadsväxt för trädgårdar och parker för sin tidiga blomning och attraktiva färg.",
+    "Vitoxel": "Vitoxel (<em>Oxydendrum arboreum</em>) är ett träd som är känt för sina vita blommor som blommar på sommaren och sina vackra höstfärger. Den har en upprätt växtsätt och producerar små, ätliga frukter som är populära bland fåglar. Vitoxel är en utmärkt prydnadsväxt för trädgårdar och parker för sin skönhet och attraktiva frukter.",
+    "Ask": "Ask (<em>Fraxinus</em>) är en släkt av träd som är kända för sina fjäderlika blad och sina små, gröna frukter. De trivs bäst i fuktiga miljöer och är populära i trädgårdar och parker för sin eleganta form och attraktiva blad.",
+    "Lind (winter orange)": "Lind (<em>Tilia</em>) är en släkt av träd som är kända för sina stora, hjärtformade blad och sina doftande blommor. De trivs bäst i fuktiga miljöer och är populära i trädgårdar och parker för sin skönhet och doft.",
+    "Sibiriskt korkträd": "Sibiriskt korkträd (<em>Phellodendron amurense</em>) är ett träd som är känt för sin karakteristiska, korkliknande bark och sina små, gröna frukter. Den har en upprätt växtsätt och producerar små, ätliga frukter som är populära bland fåglar. Sibiriskt korkträd är en utmärkt prydnadsväxt för trädgårdar och parker för sin unika bark och attraktiva frukter.",
+    "Gulbladig jasmin": "Gulbladig jasmin (<em>Jasminum nudiflorum</em>) är en buske som är känd för sina små, gula blommor som blommar på vintern och tidigt på våren. Den har små, gröna blad och en buskig form. Gulbladig jasmin är populär i trädgårdar och parker för sin tidiga blomning och attraktiva färg.",
+    "Kameleontbuske": "Kameleontbuske (<em>Deutzia</em>) är en släkt av buskar som är kända för sina små, vita eller rosa blommor som blommar på sommaren. De har små, gröna blad och en buskig form. Kameleontbuske är populär i trädgårdar och parker för sin skönhet och låga underhåll.",
+    "Vipphortensia": "Vipphortensia (<em>Hydrangea paniculata</em>) är en buske som är känd för sina stora, konformade blomställningar som kan vara vita, rosa eller lila. Den blommar på sommaren och har gröna blad. Vipphortensia är populär i trädgårdar och parker för sin skönhet och låga underhåll.",
+    "Mörkbladig fläder \"Black lace\"": "Fläder \"Black lace\" (<em>Sambucus</em>) är en buske som är känd för sina mörka, nästan svarta blad och sina små, vita blommor som blommar på sommaren. Den har en buskig form och producerar små, svarta bär som är populära bland fåglar. Fläder \"Black lace\" är populär i trädgårdar och parker för sin unika färg och attraktiva blommor.",
+    "Nånting 1!": "Nånting 1 är någon växt som jag behöver hjälp att identifiera!",
+    "Nånting 2!": "Nånting 2 är någon växt som jag behöver hjälp att identifiera!",
+    "Nånting 3!": "Nånting 3 är någon växt som jag behöver hjälp att identifiera!",
+    "Nånting 4!": "Nånting 4 är någon växt som jag behöver hjälp att identifiera!",
+}

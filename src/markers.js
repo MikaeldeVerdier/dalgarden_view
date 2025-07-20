@@ -1,3 +1,6 @@
+import { descriptionData } from "/src/data.js"
+import { imageData } from "/src/data.js"
+
 /*
 export function getMarkerDataFromJSONFile(json_file) {
     fetch(json_file)
@@ -11,6 +14,7 @@ export function getMarkerDataFromJSONFile(json_file) {
 }
 */
 
+/*
 export async function getMarkersFromJSONFile(json_file, heading = 0) {
     const reponse = await fetch(json_file);
 
@@ -24,6 +28,7 @@ export async function getMarkersFromJSONFile(json_file, heading = 0) {
 
     return markers;
 }
+*/
 
 export function getMarkersFromJSON(jsonData, heading = 0) {
     var markers = [];
@@ -65,16 +70,84 @@ export function getMarkersFromJSON(jsonData, heading = 0) {
 }
 
 function getDescriptionHTML(markerData) {
-    if (!markerData.image) {
+    const [descriptions, images] = getDescriptionsAndImages(markerData);
+
+    var descriptionHTML = ""
+    if (descriptions.length) {
+        descriptionHTML += `<div class="description-wrapper">`;
+        descriptions.forEach(description => {
+            descriptionHTML += `<div class="description-div">`;
+            descriptionHTML += `<p>${description}</p>`;
+            descriptionHTML += `</div>`;
+        });
+        descriptionHTML += `</div>`;
+    }
+
+    var imagesHTML = ""
+    if (images.length) {
+        imagesHTML += `<div class="img-wrapper">`;
+        images.forEach(image => {
+            imagesHTML += `<div class="img-div">`;
+            imagesHTML += `<img src="${image}" alt="${markerData.name}" class="img-content">`;
+            imagesHTML += `</div>`;
+        });
+        imagesHTML += `</div>`;
+    }
+
+    if (!descriptionHTML && !imagesHTML) {
+        return `<h2>${markerData.name}</h2>`;
+    }
+
+    if (!descriptionHTML) {
         return `
             <h2>${markerData.name}</h2>
-            <p>${markerData.description}</p>
+            ${imagesHTML}
         `;
     }
 
+    if (!imagesHTML) {
+        return `
+            <h2>${markerData.name}</h2>
+            ${descriptionHTML}
+        `;
+    }
+
+    /*
     return `
         <h2>${markerData.name}</h2>
         <img src="${markerData.image}" alt="${markerData.name}" style="width: 100%; height: auto; max-height: calc(80% - 80px); object-fit: contain; object-position: left; border-radius: 5px;">
-        <p>${markerData.description}</p>
+        ${totalDescription}
     `;
+    */
+   
+    return `
+        <h2>${markerData.name}</h2>
+        ${imagesHTML}
+        ${descriptionHTML}
+    `;
+}
+
+function getDescriptionsAndImages(markerData) {
+    const mainDescription = descriptionData[markerData.name]
+    const specificDescription = markerData.description
+
+    var descriptions = [];
+    if (mainDescription) {
+        descriptions.push(mainDescription);
+    }
+    if (specificDescription) {
+        descriptions.push(specificDescription);
+    }
+
+    const mainImages = imageData[markerData.name] || [];
+    const specificImages = markerData.images || [];
+    const images = mainImages.concat(specificImages);
+    // if (mainImage) {
+    //     images.push(mainImage);
+    // }
+    // if (specificImage) {
+    //     images.push(specificImage);
+    // }
+
+    return [descriptions, images];
 }

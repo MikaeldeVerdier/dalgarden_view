@@ -1,6 +1,8 @@
 import { Viewer } from "@photo-sphere-viewer/core";
 // import "@photo-sphere-viewer/core/index.css";
 
+import { Cache } from '@photo-sphere-viewer/core';
+
 import { VirtualTourPlugin } from "@photo-sphere-viewer/virtual-tour-plugin";
 // import "@photo-sphere-viewer/virtual-tour-plugin/index.css";
 
@@ -11,6 +13,8 @@ import { MarkersPlugin } from "@photo-sphere-viewer/markers-plugin";
 // import "@photo-sphere-viewer/markers-plugin/index.css";
 
 import { getNodes } from "/src/nodes.js";
+
+Cache.maxItems = 25;
 
 getNodes()  // getNodesFromJSONFile("./data.json")
     .then(nodes => {
@@ -24,6 +28,7 @@ getNodes()  // getNodesFromJSONFile("./data.json")
             })
         });
         */
+        console.log(nodes)
 
         const viewer = new Viewer({
             plugins: [
@@ -48,7 +53,7 @@ getNodes()  // getNodesFromJSONFile("./data.json")
                 }],
                 */
             ],
-            container: document.querySelector("#viewer"),
+            container: document.querySelector(".viewer"),
             navbar: [
                 "zoom",
                 "move",
