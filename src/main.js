@@ -1,6 +1,8 @@
 import { Viewer } from "@photo-sphere-viewer/core";
 // import "@photo-sphere-viewer/core/index.css";
 
+import { EquirectangularTilesAdapter } from '@photo-sphere-viewer/equirectangular-tiles-adapter';
+
 import { Cache } from '@photo-sphere-viewer/core';
 
 import { VirtualTourPlugin } from "@photo-sphere-viewer/virtual-tour-plugin";
@@ -54,6 +56,7 @@ getNodes()  // getNodesFromJSONFile("./data.json")
                 */
             ],
             container: document.querySelector(".viewer"),
+            adapter: EquirectangularTilesAdapter,
             navbar: [
                 "zoom",
                 "move",
@@ -81,8 +84,8 @@ getNodes()  // getNodesFromJSONFile("./data.json")
             //     });
             const preloadImages = [
                 "./trees/blodplommon-leaves.png",
+                "./trees/katsura-bark.png",
                 "./trees/katsura-leaves.png",
-                "./trees/lönn-leaves.png",
             ];
             preloadImages.forEach(image => {
                 const img = new Image();
@@ -93,7 +96,11 @@ getNodes()  // getNodesFromJSONFile("./data.json")
         /* DEBUG: Click
         viewer.addEventListener("click", ({ data }) => {
             const centerCoordinate = offsetYawPitch(data.yaw, data.pitch, viewer);
-            console.log(`${data.rightclick ? "right " : ""}clicked at yaw: ${centerCoordinate.yaw}, pitch: ${centerCoordinate.pitch}`);
+            const currNode = viewer.getPlugin("virtual-tour").getCurrentNode()
+            const currHeading = currNode.data.heading || 0;
+            const clickedYaw = (centerCoordinate.yaw + currHeading) % (2 * Math.PI);
+
+            console.log(`${data.rightclick ? "right " : ""}clicked at yaw: ${clickedYaw}, pitch: ${centerCoordinate.pitch}`);
             // console.log(`${data.rightclick ? "right " : ""}clicked at yaw: ${centerCoordinate.yaw * 180 / Math.PI} deg, pitch: ${centerCoordinate.pitch* 180 / Math.PI} deg`);
             // console.log(`${data.rightclick ? "right " : ""}clicked at textureX: ${data.textureX} pitch: ${data.textureY}`);
         });

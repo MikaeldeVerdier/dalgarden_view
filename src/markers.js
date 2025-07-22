@@ -1,5 +1,4 @@
-import { descriptionData } from "/src/data.js"
-import { imageData } from "/src/data.js"
+import { treeData, treeTypeData, specificTreeData } from "/src/data.js"
 
 /*
 export function getMarkerDataFromJSONFile(json_file) {
@@ -30,13 +29,18 @@ export async function getMarkersFromJSONFile(json_file, heading = 0) {
 }
 */
 
-export function getMarkersFromJSON(jsonData, heading = 0) {
+export function getMarkersFromJSON(jsonData, heading = 0, diameter = 32) {
     var markers = [];
 
+    /*
     const typeIconsDict = {
         "tree": "./icons/leaf.circle.fill@2x.png",
     }
+        */
     jsonData.forEach(entry => {
+        const entryName = Object.entries(treeData).filter(([key, value]) => value.includes(entry.id))[0]?.[0] || entry.id;
+        // console.log(entryName)
+
         const marker = {
             id: entry.id,
             position: {
@@ -44,19 +48,13 @@ export function getMarkersFromJSON(jsonData, heading = 0) {
                 pitch: entry.position.pitch,
             },
             size: {
-                width: entry.size.width,
-                height: entry.size.height,
+                width: diameter,
+                height: diameter,
             },
-            image: typeIconsDict[entry.type],
-            tooltip: `<strong>${entry.name}</strong>`,
+            image: "./icons/leaf.circle.fill@2x.png",
+            tooltip: `<strong>${entryName}</strong>`,
             anchor: "bottom center",
-            data: {
-                name: entry.name,
-                image: entry.image,
-                description: entry.description,
-                type: entry.type,
-            },
-            content: getDescriptionHTML(entry),
+            content: getDescriptionHTML(entry.id, entryName),
         };
 
         markers.push(marker)
@@ -69,8 +67,8 @@ export function getMarkersFromJSON(jsonData, heading = 0) {
     return markers;
 }
 
-function getDescriptionHTML(markerData) {
-    const [descriptions, images] = getDescriptionsAndImages(markerData);
+function getDescriptionHTML(entryId, entryName) {
+    const [descriptions, images] = getDescriptionsAndImages(entryId, entryName);
 
     var descriptionHTML = ""
     if (descriptions.length) {
@@ -88,26 +86,26 @@ function getDescriptionHTML(markerData) {
         imagesHTML += `<div class="img-wrapper">`;
         images.forEach(image => {
             imagesHTML += `<div class="img-div">`;
-            imagesHTML += `<img src="${image}" alt="${markerData.name}" class="img-content">`;
+            imagesHTML += `<img src="${image}" alt="${entryName}" class="img-content">`;
             imagesHTML += `</div>`;
         });
         imagesHTML += `</div>`;
     }
 
     if (!descriptionHTML && !imagesHTML) {
-        return `<h2>${markerData.name}</h2>`;
+        return `<h2>${entryName}</h2>`;
     }
 
     if (!descriptionHTML) {
         return `
-            <h2>${markerData.name}</h2>
+            <h2>${entryName}</h2>
             ${imagesHTML}
         `;
     }
 
     if (!imagesHTML) {
         return `
-            <h2>${markerData.name}</h2>
+            <h2>${entryName}</h2>
             ${descriptionHTML}
         `;
     }
@@ -121,26 +119,26 @@ function getDescriptionHTML(markerData) {
     */
    
     return `
-        <h2>${markerData.name}</h2>
+        <h2>${entryName}</h2>
         ${imagesHTML}
         ${descriptionHTML}
     `;
 }
 
-function getDescriptionsAndImages(markerData) {
-    const mainDescription = descriptionData[markerData.name]
-    const specificDescription = markerData.description
+function getDescriptionsAndImages(entryId, entryName) {
+    const mainData = treeTypeData[entryName] || {}
+    const specificData = specificTreeData[entryId] || {}
 
     var descriptions = [];
-    if (mainDescription) {
-        descriptions.push(mainDescription);
+    if (mainData.description) {
+        descriptions.push(mainData.description);
     }
-    if (specificDescription) {
-        descriptions.push(specificDescription);
+    if (specificData.description) {
+        descriptions.push(specificData.description);
     }
 
-    const mainImages = imageData[markerData.name] || [];
-    const specificImages = markerData.images || [];
+    const mainImages = mainData.images || [];
+    const specificImages = specificData.images || [];
     const images = mainImages.concat(specificImages);
     // if (mainImage) {
     //     images.push(mainImage);

@@ -42,11 +42,21 @@ async function getNodesFromJSON(jsonData) {
         });
         const node = {
             id: entry.id,
-            panorama: entry.panoramaFile,
+            panorama: {
+                width: 8192,
+                cols: 16,
+                rows: 8,
+                tileUrl: (col, row) => `/tiles/${entry.id}/panorama_row${row}_col${col}.jpg`,
+                baseUrl: `/tiles/${entry.id}/rotated_${entry.id}_10q_0.7.jpg`,
+                // basePanoData: { poseHeading: entry.heading * 180 / Math.PI },
+            },  // entry.panoramaFile,
             links: links,
             name: entry.name,
             markers: nodeMarkers,
-            panoData: { poseHeading: entry.heading * 180 / Math.PI },  // is for some reason in degrees
+            // panoData: { poseHeading: entry.heading * 180 / Math.PI },  // is for some reason in degrees
+            data: {
+                heading: entry.heading,
+            }
         }
 
         // console.log(entry.links); DEBUG: log

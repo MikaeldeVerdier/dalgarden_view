@@ -5,164 +5,116 @@ export const nodeData = [
         "panoramaFile": "./nodes/dalgard1/IMG_1310.JPG",
         "markers": [
             {
-                "id": "blodplommon",
-                "name": "Blodplommon",
+                "id": "blodplommon_1",
                 "position": {
                     "yaw": 2.2606367262225144,
                     "pitch": 0.02796695614841971
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
-                "description": "Den här planerades något år!",
             },
             {
-                "id": "koreansk_lonn",
-                "name": "Koreansk lönn",
+                "id": "koreansk-lonn_1",
                 "position": {
-                    "yaw": 3.0919052594398746,
-                    "pitch": -0.0970590540730365
+                    "yaw": 3.0845216494431256,
+                    "pitch": -0.06884369714594207
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
-                "description": "Den här importerades från Korea!",
             },
             {
-                "id": "katsura",
-                "name": "Katsura",
+                "id": "katsura_1",
                 "position": {
                     "yaw": 3.5079790200693397,
                     "pitch": -0.008543026423233343
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
-                "description": "Morfars favvo!",
             },
             {
-                "id": "ginnalalonn",
-                "name": "Ginnalalönn",
+                "id": "ginnalalonn_1",
                 "position": {
                     "yaw": 1.8991460569930443,
                     "pitch": 0.018134753800143292
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
-                "description": "Denna ginnalalönn ger mycket bra skugga när man sitter utanför lusthuset!",
             },
             {
-                "id": "hastkastanj",
-                "name": "Hästkastanj",
+                "id": "hastkastanj_1",
                 "position": {
                     "yaw": 2.15566433662048,
                     "pitch": 0.05322331686262727
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "skogslonn",
-                "name": "Skogslönn",
+                "id": "skogslonn_1",
                 "position": {
                     "yaw": 2.447472362052443,
                     "pitch": 0.1064670383038433
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
+            },
+            {
+                "id": "finnslide_1",
+                "position": {
+                    "yaw": 5.880007113410169,
+                    "pitch": 0.21204335399969176
                 },
-                "type": "tree",
             },
             {
                 "id": "rhododendron_1",
-                "name": "Rhododendron",
                 "position": {
                     "yaw": 5.235695957783912,
                     "pitch": 0.014347237254800586
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "hangpil",
-                "name": "Hängpil",
+                "id": "hangpil_1",
                 "position": {
                     "yaw": 4.642980490756283,
                     "pitch": 0.22094118352887326
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
                 "id": "rhododendron_2",
-                "name": "Rhododendron",
                 "position": {
                     "yaw": 4.300109989955789,
                     "pitch": 0.013956135688609098
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
                 "id": "nanting_4",
-                "name": "Nånting 4!",
                 "position": {
                     "yaw": 3.823858756143529,
                     "pitch": -0.11995270810747226
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "smallspirea",
-                "name": "Smällspirea",
+                "id": "smallspirea_1",
                 "position": {
                     "yaw": 1.1976125523126342,
                     "pitch": -0.15558758122436167
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "navehagg",
-                "name": "Nävehägg",
+                "id": "ligularia-dentata_1",
+                "position": {
+                    "yaw": 1.3939529163388906,
+                    "pitch": -0.06672331783159136
+                },
+            },
+            {
+                "id": "himalayabjork_1",
+                "position": {
+                    "yaw": 1.6380824875708022,
+                    "pitch": 0.07006447975195096
+                },
+            },
+            {
+                "id": "navehagg_1",
                 "position": {
                     "yaw": 1.4452206665981244,
                     "pitch": 0.018906770231122753
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
+            },
+            {
+                "id": "skoldbracka_1",
+                "position": {
+                    "yaw": 1.9566016424367625,
+                    "pitch": -0.3239004580094098
                 },
-                "type": "tree",
             }
         ],
         "links": [
@@ -186,7 +138,7 @@ export const nodeData = [
                     "yaw": 3.733099874006463,
                     "pitch": -0.27108324624332814
                 }
-            }
+            },
         ],
         "heading": 3.3775891123402326
     },
@@ -196,174 +148,124 @@ export const nodeData = [
         "panoramaFile": "./nodes/dalgard2/IMG_1311.JPG",
         "markers": [
             {
-                "id": "skogslonn",
-                "name": "Skogslönn",
+                "id": "skogslonn_1",
                 "position": {
                     "yaw": 3.7683564286140885,
                     "pitch": 0.45870009773867704
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "koreansk_lonn",
-                "name": "Koreansk lönn",
+                "id": "koreansk-lonn_1",
                 "position": {
                     "yaw": 3.66681597305324,
                     "pitch": -0.2118147201320617
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "katsura",
-                "name": "Katsura",
+                "id": "katsura_1",
                 "position": {
-                    "yaw": 5.624859776038707,
-                    "pitch": -0.060212464298284196
+                    "yaw": 5.588986408750598,
+                    "pitch": 0.012343728824071091
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "japansk_appelblomma",
-                "name": "Japansk äppelblomma",
+                "id": "japansk-appelblomma_1",
                 "position": {
                     "yaw": 6.258121376893599,
                     "pitch": -0.0284931100602066
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "gulbladig_jasmin",
-                "name": "Gulbladig jasmin",
+                "id": "gulbladig-jasmin_1",
                 "position": {
-                    "yaw": 0.2371073121945217,
-                    "pitch": -0.0015894932699826916
+                    "yaw": 0.22274342599051597,
+                    "pitch": 0.016402739859821883
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "hosta",
-                "name": "Hosta",
+                "id": "hosta_7",
                 "position": {
                     "yaw": 0.593688884313262,
                     "pitch": -0.07771320742388886
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "rhododendron_1",
-                "name": "Rhododendron",
+                "id": "rhododendron_3",
                 "position": {
                     "yaw": 0.7759052091704722,
                     "pitch": -0.14770538763314134
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
                 "id": "nanting_4",
-                "name": "Nånting 4!",
                 "position": {
                     "yaw": 0.9148638797785358,
                     "pitch": -0.21965281065502795
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "hangpil",
-                "name": "Hängpil",
+                "id": "hangpil_1",
                 "position": {
                     "yaw": 0.7278465117918673,
                     "pitch": 0.30999164586361916
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
+            },
+            {
+                "id": "finnslide_1",
+                "position": {
+                    "yaw": 1.7251000666448952,
+                    "pitch": 0.12346006891216432
                 },
-                "type": "tree",
             },
             {
                 "id": "rhododendron_2",
-                "name": "Rhododendron",
                 "position": {
                     "yaw": 1.1871006530894974,
                     "pitch": 0.016178853796467555
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "smallspirea",
-                "name": "Smällspirea",
+                "id": "smallspirea_1",
                 "position": {
                     "yaw": 2.327867257796728,
                     "pitch": -0.00969591742346609
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
+            },
+            {
+                "id": "ligularia-dentata_1",
+                "position": {
+                    "yaw": 2.625199845547467,
+                    "pitch": -0.0006027623119289026
                 },
-                "type": "tree",
+            },
+            {
+                "id": "himalayabjork_1",
+                "position": {
+                    "yaw": 2.995858132430671,
+                    "pitch": 0.09453911914349722
+                },
             },
             {
                 "id": "navehagg_1",
-                "name": "Nävehägg",
                 "position": {
                     "yaw": 2.851837535476185,
                     "pitch": 0.07124669726785693
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
                 "id": "navehagg_2",
-                "name": "Nävehägg",
                 "position": {
                     "yaw": 2.9328192696365045,
                     "pitch": 0.07507132473667188
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
+            },
+            {
+                "id": "skoldbracka_1",
+                "position": {
+                    "yaw": 2.4143433662854754,
+                    "pitch": -0.053773149216421956
                 },
-                "type": "tree",
-            }
+            },
         ],
         "links": [
             {
@@ -396,161 +298,145 @@ export const nodeData = [
         "panoramaFile": "./nodes/dalgard3/IMG_1308.JPG",
         "markers": [
             {
-                "id": "ginnalalönn",
-                "name": "Ginnalalönn",
+                "id": "ginnalalonn_1",
                 "position": {
                     "yaw": 0.961959230849157,
                     "pitch": 0.06390089798990539
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "katsura",
-                "name": "Katsura",
+                "id": "katsura_1",
                 "position": {
                     "yaw": 1.398434383240532,
                     "pitch": 0.010142729467102377
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "koreansk_lonn",
-                "name": "Koreansk lönn",
+                "id": "koreansk-lonn_1",
                 "position": {
-                    "yaw": 0.6721288748428467,
-                    "pitch": 0.0736360339265194
+                    "yaw": 0.6779910296366903,
+                    "pitch": 0.04554673627393724
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "japansk_appelblomma",
-                "name": "Japansk äppelblomma",
+                "id": "japansk-appelblomma_1",
                 "position": {
                     "yaw": 3.9410871831417253,
                     "pitch": -0.0034771254351497714
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "gulbladig_jasmin",
-                "name": "Gulbladig jasmin",
+                "id": "hosta_6",
+                "position": {
+                    "yaw": 4.171919987651109,
+                    "pitch": -0.007282775095253543
+                },
+            },
+            {
+                "id": "gulbladig-jasmin_1",
                 "position": {
                     "yaw": 4.261451479456106,
                     "pitch": 0.04113267464392134
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "hangpil",
-                "name": "Hängpil",
+                "id": "hangpil_1",
                 "position": {
                     "yaw": 4.750814052534109,
                     "pitch": 0.29899452584591235
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "hosta",
-                "name": "Hosta",
+                "id": "kloverlonn_1",
                 "position": {
-                    "yaw": 4.9735069435638,
-                    "pitch": -0.07107435208486335
+                    "yaw": 4.87870674704915,
+                    "pitch": 0.03181315698563214
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "kopparbjork",
-                "name": "Kopparbjörk",
+                "id": "hosta_7",
+                "position": {
+                    "yaw": 4.944848166604029,
+                    "pitch": -0.05088255765901395
+                },
+            },
+            {
+                "id": "hosta_10",
+                "position": {
+                    "yaw": 5.080415747259029,
+                    "pitch": -0.07652332061237566
+                },
+            },
+            {
+                "id": "kopparbjork_1",
                 "position": {
                     "yaw": 5.159692315350497,
                     "pitch": 0.04929749038369802
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "Rhododendron",
-                "name": "Rhododendron",
+                "id": "rhododendron_3",
+                "position": {
+                    "yaw": 5.3777898626901095,
+                    "pitch": -0.07707425876537943
+                },
+            },
+            {
+                "id": "rhododendron_2",
                 "position": {
                     "yaw": 5.596426487467607,
                     "pitch": 0.08094420977478323
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "smallspirea",
-                "name": "Smällspirea",
+                "id": "finnslide_1",
+                "position": {
+                    "yaw": 5.7923037506559725,
+                    "pitch": 0.1715836159796693
+                },
+            },
+            {
+                "id": "smallspirea_1",
                 "position": {
                     "yaw": 0.010705444758841602,
                     "pitch": 0.0484715966073781
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
+            },
+            {
+                "id": "ligularia-dentata_1",
+                "position": {
+                    "yaw": 0.21755056772412473,
+                    "pitch": 0.04090039960158842
                 },
-                "type": "tree",
+            },
+            {
+                "id": "himalayabjork_1",
+                "position": {
+                    "yaw": 0.5072906663835006,
+                    "pitch": 0.09553341082546463
+                },
             },
             {
                 "id": "navehagg_1",
-                "name": "Nävehägg",
                 "position": {
                     "yaw": 0.3928243086191007,
                     "pitch": 0.1129369215559275
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
                 "id": "navehagg_2",
-                "name": "Nävehägg",
                 "position": {
                     "yaw": 0.46038416058408965,
                     "pitch": 0.10519329516523679
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
+            },
+            {
+                "id": "skoldbracka_1",
+                "position": {
+                    "yaw": 0.08175689213631632,
+                    "pitch": 0.024623901985137756
                 },
-                "type": "tree",
-            }
+            },
         ],
         "links": [
             {
@@ -570,8 +456,8 @@ export const nodeData = [
             {
                 "nodeId": "dalgard4",
                 "position": {
-                    "yaw": 4.136714094912354,
-                    "pitch": -0.1476862132872232
+                    "yaw": 4.1161479549896,
+                    "pitch": -0.11008610628244464
                 }
             },
             {
@@ -590,127 +476,205 @@ export const nodeData = [
         "panoramaFile": "./nodes/dalgard4/IMG_1307.JPG",
         "markers": [
             {
-                "id": "koreansk_lonn",
-                "name": "Koreansk lönn",
+                "id": "hangpil_1",
                 "position": {
-                    "yaw": 0.1386733591685839,
-                    "pitch": -0.024701534993377235
+                    "yaw": 1.7805560886481784,
+                    "pitch": 0.4048227846100485
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "ginnalalonn",
-                "name": "Ginnalalönn",
+                "id": "skoldbracka_1",
                 "position": {
-                    "yaw": 0.24686908131978658,
-                    "pitch": 0.017894253274019393
+                    "yaw": 3.34620522967386,
+                    "pitch": 0.013885979251284878
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "katsura",
-                "name": "Katsura",
+                "id": "himalayabjork_1",
                 "position": {
-                    "yaw": 0.38213813190640933,
-                    "pitch": 0.13088409343903007
+                    "yaw": 3.536998423731333,
+                    "pitch": 0.09515843768653931
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
+            },
+            {
+                "id": "koreansk-lonn_1",
+                "position": {
+                    "yaw": 3.7604961034603863,
+                    "pitch": 0.06320123968166658
                 },
-                "type": "tree",
+            },
+            {
+                "id": "ginnalalonn_1",
+                "position": {
+                    "yaw": 3.8821854666947067,
+                    "pitch": 0.10753953818190798
+                },
+            },
+            {
+                "id": "katsura_1",
+                "position": {
+                    "yaw": 3.985675269518168,
+                    "pitch": 0.08109523299218013
+                },
             },
             {
                 "id": "hosta_1",
-                "name": "Hosta",
                 "position": {
-                    "yaw": 0.9391064839044871,
-                    "pitch": -0.38354039259093
+                    "yaw": 4.380983930754884,
+                    "pitch": -0.35520449552495026
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
                 "id": "hosta_2",
-                "name": "Hosta",
                 "position": {
-                    "yaw": 1.2666728090452213,
-                    "pitch": -0.32049842737791767
+                    "yaw": 4.8500601285791864,
+                    "pitch": -0.2859691225206389
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "japansk_appelblomma",
-                "name": "Japansk äppelblomma",
+                "id": "hosta_3",
                 "position": {
-                    "yaw": 1.7368712853898411,
-                    "pitch": -0.39411447228902063
+                    "yaw": 2.8641019700057977,
+                    "pitch": -0.4859528969099969
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "gulbladig_jasmin",
-                "name": "Gulbladig jasmin",
+                "id": "hosta_4",
                 "position": {
-                    "yaw": 3.745116113646113,
-                    "pitch": -0.14025611884129163
+                    "yaw": 2.2054240809107473,
+                    "pitch": -0.5837978738041791
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "azalea_northern_lights",
-                "name": "Azalea northern lights",
+                "id": "hosta_5",
                 "position": {
-                    "yaw": 5.850856269881724,
-                    "pitch": -0.28083316900837474
+                    "yaw": 1.6197461315859998,
+                    "pitch": -0.5452278673680138
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
+            },
+            {
+                "id": "hosta_6",
+                "position": {
+                    "yaw": 0.8704137309650279,
+                    "pitch": -0.28017250810742955
                 },
-                "type": "tree",
-            }
+            },
+            {
+                "id": "hosta_9",
+                "position": {
+                    "yaw": 2.305380430811179,
+                    "pitch": -0.14595500334286293
+                },
+            },
+            {
+                "id": "hosta_7",
+                "position": {
+                    "yaw": 2.76624047515526,
+                    "pitch": -0.16217617660920625
+                },
+            },
+            {
+                "id": "japansk-appelblomma_1",
+                "position": {
+                    "yaw": 5.381357201697039,
+                    "pitch": -0.30991789188754826
+                },
+            },
+            {
+                "id": "gulbladig-jasmin_1",
+                "position": {
+                    "yaw": 1.2453782921073109,
+                    "pitch": -0.07442082377510695
+                },
+            },
+            {
+                "id": "azalea-northern-lights_1",
+                "position": {
+                    "yaw": 3.067558008158943,
+                    "pitch": -0.1566726137243546
+                },
+            },
+            {
+                "id": "magnolia_1",
+                "position": {
+                    "yaw": 1.2020588064203923,
+                    "pitch": 0.07658059009183882
+                },
+            },
+            {
+                "id": "praktvide_1",
+                "position": {
+                    "yaw": 1.6004146751651809,
+                    "pitch": 0.007275179374592881
+                },
+            },
+            {
+                "id": "rodbladig-skogslonn_1",
+                "position": {
+                    "yaw": 1.489850641659059,
+                    "pitch": 0.25312101309113233
+                },
+            },
+            {
+                "id": "gyllenlonn_1",
+                "position": {
+                    "yaw": 2.219124068741136,
+                    "pitch": 0.11473766360561055
+                },
+            },
+            {
+                "id": "kranskornell_1",
+                "position": {
+                    "yaw": 2.123128532758937,
+                    "pitch": -0.018555206807589816
+                },
+            },
+            {
+                "id": "koreansk-stevartia_1",
+                "position": {
+                    "yaw": 2.375921839763219,
+                    "pitch": 0.14482619734610336
+                },
+            },
+            {
+                "id": "kopparbjork_1",
+                "position": {
+                    "yaw": 2.6184055758120097,
+                    "pitch": -0.034802998783841854
+                },
+            },
+            {
+                "id": "vingad-benved_1",
+                "position": {
+                    "yaw": 2.7587469293130606,
+                    "pitch": 0.07390648515536458
+                },
+            },
         ],
         "links": [
             {
                 "nodeId": "dalgard3",
                 "position": {
-                    "yaw": 0.3241674855271309,
-                    "pitch": -0.22029376744423446
+                    "yaw": 3.8921050576317495,
+                    "pitch": -0.11599675834795264
                 }
             },
             {
                 "nodeId": "dalgard5",
                 "position": {
-                    "yaw": 3.0427898424215982,
-                    "pitch": -0.10725132489401523
+                    "yaw": 0.46631536569575116,
+                    "pitch": -0.15650474252735735
+                }
+            },
+            {
+                "nodeId": "dalgard20",
+                "position": {
+                    "yaw": 1.9453906030385824,
+                    "pitch": -0.0754496136924101
                 }
             }
         ],
-        "heading": 2.2282876075912337
+        "heading": 5.586846303733822
     },
     {
         "id": "dalgard5",
@@ -718,64 +682,61 @@ export const nodeData = [
         "panoramaFile": "./nodes/dalgard5/IMG_1313.JPG",
         "markers": [
             {
-                "id": "solfjaderslonn",
-                "name": "Solfjäderslönn",
+                "id": "solfjaderslonn_1",
                 "position": {
                     "yaw": 4.911511857818416,
                     "pitch": -0.4457597309752017
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "hangpil",
-                "name": "Hängpil",
+                "id": "hangpil_1",
                 "position": {
                     "yaw": 2.5246499209260533,
                     "pitch": 0.28600729219760046
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "magnolia",
-                "name": "Magnolia",
+                "id": "magnolia_1",
                 "position": {
                     "yaw": 2.5745006157202965,
                     "pitch": 0.027234682648244805
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "ask",
-                "name": "Ask",
+                "id": "ask_1",
                 "position": {
                     "yaw": 0.7239754443841756,
                     "pitch": 0.14298970282853007
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
+            },
+            {
+                "id": "praktvide_1",
+                "position": {
+                    "yaw": 2.7167448678440733,
+                    "pitch": -0.04202988090706161
                 },
-                "type": "tree",
+            },
+            {
+                "id": "gyllenlonn_1",
+                "position": {
+                    "yaw": 2.7273243805507295,
+                    "pitch": 0.058560403868659794
+                },
+            },
+            {
+                "id": "gulbladig-jasmin_1",
+                "position": {
+                    "yaw": 3.233015446176479,
+                    "pitch": -0.042245247241091466
+                },
             }
         ],
         "links": [
             {
                 "nodeId": "dalgard4",
                 "position": {
-                    "yaw": 3.4311971611999885,
-                    "pitch": -0.16111016268483747
+                    "yaw": 3.4595658643528346,
+                    "pitch": -0.14731508855281716
                 }
             },
             {
@@ -791,6 +752,13 @@ export const nodeData = [
                     "yaw": 1.2743581457503645,
                     "pitch": -0.14055031362258408
                 }
+            },
+            {
+                "nodeId": "dalgard18",
+                "position": {
+                    "yaw": 2.654492463146046,
+                    "pitch": -0.013699985705297086
+                }
             }
         ],
         "heading": 5.725160153120154
@@ -801,43 +769,39 @@ export const nodeData = [
         "panoramaFile": "./nodes/dalgard6/IMG_1328.JPG",
         "markers": [
             {
-                "id": "solfjaderslonn",
-                "name": "Solfjäderslönn",
+                "id": "solfjaderslonn_1",
                 "position": {
                     "yaw": 3.0256014529084543,
                     "pitch": -0.134780223475512
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "ask",
-                "name": "Ask",
+                "id": "ask_1",
                 "position": {
                     "yaw": 5.956957845675483,
                     "pitch": 0.4790622153107109
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "rodbladig_skogslonn",
-                "name": "Rödbladig skogslönn",
+                "id": "rodbladig-skogslonn_1",
                 "position": {
                     "yaw": 1.1468570962162792,
                     "pitch": 0.21314519860267045
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
+            },
+            {
+                "id": "magnolia_1",
+                "position": {
+                    "yaw": 2.0324336759194637,
+                    "pitch": -0.04237757962418476
                 },
-                "type": "tree",
+            },
+            {
+                "id": "gyllenlonn_1",
+                "position": {
+                    "yaw": 1.9044595007355518,
+                    "pitch": 0.03586907819054619
+                },
             }
         ],
         "links": [
@@ -871,56 +835,39 @@ export const nodeData = [
         "panoramaFile": "./nodes/dalgard7/IMG_1312.JPG",
         "markers": [
             {
-                "id": "solfjaderslonn",
-                "name": "Solfjäderslönn",
+                "id": "solfjaderslonn_1",
                 "position": {
                     "yaw": 0.7492412492620988,
                     "pitch": -0.1273340531376983
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "ask",
-                "name": "Ask",
+                "id": "ask_1",
                 "position": {
                     "yaw": 2.2659765735044655,
                     "pitch": 0.09387878386632531
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "rodbladig_skogslonn",
-                "name": "Rödbladig skogslönn",
+                "id": "rodbladig-skogslonn_1",
                 "position": {
                     "yaw": 4.74819936849612,
                     "pitch": 0.27209741494464024
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "magnolia",
-                "name": "Magnolia",
+                "id": "kranskornell_1",
+                "position": {
+                    "yaw": 5.784860642852104,
+                    "pitch": -0.04520723526817205
+                },
+            },
+            {
+                "id": "magnolia_1",
                 "position": {
                     "yaw": 5.950740082351949,
                     "pitch": -0.012725497159008278
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             }
         ],
         "links": [
@@ -961,109 +908,82 @@ export const nodeData = [
         "panoramaFile": "./nodes/dalgard8/IMG_1329.JPG",
         "markers": [
             {
-                "id": "ask",
-                "name": "Ask",
+                "id": "ask_1",
                 "position": {
                     "yaw": 1.1857163783362206,
                     "pitch": 0.01622145833280642
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "rodbladig_skogslonn",
-                "name": "Rödbladig skogslönn",
+                "id": "rodbladig-skogslonn_1",
                 "position": {
                     "yaw": 4.03826240652837,
                     "pitch": 0.2901938350499922
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "kinesisk_sequoia",
-                "name": "Kinesisk sequoia",
+                "id": "azalea-northern-lights_2",
+                "position": {
+                    "yaw": 4.518956120774658,
+                    "pitch": 0.03459821032595345
+                },
+            },
+            {
+                "id": "kinesisk-sequoia_1",
                 "position": {
                     "yaw": 4.433260605151536,
                     "pitch": 0.15821638457617215
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
                 "description": "Lätt det coolaste trädet här!",
             },
             {
-                "id": "katsura",
-                "name": "Katsura",
+                "id": "katsura_2",
                 "position": {
                     "yaw": 4.578054843341423,
                     "pitch": 0.1639660066520623
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "rhododendron",
-                "name": "Rhododendron",
+                "id": "nagon_hagg_1",
                 "position": {
                     "yaw": 4.6043325217877005,
                     "pitch": -0.023816276625323592
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
                 "id": "nanting_1",
-                "name": "Nånting 1!",
                 "position": {
                     "yaw": 4.678658700752407,
                     "pitch": 0.03227892621766193
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "schuberthagg",
-                "name": "Schuberthägg",
+                "id": "rhododendron_4",
+                "position": {
+                    "yaw": 4.745095663038911,
+                    "pitch": -0.017823779432627692
+                },
+            },
+            {
+                "id": "schuberthagg_1",
                 "position": {
                     "yaw": 4.760167570214787,
                     "pitch": 0.11726149035479994
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "hangpil",
-                "name": "Hängpil",
+                "id": "gulbladig-jasmin_2",
+                "position": {
+                    "yaw": 5.069385250900074,
+                    "pitch": -0.07807373403069762
+                },
+            },
+            {
+                "id": "hangpil_1",
                 "position": {
                     "yaw": 5.41393775953141,
                     "pitch": 0.6025894737323192
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             }
         ],
         "links": [
@@ -1104,121 +1024,74 @@ export const nodeData = [
         "panoramaFile": "./nodes/dalgard9/IMG_1314.JPG",
         "markers": [
             {
-                "id": "ask",
-                "name": "Ask",
+                "id": "ask_1",
                 "position": {
                     "yaw": 2.6011277449528087,
                     "pitch": -0.005089139613434265
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "rodbladig_skogslonn",
-                "name": "Rödbladig skogslönn",
+                "id": "rodbladig-skogslonn_1",
                 "position": {
                     "yaw": 5.015459569207428,
                     "pitch": 0.49792190023615257
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
+            },
+            {
+                "id": "azalea-northern-lights_2",
+                "position": {
+                    "yaw": 6.1843933058713585,
+                    "pitch": -0.1041318532942741
                 },
-                "type": "tree",
             },
             {
                 "id": "nanting_1",
-                "name": "Nånting 1!",
                 "position": {
                     "yaw": 0.2877498196184549,
                     "pitch": -0.17846400712550636
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "hangpil",
-                "name": "Hängpil",
+                "id": "hangpil_1",
                 "position": {
                     "yaw": 0.9974733416551935,
                     "pitch": 0.5580176985575325
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "nanting_2",
-                "name": "Nånting 2!",
+                "id": "gulbladig-jasmin_2",
                 "position": {
                     "yaw": 1.1105056962640139,
                     "pitch": -0.30763417785322944
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "nagon_hagg",
-                "name": "Någon hägg?",
+                "id": "nagon-hagg_1",
                 "position": {
                     "yaw": 0.3039828357984298,
                     "pitch": -0.40259781652502014
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "schuberthagg",
-                "name": "Schuberthägg",
+                "id": "schuberthagg_1",
                 "position": {
                     "yaw": 0.1693899789855012,
                     "pitch": 0.03786489070118959
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "kinesisk_sequoia",
-                "name": "Kinesisk sequoia",
+                "id": "kinesisk-sequoia_1",
                 "position": {
                     "yaw": 6.1284316442530535,
                     "pitch": 0.16044314914351832
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "katsura",
-                "name": "Katsura",
+                "id": "katsura_2",
                 "position": {
                     "yaw": 5.876919823095532,
                     "pitch": 0.1356732926559594
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             }
         ],
         "links": [
@@ -1259,82 +1132,60 @@ export const nodeData = [
         "panoramaFile": "./nodes/dalgard10/IMG_1315.JPG",
         "markers": [
             {
-                "id": "rodbladig_skogslonn",
-                "name": "Rödbladig skogslönn",
+                "id": "hangpil_1",
+                "position": {
+                    "yaw": 0.286029415236583,
+                    "pitch": 0.4229959721670977
+                },
+            },
+            {
+                "id": "rodbladig-skogslonn_1",
                 "position": {
                     "yaw": 1.2935417986068931,
                     "pitch": 0.40311179911411577
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "katsura",
-                "name": "Katsura",
+                "id": "azalea-northern-lights_2",
+                "position": {
+                    "yaw": 0.641792412761041,
+                    "pitch": -0.12633031064123657
+                },
+            },
+            {
+                "id": "katsura_2",
                 "position": {
                     "yaw": 5.1120944881926,
                     "pitch": -0.01150174704185968
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "ask",
-                "name": "Ask",
+                "id": "ask_2",
                 "position": {
                     "yaw": 4.119727151761182,
                     "pitch": 0.0032841385308852757
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "lind_winter_orange",
-                "name": "Lind (winter orange)",
+                "id": "lind_1",
                 "position": {
                     "yaw": 4.359202397449047,
                     "pitch": 0.16982702696783436
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "schuberthagg",
-                "name": "Schuberthägg",
+                "id": "schuberthagg_1",
                 "position": {
                     "yaw": 6.1928551111414025,
                     "pitch": -0.03347786463073543
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "kinesisk_sequoia",
-                "name": "Kinesisk sequoia",
+                "id": "kinesisk-sequoia_1",
                 "position": {
                     "yaw": 0.08780336896942836,
                     "pitch": -0.04092420174788436
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             }
         ],
         "links": [
@@ -1375,147 +1226,81 @@ export const nodeData = [
         "panoramaFile": "./nodes/dalgard11/IMG_1316.JPG",
         "markers": [
             {
-                "id": "ask_1",
-                "name": "Ask",
+                "id": "ask_3",
                 "position": {
                     "yaw": 3.6786724284477104,
                     "pitch": -0.06158244549984193
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "sibiriskt_korktrad",
-                "name": "Sibiriskt korkträd",
+                "id": "sibiriskt-korktrad_1",
                 "position": {
                     "yaw": 2.949000850528627,
                     "pitch": 0.124784373766754
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
                 "id": "ask_2",
-                "name": "Ask",
                 "position": {
                     "yaw": 5.807006999055819,
                     "pitch": -0.07964879414202207
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "lind_winter_orange",
-                "name": "Lind (winter orange)",
+                "id": "lind_1",
                 "position": {
                     "yaw": 0.9416097888003607,
                     "pitch": 0.30391756936021164
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "rodbladig_skogslonn_1",
-                "name": "Rödbladig skogslönn",
-                "position": {
-                    "yaw": 4.589575590536954,
-                    "pitch": -0.08564752872808444
-                },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
-            },
-            {
-                "id": "rodbladig_skogslonn_2",
-                "name": "Rödbladig skogslönn",
+                "id": "rodbladig-skogslonn_1",
                 "position": {
                     "yaw": 5.326723662877858,
                     "pitch": 0.15784548261793852
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "kinesisk_sequoia",
-                "name": "Kinesisk sequoia",
+                "id": "rodbladig-skogslonn_2",
+                "position": {
+                    "yaw": 4.589575590536954,
+                    "pitch": -0.08564752872808444
+                },
+            },
+            {
+                "id": "kinesisk-sequoia_1",
                 "position": {
                     "yaw": 5.033368888947075,
                     "pitch": -0.08872135603122187
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "katsura",
-                "name": "Katsura",
+                "id": "katsura_2",
                 "position": {
                     "yaw": 5.230505239597871,
                     "pitch": -0.03364113349659981
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "hangpil",
-                "name": "Hängpil",
+                "id": "hangpil_1",
                 "position": {
                     "yaw": 4.670199118749399,
                     "pitch": 0.2426670447732293
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "vitoxel",
-                "name": "Vitoxel",
+                "id": "vitoxel_1",
                 "position": {
                     "yaw": 3.2829040218773105,
                     "pitch": 0.033553116482697876
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "rhododendron",
-                "name": "Rhododendron",
+                "id": "rhododendron_1",
                 "position": {
                     "yaw": 3.8936208508357604,
                     "pitch": -0.0746157638357323
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             }
         ],
         "links": [
@@ -1543,146 +1328,87 @@ export const nodeData = [
         "markers": [
             {
                 "id": "nanting_3",
-                "name": "Nånting 3!",
                 "position": {
                     "yaw": 0.6556226584632421,
                     "pitch": -0.5379936270289594
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "sibiriskt_korktrad",
-                "name": "Sibiriskt korkträd",
-                "position": {
-                    "yaw": 2.7425259123167036,
-                    "pitch": 0.22083952878825963
-                },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
-            },
-            {
-                "id": "vitoxel",
-                "name": "Vitoxel",
-                "position": {
-                    "yaw": 3.941686396251026,
-                    "pitch": 0.05029393911975522
-                },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
-            },
-            {
-                "id": "lind_winter_orange",
-                "name": "Lind (winter orange)",
+                "id": "lind_1",
                 "position": {
                     "yaw": 1.7058759332602196,
                     "pitch": 0.11437341780406453
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "vipphortensia",
-                "name": "Vipphortensia",
+                "id": "sibiriskt-korktrad_1",
+                "position": {
+                    "yaw": 2.7425259123167036,
+                    "pitch": 0.22083952878825963
+                },
+            },
+            {
+                "id": "vitoxel_1",
+                "position": {
+                    "yaw": 3.941686396251026,
+                    "pitch": 0.05029393911975522
+                },
+            },
+            {
+                "id": "finnslide_1",
+                "position": {
+                    "yaw": 4.451093926557771,
+                    "pitch": -0.07525010676365307
+                },
+            },
+            {
+                "id": "vipphortensia_1",
                 "position": {
                     "yaw": 5.115581987336893,
                     "pitch": -0.12170205974226021
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "hangpil",
-                "name": "Hängpil",
+                "id": "hangpil_1",
                 "position": {
                     "yaw": 5.755471034109159,
                     "pitch": 0.2515402458540923
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "rodbladig_skogslonn_1",
-                "name": "Rödbladig skogslönn",
-                "position": {
-                    "yaw": 6.277201964963784,
-                    "pitch": -0.0353187300341422
-                },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
-            },
-            {
-                "id": "rodbladig_skogslonn_2",
-                "name": "Rödbladig skogslönn",
+                "id": "rodbladig-skogslonn_1",
                 "position": {
                     "yaw": 0.2219673190551488,
                     "pitch": 0.11790339375909033
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "katsura",
-                "name": "Katsura",
+                "id": "rodbladig-skogslonn_2",
+                "position": {
+                    "yaw": 6.277201964963784,
+                    "pitch": -0.0353187300341422
+                },
+            },
+            {
+                "id": "katsura_2",
                 "position": {
                     "yaw": 0.4124119876592998,
                     "pitch": -0.017835003656210928
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "ask",
-                "name": "Ask",
+                "id": "ask_3",
                 "position": {
                     "yaw": 4.358226481415589,
                     "pitch": 0.006446164948796799
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "rhododendron",
-                "name": "Rhododendron",
+                "id": "rhododendron_1",
                 "position": {
                     "yaw": 4.791471790218692,
                     "pitch": -0.09418604587593914
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             }
         ],
         "links": [
@@ -1709,147 +1435,88 @@ export const nodeData = [
         "panoramaFile": "./nodes/dalgard13/IMG_1318.JPG",
         "markers": [
             {
-                "id": "sibiriskt_korktrad",
-                "name": "Sibiriskt korkträd",
-                "position": {
-                    "yaw": 2.8913597632116215,
-                    "pitch": 0.18406157928573275
-                },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
-            },
-            {
-                "id": "vitoxel",
-                "name": "Vitoxel",
-                "position": {
-                    "yaw": 4.4830705406831255,
-                    "pitch": 0.11707542528630778
-                },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
-            },
-            {
-                "id": "lind_winter_orange",
-                "name": "Lind (winter orange)",
+                "id": "lind_1",
                 "position": {
                     "yaw": 2.4333071720138464,
                     "pitch": 0.15457002691142074
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "vipphortensia",
-                "name": "Vipphortensia",
+                "id": "sibiriskt-korktrad_1",
+                "position": {
+                    "yaw": 2.8913597632116215,
+                    "pitch": 0.18406157928573275
+                },
+            },
+            {
+                "id": "vitoxel_1",
+                "position": {
+                    "yaw": 4.4830705406831255,
+                    "pitch": 0.11707542528630778
+                },
+            },
+            {
+                "id": "finnslide_1",
+                "position": {
+                    "yaw": 5.124757189591137,
+                    "pitch": -0.07288744687600857
+                },
+            },
+            {
+                "id": "vipphortensia_1",
                 "position": {
                     "yaw": 6.186137450934143,
                     "pitch": -0.16650477096029426
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "hangpil",
-                "name": "Hängpil",
+                "id": "hangpil_1",
                 "position": {
                     "yaw": 0.589334001109134,
                     "pitch": 0.12402235726588852
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "rodbladig_skogslonn",
-                "name": "Rödbladig skogslönn",
+                "id": "rodbladig-skogslonn_2",
                 "position": {
                     "yaw": 1.5778767512620504,
                     "pitch": 0.04565278799983075
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "morkbladig_flader_black_lace",
-                "name": "Mörkbladig fläder \"Black lace\"",
+                "id": "morkbladig-flader_1",
                 "position": {
                     "yaw": 6.0407989000203735,
                     "pitch": -0.20470713889948566
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "kameleontbuske",
-                "name": "Kameleontbuske",
+                "id": "kameleontbuske_1",
                 "position": {
                     "yaw": 0.09444011381511548,
                     "pitch": -0.14230469627374775
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "gyllenlonn",
-                "name": "Gyllenlönn",
+                "id": "gyllenlonn_1",
                 "position": {
                     "yaw": 0.24298789741539578,
                     "pitch": -0.13939825284745355
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "ask",
-                "name": "Ask",
+                "id": "ask_3",
                 "position": {
                     "yaw": 3.7844290102091795,
                     "pitch": 0.27102998653579546
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "rhododendron",
-                "name": "Rhododendron",
+                "id": "rhododendron_1",
                 "position": {
                     "yaw": 5.6377142445553785,
                     "pitch": -0.10649339937069045
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             }
         ],
         "links": [
@@ -1876,147 +1543,88 @@ export const nodeData = [
         "panoramaFile": "./nodes/dalgard14/IMG_1319.JPG",
         "markers": [
             {
-                "id": "sibiriskt_korktrad",
-                "name": "Sibiriskt korkträd",
+                "id": "sibiriskt-korktrad_1",
                 "position": {
                     "yaw": 4.024295654116453,
                     "pitch": 0.16500346200056315
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "vitoxel",
-                "name": "Vitoxel",
+                "id": "vitoxel_1",
                 "position": {
                     "yaw": 5.17732413230267,
                     "pitch": 0.1904336099181556
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "vipphortensia",
-                "name": "Vipphortensia",
+                "id": "finnslide_1",
+                "position": {
+                    "yaw": 5.862933391669909,
+                    "pitch": 0.01482983706081598
+                },
+            },
+            {
+                "id": "vipphortensia_1",
                 "position": {
                     "yaw": 1.6641537880106747,
                     "pitch": -0.11414918631754832
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "morkbladig_flader_black_lace",
-                "name": "Mörkbladig fläder \"Black lace\"",
+                "id": "morkbladig-flader_1",
                 "position": {
                     "yaw": 1.2236884181783803,
                     "pitch": -0.24719434171560883
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "haxal",
-                "name": "Häxal",
+                "id": "haxal_1",
                 "position": {
                     "yaw": 2.079195352802329,
                     "pitch": -0.2712179673273083
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "hangpil",
-                "name": "Hängpil",
+                "id": "hangpil_1",
                 "position": {
                     "yaw": 2.1059686672613025,
                     "pitch": 0.24926683640384284
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "rodbladig_skogslonn_1",
-                "name": "Rödbladig skogslönn",
+                "id": "rodbladig-skogslonn_1",
                 "position": {
                     "yaw": 2.7151931136897187,
                     "pitch": 0.14675943916462608
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "rhododendron",
-                "name": "Rhododendron",
+                "id": "rhododendron_1",
                 "position": {
                     "yaw": 0.49221017968089115,
                     "pitch": -0.1627136614061946
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "lind_winter_orange",
-                "name": "Lind (winter orange)",
+                "id": "lind_1",
                 "position": {
                     "yaw": 3.718376498118612,
                     "pitch": 0.1484084661757905
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "rodbladig_skogslonn_2",
-                "name": "Rödbladig skogslönn",
+                "id": "rodbladig-skogslonn_2",
                 "position": {
                     "yaw": 3.268826015867884,
                     "pitch": 0.12006780231173743
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "ask",
-                "name": "Ask",
+                "id": "ask_3",
                 "position": {
                     "yaw": 4.1275826260001285,
                     "pitch": 0.14223460720046188
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             }
         ],
         "links": [
@@ -2050,161 +1658,96 @@ export const nodeData = [
         "panoramaFile": "./nodes/dalgard15/IMG_1320.JPG",
         "markers": [
             {
-                "id": "ask",
-                "name": "Ask",
-                "position": {
-                    "yaw": 3.527114184342609,
-                    "pitch": 0.2249643425992427
-                },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
-            },
-            {
-                "id": "vitoxel",
-                "name": "Vitoxel",
-                "position": {
-                    "yaw": 4.096376739392659,
-                    "pitch": 0.15937038044147722
-                },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
-            },
-            {
-                "id": "vipphortensia",
-                "name": "Vipphortensia",
-                "position": {
-                    "yaw": 5.063574730618149,
-                    "pitch": -0.16432551208962165
-                },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
-            },
-            {
-                "id": "kameleontbuske",
-                "name": "Kameleontbuske",
-                "position": {
-                    "yaw": 5.889633986881317,
-                    "pitch": -0.056802982556638515
-                },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
-            },
-            {
-                "id": "haxal",
-                "name": "Häxal",
-                "position": {
-                    "yaw": 0.16293436473913445,
-                    "pitch": -0.6743563649259834
-                },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
-            },
-            {
-                "id": "gyllenlonn",
-                "name": "Gyllenlönn",
-                "position": {
-                    "yaw": 0.13791193889414285,
-                    "pitch": -0.12628505217486885
-                },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
-            },
-            {
-                "id": "magnolia",
-                "name": "Magnolia",
-                "position": {
-                    "yaw": 0.6300831025251777,
-                    "pitch": -0.06916516102617408
-                },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
-            },
-            {
-                "id": "praktvide",
-                "name": "Praktvide",
-                "position": {
-                    "yaw": 0.688053505803648,
-                    "pitch": -0.1364047966680333
-                },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
-            },
-            {
-                "id": "hangpil",
-                "name": "Hängpil",
-                "position": {
-                    "yaw": 0.8222578274209912,
-                    "pitch": 0.3882986455445665
-                },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
-            },
-            {
-                "id": "rodbladig_skogslonn_1",
-                "name": "Rödbladig skogslönn",
-                "position": {
-                    "yaw": 2.5734323644400323,
-                    "pitch": 0.20745787333057142
-                },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
-            },
-            {
-                "id": "schuberthagg",
-                "name": "Schuberthägg",
-                "position": {
-                    "yaw": 1.7940295251069296,
-                    "pitch": 0.08723242541815736
-                },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
-            },
-            {
-                "id": "rodbladig_skogslonn_2",
-                "name": "Rödbladig skogslönn",
+                "id": "rodbladig-skogslonn_1",
                 "position": {
                     "yaw": 1.6890691127510458,
                     "pitch": 0.24614463772129214
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
+            },
+            {
+                "id": "ask_3",
+                "position": {
+                    "yaw": 3.527114184342609,
+                    "pitch": 0.2249643425992427
                 },
-                "type": "tree",
-            }
+            },
+            {
+                "id": "vitoxel_1",
+                "position": {
+                    "yaw": 4.096376739392659,
+                    "pitch": 0.15937038044147722
+                },
+            },
+            {
+                "id": "finnslide_1",
+                "position": {
+                    "yaw": 4.494860100108327,
+                    "pitch": 0.06122682031511162
+                },
+            },
+            {
+                "id": "vipphortensia_1",
+                "position": {
+                    "yaw": 5.063574730618149,
+                    "pitch": -0.16432551208962165
+                },
+            },
+            {
+                "id": "kameleontbuske_1",
+                "position": {
+                    "yaw": 5.889633986881317,
+                    "pitch": -0.056802982556638515
+                },
+            },
+            {
+                "id": "haxal_1",
+                "position": {
+                    "yaw": 0.16293436473913445,
+                    "pitch": -0.6743563649259834
+                },
+            },
+            {
+                "id": "gyllenlonn_1",
+                "position": {
+                    "yaw": 0.13791193889414285,
+                    "pitch": -0.12628505217486885
+                },
+            },
+            {
+                "id": "magnolia_1",
+                "position": {
+                    "yaw": 0.6300831025251777,
+                    "pitch": -0.06916516102617408
+                },
+            },
+            {
+                "id": "praktvide_1",
+                "position": {
+                    "yaw": 0.688053505803648,
+                    "pitch": -0.1364047966680333
+                },
+            },
+            {
+                "id": "hangpil_1",
+                "position": {
+                    "yaw": 0.8222578274209912,
+                    "pitch": 0.3882986455445665
+                },
+            },
+            {
+                "id": "rodbladig-skogslonn_2",
+                "position": {
+                    "yaw": 2.5734323644400323,
+                    "pitch": 0.20745787333057142
+                },
+            },
+            {
+                "id": "schuberthagg_1",
+                "position": {
+                    "yaw": 1.7940295251069296,
+                    "pitch": 0.08723242541815736
+                },
+            },
         ],
         "links": [
             {
@@ -2237,160 +1780,102 @@ export const nodeData = [
         "panoramaFile": "./nodes/dalgard16/IMG_1321.JPG",
         "markers": [
             {
-                "id": "sibiriskt_korktrad",
-                "name": "Sibiriskt korkträd",
+                "id": "sibiriskt-korktrad_1",
                 "position": {
                     "yaw": 3.615493366366205,
                     "pitch": 0.16867848936084795
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "katsura",
-                "name": "Katsura",
+                "id": "katsura_2",
                 "position": {
                     "yaw": 2.6839796932730184,
                     "pitch": 0.12603415965746056
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "kinesisk_sequoia",
-                "name": "Kinesisk sequoia",
+                "id": "kinesisk-sequoia_1",
                 "position": {
                     "yaw": 0.49024430755532883,
                     "pitch": -0.0952001565549838
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "rodbladig_skogslonn_1",
-                "name": "Rödbladig skogslönn",
+                "id": "rodbladig-skogslonn_1",
                 "position": {
                     "yaw": 0.9883783567056814,
                     "pitch": 0.4020168614466513
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "rodbladig_skogslonn_2",
-                "name": "Rödbladig skogslönn",
+                "id": "rodbladig-skogslonn_2",
                 "position": {
                     "yaw": 3.8237154459046243,
                     "pitch": 0.1410492020009455
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "schuberthagg",
-                "name": "Schuberthägg",
+                "id": "schuberthagg_1",
                 "position": {
                     "yaw": 5.505978916919883,
                     "pitch": -0.18940502607311993
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "nanting_1",
-                "name": "Nånting 1!",
+                "id": "gulbladig-jasmin_2",
                 "position": {
                     "yaw": 6.250390478843083,
                     "pitch": -0.24602782715529314
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "rhododendron",
-                "name": "Rhododendron",
+                "id": "rhododendron_4",
                 "position": {
                     "yaw": 0.06123122634318212,
                     "pitch": -0.33495186870533233
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "vipphortensia",
-                "name": "Vipphortensia",
+                "id": "finnslide_1",
+                "position": {
+                    "yaw": 4.495140810137837,
+                    "pitch": 0.014949093207250689
+                },
+            },
+            {
+                "id": "rhododendron_1",
+                "position": {
+                    "yaw": 4.7341242006577104,
+                    "pitch": -0.021336540012087953
+                },
+            },
+            {
+                "id": "vipphortensia_1",
                 "position": {
                     "yaw": 4.811082271774266,
                     "pitch": -0.0471971512201994
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "kameleontbuske",
-                "name": "Kameleontbuske",
+                "id": "kameleontbuske_1",
                 "position": {
                     "yaw": 4.952820922252693,
                     "pitch": -0.05359610877400444
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "gyllenlonn",
-                "name": "Gyllenlönn",
+                "id": "gyllenlonn_1",
                 "position": {
                     "yaw": 5.080892121930008,
                     "pitch": -0.1111293038269796
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "hangpil",
-                "name": "Hängpil",
+                "id": "hangpil_1",
                 "position": {
                     "yaw": 5.6870979161084625,
                     "pitch": 0.500028424609319
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             }
         ],
         "links": [
@@ -2417,135 +1902,89 @@ export const nodeData = [
         "panoramaFile": "./nodes/dalgard17/IMG_1322.JPG",
         "markers": [
             {
-                "id": "ask",
-                "name": "Ask",
+                "id": "ask_3",
                 "position": {
                     "yaw": 4.8889715895685875,
                     "pitch": 0.17763804896012858
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "hangpil",
-                "name": "Hängpil",
+                "id": "hangpil_1",
                 "position": {
                     "yaw": 0.25813813888512144,
                     "pitch": 0.29872520490193266
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "nanting_1",
-                "name": "Nånting 1!",
+                "id": "gulbladig-jasmin_2",
                 "position": {
                     "yaw": 1.5236708254738045,
                     "pitch": -0.4471416161193711
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "nagon_hagg",
-                "name": "Någon hägg?",
+                "id": "nagon-hagg_1",
                 "position": {
                     "yaw": 2.4948926596938295,
                     "pitch": -0.2779019624203074
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "rodbladig_skogslonn",
-                "name": "Rödbladig skogslönn",
+                "id": "azalea-northern-lights_2",
+                "position": {
+                    "yaw": 3.008344932325813,
+                    "pitch": -0.13416039329528595
+                },
+            },
+            {
+                "id": "rodbladig-skogslonn_1",
                 "position": {
                     "yaw": 2.856890424551518,
                     "pitch": 0.33489387883527955
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "kinesisk_sequoia",
-                "name": "Kinesisk sequoia",
+                "id": "kinesisk-sequoia_1",
                 "position": {
                     "yaw": 3.85007156489087,
                     "pitch": 0.13937374494316357
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "rhododendron",
-                "name": "Rhododendron",
+                "id": "rhododendron_4",
                 "position": {
                     "yaw": 2.9605792670028355,
                     "pitch": -0.5298053104543039
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "nanting_2",
-                "name": "Nånting 2!",
+                "id": "nanting_1",
                 "position": {
                     "yaw": 2.70913950479921,
                     "pitch": -0.37447381669361435
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "schuberthagg",
-                "name": "Schuberthägg",
+                "id": "schuberthagg_1",
                 "position": {
                     "yaw": 4.346714399135669,
                     "pitch": 0.1399295427268108
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "rodgersia",
-                "name": "Rodgersia",
+                "id": "rodgersia_1",
                 "position": {
                     "yaw": 5.88297109696626,
                     "pitch": -0.14464078225231547
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
+            },
+            {
+                "id": "finnslide_1",
+                "position": {
+                    "yaw": 5.313743489519893,
+                    "pitch": 0.06988188068319134
                 },
-                "type": "tree",
-            }
+            },
         ],
         "links": [
             {
@@ -2585,306 +2024,175 @@ export const nodeData = [
         "panoramaFile": "./nodes/dalgard18/IMG_1323.JPG",
         "markers": [
             {
-                "id": "ask",
-                "name": "Ask",
+                "id": "ask_3",
                 "position": {
                     "yaw": 4.386297299531754,
                     "pitch": 0.1841171081752222
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "hangpil",
-                "name": "Hängpil",
+                "id": "hangpil_1",
                 "position": {
                     "yaw": 2.317468226988782,
                     "pitch": 0.4061015359402058
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "nanting_1",
-                "name": "Nånting 1!",
+                "id": "gulbladig-jasmin_2",
                 "position": {
                     "yaw": 2.710931275777582,
                     "pitch": -0.09250965829771295
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "rhododendron_1",
-                "name": "Rhododendron",
+                "id": "rhododendron_4",
                 "position": {
                     "yaw": 3.068356177234528,
                     "pitch": -0.06240311137038267
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "rodbladig_skogslonn_1",
-                "name": "Rödbladig skogslönn",
+                "id": "rodbladig-skogslonn_1",
                 "position": {
                     "yaw": 3.045026177367187,
                     "pitch": 0.14769863375236159
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
                 "id": "schuberthagg_1",
-                "name": "Schuberthägg",
                 "position": {
                     "yaw": 3.5371000835724447,
                     "pitch": 0.11765274646218017
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "rodbladig_skogslonn_2",
-                "name": "Rödbladig skogslönn",
+                "id": "rodbladig-skogslonn_2",
                 "position": {
                     "yaw": 4.0698121140955195,
                     "pitch": 0.16643415342110024
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "koreansk_stevartia_skenkamelia",
-                "name": "Koreansk stevartia (skenkamelia)",
+                "id": "koreansk-stevartia_1",
                 "position": {
                     "yaw": 0.020551727468698964,
                     "pitch": 0.14910982508254178
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "rodgersia",
-                "name": "Rodgersia",
+                "id": "rodgersia_1",
                 "position": {
-                    "yaw": 6.012651910841779,
-                    "pitch": -0.29712066514748714
+                    "yaw": 6.0275521122219144,
+                    "pitch": -0.28688989945107624
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "kranskornell",
-                "name": "Kranskornell",
+                "id": "skoldbracka_2",
+                "position": {
+                    "yaw": 0.29263651404748625,
+                    "pitch": -0.33598189106062804
+                },
+            },
+            {
+                "id": "kranskornell_1",
                 "position": {
                     "yaw": 0.8224686509919594,
                     "pitch": -0.49317034557891826
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "praktvide",
-                "name": "Praktvide",
+                "id": "praktvide_1",
                 "position": {
                     "yaw": 1.865724910563227,
                     "pitch": -0.17728547073292167
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "magnolia",
-                "name": "Magnolia",
+                "id": "magnolia_1",
                 "position": {
                     "yaw": 1.7209882979862434,
                     "pitch": -0.08387628815099579
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "gulbladig_jasmin",
-                "name": "Gulbladig jasmin",
+                "id": "gulbladig-jasmin_1",
                 "position": {
                     "yaw": 1.1870754089647586,
                     "pitch": -0.105723924730593
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "haxal",
-                "name": "Häxal",
+                "id": "haxal_1",
                 "position": {
                     "yaw": 4.886173515680393,
                     "pitch": -0.12022141544925556
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "gyllenlonn",
-                "name": "Gyllenlönn",
+                "id": "gyllenlonn_1",
                 "position": {
                     "yaw": 5.247141867411419,
                     "pitch": 0.099201229313181
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "rhododendron_2",
-                "name": "Rhododendron",
+                "id": "rhododendron_1",
                 "position": {
                     "yaw": 5.58416460198934,
                     "pitch": 0.002949885423621632
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "vingad_benved",
-                "name": "Vinad benved",
+                "id": "vingad-benved_1",
                 "position": {
                     "yaw": 5.822154865759569,
                     "pitch": 0.002669508347676439
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "hosta_3",
-                "name": "Hosta",
+                "id": "hosta_7",
                 "position": {
                     "yaw": 0.4676812040385155,
                     "pitch": -0.23633650474877932
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "hosta_4",
-                "name": "Hosta",
+                "id": "hosta_8",
                 "position": {
                     "yaw": 0.5890666119951521,
                     "pitch": -0.2796050835695709
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "hosta_5",
-                "name": "Hosta",
+                "id": "hosta_9",
                 "position": {
                     "yaw": 0.713091368421249,
                     "pitch": -0.30293194006855084
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
-            },
-            {
-                "id": "japansk_appelblomma",
-                "name": "Japansk äppelblomma",
-                "position": {
-                    "yaw": 5.822154865759569,
-                    "pitch": 0.002669508347676439
-                },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
                 "id": "hosta_1",
-                "name": "Hosta",
                 "position": {
                     "yaw": 0.855771977439972,
                     "pitch": -0.11610463707757089
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
                 "id": "hosta_2",
-                "name": "Hosta",
                 "position": {
                     "yaw": 0.9250939197379029,
                     "pitch": -0.09822974167566655
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             }
         ],
         "links": [
+            {
+                "nodeId": "dalgard4",
+                "position": {
+                    "yaw": 0.9921086825581384,
+                    "pitch": -0.16814090129412684
+                }
+            },
             {
                 "nodeId": "dalgard15",
                 "position": {
@@ -2929,122 +2237,110 @@ export const nodeData = [
         "panoramaFile": "./nodes/dalgard19/IMG_1324.JPG",
         "markers": [
             {
-                "id": "ask",
-                "name": "Ask",
+                "id": "ask_3",
                 "position": {
                     "yaw": 3.4666834312337107,
                     "pitch": 0.22230846055278897
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "vingad_benved",
-                "name": "Vingad benved",
+                "id": "vingad-benved_1",
                 "position": {
                     "yaw": 0.4448712107978633,
                     "pitch": -0.06462678692547952
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "rhododendron",
-                "name": "Rhododendron",
+                "id": "rhododendron_1",
                 "position": {
                     "yaw": 4.7467456988628935,
                     "pitch": -0.027226817978770242
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "kameleontbuske",
-                "name": "Kameleontbuske",
+                "id": "gulbladig-jasmin_2",
+                "position": {
+                    "yaw": 2.065009590307153,
+                    "pitch": 0.005728240252473208
+                },
+            },
+            {
+                "id": "kameleontbuske_1",
                 "position": {
                     "yaw": 2.321641986058262,
                     "pitch": 0.23200955766404707
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "vipphortensia",
-                "name": "Vipphortensia",
+                "id": "gyllenlonn_1",
+                "position": {
+                    "yaw": 2.1628034166567596,
+                    "pitch": 0.07931235188237173
+                },
+            },
+            {
+                "id": "vipphortensia_1",
                 "position": {
                     "yaw": 2.715106301080543,
                     "pitch": 0.17955006371020987
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "morkbladig_flader_black_lace",
-                "name": "Mörkbladig fläder \"Black lace\"",
+                "id": "morkbladig-flader_1",
                 "position": {
                     "yaw": 3.0135796965178465,
                     "pitch": -0.05874364420494693
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "hangpil",
-                "name": "Hängpil",
+                "id": "hangpil_1",
                 "position": {
                     "yaw": 1.8903363201772976,
                     "pitch": 0.350333564009935
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "rodgersia",
-                "name": "Rodgersia",
+                "id": "rodgersia_1",
                 "position": {
                     "yaw": 1.5644737499618881,
                     "pitch": -0.28898766619862926
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "koreansk_stevartia_skenkamelia",
-                "name": "Koreansk stevartia (skenkamelia)",
+                "id": "koreansk-stevartia_1",
                 "position": {
                     "yaw": 1.4850438747166772,
                     "pitch": 0.1934451254446652
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
+            },
+            {
+                "id": "himalayabjork_1",
+                "position": {
+                    "yaw": 5.39712744872486,
+                    "pitch": 0.07045366449493362
                 },
-                "type": "tree",
-            }
+            },
+            {
+                "id": "skoldbracka_1",
+                "position": {
+                    "yaw": 5.544348912808854,
+                    "pitch": -0.08634261232982965
+                },
+            },
+            {
+                "id": "ginnalalonn_1",
+                "position": {
+                    "yaw": 5.608956395480317,
+                    "pitch": 0.07324865297078631
+                },
+            },
+            {
+                "id": "hastkastanj_1",
+                "position": {
+                    "yaw": 5.816337036130137,
+                    "pitch": 0.09667435530764923
+                },
+            },
         ],
         "links": [
             {
@@ -3077,316 +2373,193 @@ export const nodeData = [
         "panoramaFile": "./nodes/dalgard20/IMG_1325.JPG",
         "markers": [
             {
-                "id": "hangpil",
-                "name": "Hangpil",
+                "id": "ginnalalonn_1",
+                "position": {
+                    "yaw": 5.160492130244968,
+                    "pitch": 0.05953533781768039
+                },
+            },
+            {
+                "id": "hangpil_1",
                 "position": {
                     "yaw": 2.416234415739438,
                     "pitch": 0.8350657668023627
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "schuberthagg",
-                "name": "Schuberthägg",
+                "id": "schuberthagg_1",
                 "position": {
                     "yaw": 2.8242076934232734,
                     "pitch": 0.16535736754985386
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "kinesisk_sequoia",
-                "name": "Kinesisk sequoia",
+                "id": "kinesisk-sequoia_1",
                 "position": {
                     "yaw": 2.7477414373572504,
                     "pitch": 0.16344932208042917
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "nagonting_1",
-                "name": "Någonting 1!",
+                "id": "gulbladig-jasmin_2",
                 "position": {
                     "yaw": 2.2248782999350745,
                     "pitch": 0.02788355488632855
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "nagon_hagg",
-                "name": "Någon hägg?",
+                "id": "nagon_hagg_1",
                 "position": {
                     "yaw": 2.341694149272396,
                     "pitch": 0.05268697075710783
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "rhododendron_1",
-                "name": "Rhododendron",
+                "id": "skoldbracka_2",
+                "position": {
+                    "yaw": 4.859937330284482,
+                    "pitch": -0.2727330547869955
+                },
+            },
+            {
+                "id": "rhododendron_3",
                 "position": {
                     "yaw": 5.265942977882444,
                     "pitch": -0.16449687572112204
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "rhododendron_2",
-                "name": "Rhododendron",
+                "id": "rhododendron_4",
                 "position": {
                     "yaw": 2.4974701653934557,
                     "pitch": 0.042540642208055875
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "magnolia",
-                "name": "Magnolia",
+                "id": "magnolia_1",
                 "position": {
                     "yaw": 1.1870392828724468,
                     "pitch": -0.006345644321218199
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "japansk_lonn",
-                "name": "Japansk lönn",
+                "id": "japansk-lonn_1",
                 "position": {
                     "yaw": 1.578729977868495,
                     "pitch": -0.190902056779769
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "praktvide",
-                "name": "Praktvide",
+                "id": "praktvide_1",
                 "position": {
                     "yaw": 1.6771755523542895,
                     "pitch": -0.08833609997235348
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
                 "id": "hosta_1",
-                "name": "Hosta",
                 "position": {
                     "yaw": 6.148562431671903,
                     "pitch": -0.08428048077361815
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
                 "id": "hosta_2",
-                "name": "Hosta",
                 "position": {
                     "yaw": 6.2292457094785805,
                     "pitch": -0.0649132723823158
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "japansk_appelblomma",
-                "name": "Japansk äppelblomma",
+                "id": "japansk-appelblomma_1",
                 "position": {
                     "yaw": 0.05115158015257526,
                     "pitch": -0.04182503526518277
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "gulbladig_jasmin",
-                "name": "Gulbladig jasmin",
+                "id": "gulbladig-jasmin_1",
                 "position": {
                     "yaw": 0.33297752503584616,
                     "pitch": -0.06161725894489555
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "gyllenlonn",
-                "name": "Gyllenlönn",
+                "id": "ask_3",
+                "position": {
+                    "yaw": 3.419172931177481,
+                    "pitch": 0.1959532594991038
+                },
+            },
+            {
+                "id": "gyllenlonn_1",
                 "position": {
                     "yaw": 3.7168609928688197,
                     "pitch": 0.14489062722701718
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "vingad_benved",
-                "name": "Vingad benved",
+                "id": "vingad-benved_1",
                 "position": {
                     "yaw": 4.808664150995658,
                     "pitch": 0.02160151356537577
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "kranskornell",
-                "name": "Kranskornell",
+                "id": "kranskornell_1",
                 "position": {
                     "yaw": 3.9585715370824492,
                     "pitch": -0.6303760695700926
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "rodgersia",
-                "name": "Rodgersia",
+                "id": "rodgersia_1",
                 "position": {
                     "yaw": 4.228600609960907,
                     "pitch": -0.16327596640496878
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "koreansk_stevartia_skenkamelia",
-                "name": "Koreansk stevartia (skenkamelia)",
+                "id": "koreansk-stevartia_1",
                 "position": {
                     "yaw": 4.393808912550478,
                     "pitch": 0.11451886987988648
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "hosta_3",
-                "name": "Hosta",
+                "id": "hosta_9",
                 "position": {
                     "yaw": 5.607308144545707,
                     "pitch": -0.47056965713055
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "hosta_4",
-                "name": "Hosta",
+                "id": "hosta_8",
                 "position": {
                     "yaw": 5.562700539178307,
                     "pitch": -0.326136389321237
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "hosta_5",
-                "name": "Hosta",
+                "id": "hosta_7",
                 "position": {
                     "yaw": 5.425129951735958,
                     "pitch": -0.24916313252661615
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "kloverlonn",
-                "name": "Klöverlönn",
+                "id": "kloverlonn_1",
                 "position": {
                     "yaw": 5.5415184431747875,
                     "pitch": -0.05635664627969894
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "kopparbjork",
-                "name": "Kopparbjörk",
+                "id": "kopparbjork_1",
                 "position": {
                     "yaw": 5.342846885192868,
                     "pitch": -0.011318446981187549
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             }
         ],
         "links": [
@@ -3434,212 +2607,137 @@ export const nodeData = [
         "panoramaFile": "./nodes/dalgard21/IMG_1326.JPG",
         "markers": [
             {
-                "id": "hangpil",
-                "name": "Hangpil",
+                "id": "ginnalalonn_1",
+                "position": {
+                    "yaw": 4.789855977242777,
+                    "pitch": 0.0664446648560697
+                },
+            },
+            {
+                "id": "hangpil_1",
                 "position": {
                     "yaw": 1.8197074496993328,
                     "pitch": 0.45418590410120974
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "praktvide",
-                "name": "Praktvide",
+                "id": "praktvide_1",
                 "position": {
                     "yaw": 1.5504485961054577,
                     "pitch": -0.004816492310711009
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "japansk_lonn",
-                "name": "Japansk lönn",
+                "id": "japansk-lonn_1",
                 "position": {
                     "yaw": 1.5005650704270699,
                     "pitch": -0.01971109057775377
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "magnolia",
-                "name": "Magnolia",
+                "id": "magnolia_1",
                 "position": {
                     "yaw": 1.2735545440293718,
                     "pitch": 0.026761354835571634
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "kranskornell",
-                "name": "Kranskornell",
+                "id": "kranskornell_1",
                 "position": {
                     "yaw": 1.9202069942326638,
                     "pitch": -0.010112135912363476
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
                 "id": "nanting_4",
-                "name": "Nånting 4!",
                 "position": {
                     "yaw": 5.042833994504521,
                     "pitch": -0.1361727596967801
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "rhododendron_1",
-                "name": "Rhododendron",
+                "id": "rhododendron_3",
                 "position": {
                     "yaw": 5.063237667568617,
                     "pitch": -0.3409497308327285
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "kopparbjork",
-                "name": "Kopparbjörk",
+                "id": "kopparbjork_1",
                 "position": {
                     "yaw": 5.433595609479726,
                     "pitch": 0.2079112848382909
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "hosta_1",
-                "name": "Hosta",
+                "id": "hosta_10",
                 "position": {
                     "yaw": 5.7791342906836976,
                     "pitch": -0.9014774418648808
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "hosta_2",
-                "name": "Hosta",
+                "id": "hosta_7",
                 "position": {
                     "yaw": 0.5440573276045081,
                     "pitch": -0.7377117685673655
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "hosta_3",
-                "name": "Hosta",
+                "id": "hosta_8",
                 "position": {
                     "yaw": 1.1161296658277609,
                     "pitch": -0.5153197325529006
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "hosta_4",
-                "name": "Hosta",
+                "id": "hosta_9",
                 "position": {
                     "yaw": 1.4167170851328075,
                     "pitch": -0.2852260610469932
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "japansk_appelblomma",
-                "name": "Japansk äppelblomma",
+                "id": "japansk-appelblomma_1",
                 "position": {
                     "yaw": 0.32706328034091026,
                     "pitch": -0.04763182415890687
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "vingad_benved",
-                "name": "Vingad benved",
+                "id": "skoldbracka_2",
+                "position": {
+                    "yaw": 2.1617795698728792,
+                    "pitch": -0.17022957823150908
+                },
+            },
+            {
+                "id": "vingad-benved_1",
                 "position": {
                     "yaw": 3.1706025770427577,
                     "pitch": 0.06170175525394672
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "kloverlonn",
-                "name": "Klöverlönn",
+                "id": "kloverlonn_1",
                 "position": {
                     "yaw": 0.7828930248430049,
                     "pitch": 0.03637392981079168
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
+            },
+            {
+                "id": "gulbladig-jasmin_2",
+                "position": {
+                    "yaw": 1.796295372092212,
+                    "pitch": 0.07038975425183391
                 },
-                "type": "tree",
             },
             {
                 "id": "rhododendron_2",
-                "name": "Rhododendron",
                 "position": {
                     "yaw": 4.305448924980514,
                     "pitch": 0.022186404708438138
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             }
         ],
         "links": [
@@ -3673,277 +2771,165 @@ export const nodeData = [
         "panoramaFile": "./nodes/dalgard22/IMG_1327.JPG",
         "markers": [
             {
-                "id": "hangpil",
-                "name": "Hangpil",
+                "id": "hangpil_1",
                 "position": {
                     "yaw": 0.6725162253283881,
                     "pitch": 0.31138733524769213
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
                 "id": "nanting_4",
-                "name": "Nånting 4!",
                 "position": {
                     "yaw": 5.559683240500773,
                     "pitch": -0.4865591548540278
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "rhododendron_1",
-                "name": "Rhododendron",
+                "id": "finnslide_1",
+                "position": {
+                    "yaw": 2.098105108121322,
+                    "pitch": 0.20037735055829375
+                },
+            },
+            {
+                "id": "rhododendron_2",
                 "position": {
                     "yaw": 1.2558206703269563,
                     "pitch": -0.004092208773296626
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "gulbladig_jasmin",
-                "name": "Gulbladig jasmin",
+                "id": "gulbladig-jasmin_1",
                 "position": {
                     "yaw": 0.06005250430109421,
                     "pitch": 0.015939861133693396
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "rhododendron_2",
-                "name": "Rhododendron",
+                "id": "rhododendron_3",
                 "position": {
                     "yaw": 0.13137948354928572,
                     "pitch": -0.3069463866300224
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "kopparbjork",
-                "name": "Kopparbjörk",
+                "id": "kopparbjork_1",
                 "position": {
                     "yaw": 0.2565983108610073,
                     "pitch": 0.08940459588669937
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "hosta_1",
-                "name": "Hosta",
+                "id": "hosta_10",
                 "position": {
                     "yaw": 0.3145193669361147,
                     "pitch": -0.16317119400901947
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "hosta_2",
-                "name": "Hosta",
+                "id": "hosta_7",
                 "position": {
                     "yaw": 0.35665999620709316,
                     "pitch": -0.10683603301345788
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "hosta_3",
-                "name": "Hosta",
+                "id": "hosta_9",
                 "position": {
                     "yaw": 0.4471706829235172,
                     "pitch": -0.0659181329700733
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "kloverlonn",
-                "name": "Klöverlönn",
+                "id": "kloverlonn_1",
                 "position": {
                     "yaw": 0.31871131281694703,
                     "pitch": 0.05525917379027878
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "japansk_lonn",
-                "name": "Japansk lönn",
+                "id": "japansk-lonn_1",
                 "position": {
                     "yaw": 0.4647620059402269,
                     "pitch": 0.004660519248009374
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "magnolia",
-                "name": "Magnolia",
+                "id": "magnolia_1",
                 "position": {
                     "yaw": 0.5001419448817461,
                     "pitch": 0.028349565179907728
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "katsura",
-                "name": "Katsura",
+                "id": "katsura_1",
                 "position": {
                     "yaw": 5.163019617053256,
                     "pitch": 0.011204446349240902
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "smallspirea",
-                "name": "Smällspirea",
+                "id": "smallspirea_1",
                 "position": {
                     "yaw": 2.934474985845655,
                     "pitch": -0.004940060911584823
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
                 "id": "navehagg_1",
-                "name": "Nävehägg",
                 "position": {
                     "yaw": 3.263021617042092,
                     "pitch": 0.07761113987848135
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
                 "id": "navehagg_2",
-                "name": "Nävehägg",
                 "position": {
                     "yaw": 3.313514578934146,
                     "pitch": 0.06182260107067151
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "ginnalalonn",
-                "name": "Ginnalalönn",
+                "id": "ginnalalonn_1",
                 "position": {
                     "yaw": 3.7580096282773257,
                     "pitch": 0.04592895417908905
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "hastkastanj",
-                "name": "Hästkastanj",
+                "id": "hastkastanj_1",
                 "position": {
                     "yaw": 4.123458069606916,
                     "pitch": 0.174774177498509
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "blodplommon",
-                "name": "Blodplommon",
+                "id": "blodplommon_1",
                 "position": {
                     "yaw": 4.019286913202815,
                     "pitch": 0.05353602589588836
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "skogslonn",
-                "name": "Skogslönn",
+                "id": "skogslonn_1",
                 "position": {
                     "yaw": 3.972218574490527,
                     "pitch": 0.12303511759340925
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
-                },
-                "type": "tree",
             },
             {
-                "id": "koreansk_lonn",
-                "name": "Koreansk lönn",
+                "id": "koreansk-lonn_1",
                 "position": {
                     "yaw": 4.339451564801431,
                     "pitch": -0.01615892933652851
                 },
-                "size": {
-                    "width": 32,
-                    "height": 32
+            },
+            {
+                "id": "skoldbracka_1",
+                "position": {
+                    "yaw": 3.126620635956865,
+                    "pitch": -0.056382840811384005
                 },
-                "type": "tree",
             }
         ],
         "links": [
@@ -3971,58 +2957,291 @@ export const nodeData = [
         ],
         "heading": 5.5229222982468436
     }
-]
+];
 
-export const imageData = {
+export const treeData = {
     "Blodplommon": [
-        "./trees/blodplommon-leaves.png",
+        "blodplommon_1",
+    ],
+    "Koreansk lönn": [
+        "koreansk-lonn_1",
     ],
     "Japansk lönn": [
-        "./trees/lönn-leaves.png",
+        "japansk-lonn_1",
+    ],
+    "Skogslönn": [
+        "skogslonn_1",
+    ],
+    "Rödbladig skogslönn": [
+        "rodbladig-skogslonn_1",
+        "rodbladig-skogslonn_2",
+    ],
+    "Gyllenlönn": [
+        "gyllenlonn_1",
+    ],
+    "Klöverlönn": [
+        "kloverlonn_1",
+    ],
+    "Solfjäderslönn": [
+        "solfjaderslonn_1",
+    ],
+    "Sköldbräcka": [
+        "skoldbracka_1",
+        "skoldbracka_2",
+    ],
+    "Magnolia": [
+        "magnolia_1",
     ],
     "Katsura": [
-        "./trees/katsura-leaves.png",
-        "./trees/katsura-bark.png"
+        "katsura_1",
+        "katsura_2",
     ],
-}
+    "Kinesisk sequoia": [
+        "kinesisk-sequoia_1",
+    ],
+    "Kranskornell": [
+        "kranskornell_1",
+    ],
+    "Rodgersia": [
+        "rodgersia_1",
+    ],
+    "Koreansk stevartia (skenkamelia)": [
+        "koreansk-stevartia_1",
+    ],
+    "Hosta": [
+        "hosta_1",
+        "hosta_2",
+        "hosta_3",
+        "hosta_4",
+        "hosta_5",
+        "hosta_6",
+        "hosta_7",
+        "hosta_8",
+        "hosta_9",
+        "hosta_10",
+    ],
+    "Kopparbjörk": [
+        "kopparbjork_1",
+    ],
+    "Himalayabjörk": [
+        "himalayabjork_1",
+    ],
+    "Praktvide": [
+        "praktvide_1",
+    ],
+    "Rhododendron": [
+        "rhododendron_1",
+        "rhododendron_2",
+        "rhododendron_3",
+        "rhododendron_4",
+    ],
+    "Japansk äppelblomma": [
+        "japansk-appelblomma_1",
+    ],
+    "Nävehägg": [
+        "navehagg_1",
+        "navehagg_2",
+    ],
+    "Ginnalalönn": [
+        "ginnalalonn_1",
+    ],
+    "Hästkastanj": [
+        "hastkastanj_1",
+    ],
+    "Smällspirea": [
+        "smallspirea_1",
+    ],
+    "Ligularia dentata \"Desdemona\"": [
+        "ligularia-dentata_1",
+    ],
+    "Hängpil": [
+        "hangpil_1",
+    ],
+    "Schuberthägg": [
+        "schuberthagg_1",
+    ],
+    "Häxal": [
+        "haxal_1",
+    ],
+    "Vitoxel": [
+        "vitoxel_1",
+    ],
+    "Ask": [
+        "ask_1",
+        "ask_2",
+        "ask_3",
+    ],
+    "Lind (winter orange)": [
+        "lind_1",
+    ],
+    "Sibiriskt korkträd": [
+        "sibiriskt-korktrad_1",
+    ],
+    "Gulbladig jasmin": [
+        "gulbladig-jasmin_1",
+        "gulbladig-jasmin_2",
+    ],
+    "Kameleontbuske": [
+        "kameleontbuske_1",
+    ],
+    "Vipphortensia": [
+        "vipphortensia_1",
+    ],
+    "Mörkbladig fläder \"Black lace\"": [
+        "morkbladig-flader_1",
+    ],
+    "Finnslide": [
+        "finnslide_1",
+    ],
+    "Azalea northern lights": [
+        "azalea-northern-lights_1",
+        "azalea-northern-lights_2",
+    ],
+    "Vingad benved": [
+        "vingad-benved_1"
+    ]
+};
 
-export const descriptionData = {
-    "Blodplommon": "Blodplommon (<em>Prunus cerasifera \"Pissardii\"</em>) är ett träd som är känt för sina vackra, mörkröda blad och rosa blommor på våren. Det är en populär prydnadsväxt i trädgårdar.",
-    "Japansk lönn": "Japansk lönn (<em>Acer palmatum</em>) är en liten till medelstor trädart som är känd för sina vackra, flikiga blad som kan vara gröna, röda eller lila beroende på sorten. Den är populär i trädgårdar och landskapsdesign för sin eleganta form och färg.",
-    "Magnolia": "Magnolia är en släkt av träd och buskar som är kända för sina stora, doftande blommor. De finns i många olika färger, inklusive vitt, rosa och lila. Magnolior är ofta tidiga blommare på våren och är uppskattade för sin skönhet och doft.",
-    "Katsura": "Katsura (<em>Cercidiphyllum japonicum</em>) är ett träd som är känt för sina hjärtformade blad och vackra höstfärger. Det är också känt för sin söta doft av förmultnande löv på hösten. Katsura-trädet är populärt i trädgårdar och parker för sin unika form och doft.",
-    "Koreansk lönn": "Koreansk lönn (<em>Acer pseudosieboldianum</em>) är en trädart som är känd för sina vackra, flikiga blad och sin motståndskraft mot kalla klimat. Den har en attraktiv bark och producerar små, röda frukter som är populära bland fåglar. Koreansk lönn är en utmärkt prydnadsväxt för trädgårdar och landskap.",
-    "Gyllenlönn": "Gyllenlönn (<em>Acer shirasawanum \"Aureum\"</em>) är en trädart som är känd för sina gyllene, ljust gröna blad som blir mer intensiva under hösten. Den har en rundad form och är populär för sin ljusa färg och eleganta utseende. Gyllenlönn är en utmärkt prydnadsväxt för trädgårdar och parker.",
-    "Vingad benved": "Vingad benved (<em>Euonymus alatus</em>) är en buske eller litet träd som är känt för sina karakteristiska, vingformade grenar och vackra höstfärger. Den har små, gröna blad som blir röda eller lila på hösten. Vingad benved är populär i trädgårdar och landskap för sin unika form och färg.",
-    "Kranskornell": "Kranskornell (<em>Cornus controversa</em>) är ett träd som är känt för sina horisontella grenar som ger en karakteristisk kransform. Det har vita blommor på våren och bär som är populära bland fåglar. Kranskornell är en utmärkt prydnadsväxt för trädgårdar och parker för sin unika form och attraktiva blommor.",
-    "Rodgersia": "Rodgersia är en släkt av perenner som är kända för sina stora, dekorativa blad och imponerande blomställningar. De trivs bäst i fuktiga miljöer och är populära i trädgårdar för sin tropiska känsla och stora, pråliga blommor.",
-    "Koreansk stevartia (skenkamelia)": "Koreansk stevartia (<em>Stewartia pseudocamellia</em>) är ett träd som är känt för sina vackra, vita blommor som liknar kamelior. Det har en attraktiv bark och producerar små, ätliga frukter. Koreansk stevartia är populär i trädgårdar och parker för sin eleganta form och vackra blommor.",
-    "Hosta": "Hosta är en populär perenn växt som är känd för sina stora, dekorativa blad och vackra blommor. De trivs bäst i skuggiga eller halvskuggiga områden och finns i många olika färger och storlekar. Hosta är en utmärkt växt för trädgårdar och landskap för sin tålighet och skönhet.",
-    "Klöverlönn": "Klöverlönn (<em>Acer campestre</em>) är en liten till medelstor trädart som är känd för sina små, klöverliknande blad och sin motståndskraft mot urbana miljöer. Den har en rundad form och producerar små, gröna frukter som är populära bland fåglar. Klöverlönn är en utmärkt prydnadsväxt för trädgårdar och parker för sin tålighet och attraktiva form.",
-    "Kopparbjörk": "Kopparbjörk (<em>Betula nana \"Purpurea\"</em>) är en trädart som är känd för sin karakteristiska kopparfärgade bark och sina små, triangulära blad. Den har en upprätt växtsätt och producerar små, hängande kottar. Kopparbjörk är populär i trädgårdar och parker för sin unika bark och eleganta form.",
-    "Hangpil": "Hangpil (<em>Salix babylonica</em>) är en trädart som är känd för sina långa, hängande grenar och smala, lansettformade blad. Den trivs bäst i fuktiga miljöer och är populär i trädgårdar och parker för sin karakteristiska form och eleganta utseende.",
-    "Praktvide": "Praktvide (<em>Salix matsudana \"Tortusa\"</em>) är en trädart som är känd för sina vridna, spiralformade grenar och smala, lansettformade blad. Den har en karakteristisk form och producerar små, hängande kottar. Praktvide är populär i trädgårar och parker för sin unika form och eleganta utseende.",
-    "Rhododendron": "Rhododendron är en släkt av buskar och träd som är kända för sina stora, färgglada blommor. De finns i många olika färger och storlekar och trivs bäst i sur jord. Rhododendron är en populär prydnadsväxt i trädgårdar och parker för sina vackra blommor and lush foliage.",
-    "Japansk äppelblomma": "Japansk äppelblomma (<em>Malus floribunda</em>) är en trädart som är känd för sina vackra, rosa blommor och små, ätliga frukter. Den har en rundad form och producerar små, röda frukter som är populära bland fåglar. Japansk äppelblomma är en utmärkt prydnadsväxt för trädgårdar och parker för sin skönhet och attraktiva frukter.",
-    "Nävehägg": "Nävehägg (<em>Prunus padus</em>) är ett träd som är känt för sina vita blommor som blommar på våren och producerar små, svarta bär som är populära bland fåglar. Den har en rundad form och producerar små, hängande kottar. Nävehägg är en utmärkt prydnadsväxt för trädgårdar och parker för sin skönhet och attraktiva bär.",
-    "Ginnalalönn": "Ginnalalönn (<em>Acer ginnala</em>) är en liten till medelstor trädart som är känd för sina små, klöverliknande blad och sin motståndskraft mot urbana miljöer. Den har en rundad form och producerar små, gröna frukter som är populära bland fåglar. Ginnalalönn är en utmärkt prydnadsväxt for trädgårdar och parker för sin tålighet och attraktiva form.",
-    "Hästkastanj": "Hästkastanj (<em>Aesculus hippocastanum</em>) är ett stort träd som är känt för sina stora, vita blommor och stora, handflikiga blad. Den har en rundad form och producerar stora, bruna frukter som är inte ätliga.",
-    "Skogslönn": "Skogslönn (<em>Acer platanoides</em>) är en trädart som är känd för sina stora, handflikiga blad och sina gula blommor som blommar på våren. Den har en rundad form och producerar små, gröna frukter som är populära bland fåglar. Skogslönn är en utmärkt prydnadsväxt för trädgårdar och parker för sin skönhet och attraktiva frukter.",
-    "Smällspirea": "Smällspirea (<em>Spiraea japonica</em>) är en buske som är känd för sina små, rosa eller vita blommor som blommar på sommaren. Den har små, gröna blad och en buskig form. Smällspirea är populär i trädgårdar och parker för sin skönhet och låga underhåll.",
-    "Hängpil": "Hängpil (<em>Salix babylonica</em>) är en trädart som är känd för sina långa, hängande grenar och smala, lansettformade blad. Den trivs bäst i fuktiga miljöer och är populär i trädgårdar och parker för sin karakteristiska form och eleganta utseende.",
-    "Rödbladig skogslönn": "Rödbladig skogslönn (<em>Acer platanoides \"Crimson King\"</em>) är en trädart som är känd för sina mörkröda blad som behåller sin färg under hela växtsäsongen. Den har en rundad form och producerar små, gröna frukter som är populära bland fåglar. Rödbladig skogslönn är en utmärkt prydnadsväxt för trädgårdar och parker för sin unika färg och attraktiva form.",
-    "Schuberthägg": "Schuberthägg (<em>Prunus subhirtella</em>) är ett träd som är känt för sina rosa blommor som blommar tidigt på våren. Den har en rundad form och producerar små, ätliga frukter som är populära bland fåglar. Schuberthägg är en utmärkt prydnadsväxt för trädgårdar och parker för sin skönhet och attraktiva blommor.",
-    "Häxal": "Häxal (<em>Hamamelis</em>) är en buske eller litet träd som är känt för sina gula, spindelliknande blommor som blommar på vintern. Den har en buskig form och producerar små, ätliga frukter som är populära bland fåglar. Häxal är en utmärkt prydnadsväxt för trädgårdar och parker för sin tidiga blomning och attraktiva färg.",
-    "Vitoxel": "Vitoxel (<em>Oxydendrum arboreum</em>) är ett träd som är känt för sina vita blommor som blommar på sommaren och sina vackra höstfärger. Den har en upprätt växtsätt och producerar små, ätliga frukter som är populära bland fåglar. Vitoxel är en utmärkt prydnadsväxt för trädgårdar och parker för sin skönhet och attraktiva frukter.",
-    "Ask": "Ask (<em>Fraxinus</em>) är en släkt av träd som är kända för sina fjäderlika blad och sina små, gröna frukter. De trivs bäst i fuktiga miljöer och är populära i trädgårdar och parker för sin eleganta form och attraktiva blad.",
-    "Lind (winter orange)": "Lind (<em>Tilia</em>) är en släkt av träd som är kända för sina stora, hjärtformade blad och sina doftande blommor. De trivs bäst i fuktiga miljöer och är populära i trädgårdar och parker för sin skönhet och doft.",
-    "Sibiriskt korkträd": "Sibiriskt korkträd (<em>Phellodendron amurense</em>) är ett träd som är känt för sin karakteristiska, korkliknande bark och sina små, gröna frukter. Den har en upprätt växtsätt och producerar små, ätliga frukter som är populära bland fåglar. Sibiriskt korkträd är en utmärkt prydnadsväxt för trädgårdar och parker för sin unika bark och attraktiva frukter.",
-    "Gulbladig jasmin": "Gulbladig jasmin (<em>Jasminum nudiflorum</em>) är en buske som är känd för sina små, gula blommor som blommar på vintern och tidigt på våren. Den har små, gröna blad och en buskig form. Gulbladig jasmin är populär i trädgårdar och parker för sin tidiga blomning och attraktiva färg.",
-    "Kameleontbuske": "Kameleontbuske (<em>Deutzia</em>) är en släkt av buskar som är kända för sina små, vita eller rosa blommor som blommar på sommaren. De har små, gröna blad och en buskig form. Kameleontbuske är populär i trädgårdar och parker för sin skönhet och låga underhåll.",
-    "Vipphortensia": "Vipphortensia (<em>Hydrangea paniculata</em>) är en buske som är känd för sina stora, konformade blomställningar som kan vara vita, rosa eller lila. Den blommar på sommaren och har gröna blad. Vipphortensia är populär i trädgårdar och parker för sin skönhet och låga underhåll.",
-    "Mörkbladig fläder \"Black lace\"": "Fläder \"Black lace\" (<em>Sambucus</em>) är en buske som är känd för sina mörka, nästan svarta blad och sina små, vita blommor som blommar på sommaren. Den har en buskig form och producerar små, svarta bär som är populära bland fåglar. Fläder \"Black lace\" är populär i trädgårdar och parker för sin unika färg och attraktiva blommor.",
-    "Nånting 1!": "Nånting 1 är någon växt som jag behöver hjälp att identifiera!",
-    "Nånting 2!": "Nånting 2 är någon växt som jag behöver hjälp att identifiera!",
-    "Nånting 3!": "Nånting 3 är någon växt som jag behöver hjälp att identifiera!",
-    "Nånting 4!": "Nånting 4 är någon växt som jag behöver hjälp att identifiera!",
-}
+// ^\s*"id":(?!.*\d+",\s*$).*
+
+export const treeTypeData = {
+    "Blodplommon": {
+        "description": "Blodplommon (<em>Prunus cerasifera \"Pissardii\"</em>) är ett träd som är känt för sina vackra, mörkröda blad och rosa blommor på våren. Det är en populär prydnadsväxt i trädgårdar.",
+        "images": [
+            "./trees/blodplommon-leaves.png",
+        ]
+    },
+    "Koreansk lönn": {
+        "description": "Koreansk lönn (<em>Acer pseudosieboldianum</em>) är en trädart som är känd för sina vackra, flikiga blad och sin motståndskraft mot kalla klimat. Den har en attraktiv bark och producerar små, röda frukter som är populära bland fåglar. Koreansk lönn är en utmärkt prydnadsväxt för trädgårdar och landskap.",
+    },
+    "Skogslönn": {
+        "description": "Skogslönn (<em>Acer platanoides</em>) är en trädart som är känd för sina stora, handflikiga blad och sina gula blommor som blommar på våren. Den har en rundad form och producerar små, gröna frukter som är populära bland fåglar. Skogslönn är en utmärkt prydnadsväxt för trädgårdar och parker för sin skönhet och attraktiva frukter.",
+    },
+    "Rödbladig skogslönn": {
+        "description": "Rödbladig skogslönn (<em>Acer platanoides \"Crimson King\"</em>) är en trädart som är känd för sina mörkröda blad som behåller sin färg under hela växtsäsongen. Den har en rundad form och producerar små, gröna frukter som är populära bland fåglar. Rödbladig skogslönn är en utmärkt prydnadsväxt för trädgårdar och parker för sin unika färg och attraktiva form.",
+    },
+    "Gyllenlönn": {
+        "description": "Gyllenlönn (<em>Acer shirasawanum \"Aureum\"</em>) är en trädart som är känd för sina gyllene, ljust gröna blad som blir mer intensiva under hösten. Den har en rundad form och är populär för sin ljusa färg och eleganta utseende. Gyllenlönn är en utmärkt prydnadsväxt för trädgårdar och parker.",
+    },
+    "Klöverlönn": {
+        "description": "Klöverlönn (<em>Acer campestre</em>) är en liten till medelstor trädart som är känd för sina små, klöverliknande blad och sin motståndskraft mot urbana miljöer. Den har en rundad form och producerar små, gröna frukter som är populära bland fåglar. Klöverlönn är en utmärkt prydnadsväxt för trädgårdar och parker för sin tålighet och attraktiva form.",
+    },
+    "Solfjäderslönn": {
+        "description": "Solfjäderslönn (<em>Acer palmatum \"Dissectum\"</em>) är en trädart som är känd för sina fint flikiga, solfjäderformade blad. Den har en elegant, hängande växtsätt och är populär i japanska trädgårdar. Solfjäderslönn är uppskattad för sin skönhet och unika bladform.",
+    },
+    "Sköldbräcka": {
+        "description": "Sköldbräcka (<em>Astilbe chinensis \"Pumila\"</em>) är en perenn växt som är känd för sina dekorativa, fjäderlika blomställningar och frodiga bladverk. Den trivs bäst i fuktiga miljöer och är populär i trädgårdar för sin långa blomningstid och attraktiva utseende.",
+    },
+    "Magnolia": {
+        "description": "Magnolia är en släkt av träd och buskar som är kända för sina stora, doftande blommor. De finns i många olika färger, inklusive vitt, rosa och lila. Magnolior är ofta tidiga blommare på våren och är uppskattade för sin skönhet och doft.",
+    },
+    "Katsura": {
+        "description": "Katsura (<em>Cercidiphyllum japonicum</em>) är ett träd som är känt för sina hjärtformade blad och vackra höstfärger. Det är också känt för sin söta doft av förmultnande löv på hösten. Katsura-trädet är populärt i trädgårdar och parker för sin unika form och doft.",
+        "images": [
+            "./trees/katsura-leaves.png",
+            "./trees/katsura-bark.png",
+        ],
+    },
+    "Kinesisk sequoia": {
+        "description": "idk",
+    },
+    "Kranskornell": {
+        "description": "Kranskornell (<em>Cornus controversa</em>) är ett träd som är känt för sina horisontella grenar som ger en karakteristisk kransform. Det har vita blommor på våren och bär som är populära bland fåglar. Kranskornell är en utmärkt prydnadsväxt för trädgårdar och parker för sin unika form och attraktiva blommor.",
+    },
+    "Rodgersia": {
+        "description": "Rodgersia är en släkt av perenner som är kända för sina stora, dekorativa blad och imponerande blomställningar. De trivs bäst i fuktiga miljöer och är populära i trädgårdar för sin tropiska känsla och stora, pråliga blommor.",
+    },
+    "Koreansk stevartia (skenkamelia)": {
+        "description": "Koreansk stevartia (<em>Stewartia pseudocamellia</em>) är ett träd som är känt för sina vackra, vita blommor som liknar kamelior. Det har en attraktiv bark och producerar små, ätliga frukter. Koreansk stevartia är populär i trädgårdar och parker för sin eleganta form och vackra blommor.",
+    },
+    "Hosta": {
+        "description": "Hosta är en populär perenn växt som är känd för sina stora, dekorativa blad och vackra blommor. De trivs bäst i skuggiga eller halvskuggiga områden och finns i många olika färger och storlekar. Hosta är en utmärkt växt för trädgårdar och landskap för sin tålighet och skönhet.",
+    },
+    "Kopparbjörk": {
+        "description": "Kopparbjörk (<em>Betula nana \"Purpurea\"</em>) är en trädart som är känd för sin karakteristiska kopparfärgade bark och sina små, triangulära blad. Den har en upprätt växtsätt och producerar små, hängande kottar. Kopparbjörk är populär i trädgårdar och parker för sin unika bark och eleganta form.",
+    },
+    "Himalayabjörk": {
+        "description": "Himalayabjörk (<em>Betula utilis</em>) är en trädart som är känd för sin vita, papperstunna bark och sina små, triangulära blad. Den har en upprätt växtsätt och producerar små, hängande kottar. Himalayabjörk är populär i trädgårdar och parker för sin unika bark och eleganta form.",
+    },
+    "Praktvide": {
+        "description": "Praktvide (<em>Salix matsudana \"Tortusa\"</em>) är en trädart som är känd för sina vridna, spiralformade grenar och smala, lansettformade blad. Den har en karakteristisk form och producerar små, hängande kottar. Praktvide är populär i trädgårar och parker för sin unika form och eleganta utseende.",
+    },
+    "Rhododendron": {
+        "description": "Rhododendron är en släkt av buskar och träd som är kända för sina stora, färgglada blommor. De finns i många olika färger och storlekar och trivs bäst i sur jord. Rhododendron är en populär prydnadsväxt i trädgårdar och parker för sina vackra blommor and lush foliage.",
+    },
+    "Japansk äppelblomma": {
+        "description": "Japansk äppelblomma (<em>Malus floribunda</em>) är en trädart som är känd för sina vackra, rosa blommor och små, ätliga frukter. Den har en rundad form och producerar små, röda frukter som är populära bland fåglar. Japansk äppelblomma är en utmärkt prydnadsväxt för trädgårdar och parker för sin skönhet och attraktiva frukter.",
+    },
+    "Nävehägg": {
+        "description": "Nävehägg (<em>Prunus padus</em>) är ett träd som är känt för sina vita blommor som blommar på våren och producerar små, svarta bär som är populära bland fåglar. Den har en rundad form och producerar små, hängande kottar. Nävehägg är en utmärkt prydnadsväxt för trädgårdar och parker för sin skönhet och attraktiva bär.",
+    },
+    "Ginnalalönn": {
+        "description": "Ginnalalönn (<em>Acer ginnala</em>) är en liten till medelstor trädart som är känd för sina små, klöverliknande blad och sin motståndskraft mot urbana miljöer. Den har en rundad form och producerar små, gröna frukter som är populära bland fåglar. Ginnalalönn är en utmärkt prydnadsväxt for trädgårdar och parker för sin tålighet och attraktiva form.",
+    },
+    "Hästkastanj": {
+        "description": "Hästkastanj (<em>Aesculus hippocastanum</em>) är ett stort träd som är känt för sina stora, vita blommor och stora, handflikiga blad. Den har en rundad form och producerar stora, bruna frukter som är inte ätliga.",
+    },
+    "Smällspirea": {
+        "description": "Smällspirea (<em>Spiraea japonica</em>) är en buske som är känd för sina små, rosa eller vita blommor som blommar på sommaren. Den har små, gröna blad och en buskig form. Smällspirea är populär i trädgårdar och parker för sin skönhet och låga underhåll.",
+    },
+    "Ligularia dentata \"Desdemona\"": {
+        "description": "Ligularia dentata \"Desdemona\" är en perenn växt som är känd för sina stora, hjärtformade blad och sina gula blommor som blommar på sommaren. Den trivs bäst i fuktiga miljöer och är populär i trädgårdar för sin långa blomningstid och attraktiva utseende.",
+    },
+    "Hängpil": {
+        "description": "Hängpil (<em>Salix babylonica</em>) är en trädart som är känd för sina långa, hängande grenar och smala, lansettformade blad. Den trivs bäst i fuktiga miljöer och är populär i trädgårdar och parker för sin karakteristiska form och eleganta utseende.",
+    },
+    "Schuberthägg": {
+        "description": "Schuberthägg (<em>Prunus subhirtella</em>) är ett träd som är känt för sina rosa blommor som blommar tidigt på våren. Den har en rundad form och producerar små, ätliga frukter som är populära bland fåglar. Schuberthägg är en utmärkt prydnadsväxt för trädgårdar och parker för sin skönhet och attraktiva blommor.",
+    },
+    "Häxal": {
+        "description": "Häxal (<em>Hamamelis</em>) är en buske eller litet träd som är känt för sina gula, spindelliknande blommor som blommar på vintern. Den har en buskig form och producerar små, ätliga frukter som är populära bland fåglar. Häxal är en utmärkt prydnadsväxt för trädgårdar och parker för sin tidiga blomning och attraktiva färg.",
+    },
+    "Vitoxel": {
+        "description": "Vitoxel (<em>Oxydendrum arboreum</em>) är ett träd som är känt för sina vita blommor som blommar på sommaren och sina vackra höstfärger. Den har en upprätt växtsätt och producerar små, ätliga frukter som är populära bland fåglar. Vitoxel är en utmärkt prydnadsväxt för trädgårdar och parker för sin skönhet och attraktiva frukter.",
+    },
+    "Ask": {
+        "description": "Ask (<em>Fraxinus</em>) är en släkt av träd som är kända för sina fjäderlika blad och sina små, gröna frukter. De trivs bäst i fuktiga miljöer och är populära i trädgårdar och parker för sin eleganta form och attraktiva blad.",
+    },
+    "Lind (winter orange)": {
+        "description": "Lind (<em>Tilia</em>) är en släkt av träd som är kända för sina stora, hjärtformade blad och sina doftande blommor. De trivs bäst i fuktiga miljöer och är populära i trädgårdar och parker för sin skönhet och doft.",
+    },
+    "Sibiriskt korkträd": {
+        "description": "Sibiriskt korkträd (<em>Phellodendron amurense</em>) är ett träd som är känt för sin karakteristiska, korkliknande bark och sina små, gröna frukter. Den har en upprätt växtsätt och producerar små, ätliga frukter som är populära bland fåglar. Sibiriskt korkträd är en utmärkt prydnadsväxt för trädgårdar och parker för sin unika bark och attraktiva frukter.",
+    },
+    "Gulbladig jasmin": {
+        "description": "Gulbladig jasmin (<em>Jasminum nudiflorum</em>) är en buske som är känd för sina små, gula blommor som blommar på vintern och tidigt på våren. Den har små, gröna blad och en buskig form. Gulbladig jasmin är populär i trädgårdar och parker för sin tidiga blomning och attraktiva färg.",
+    },
+    "Kameleontbuske": {
+        "description": "Kameleontbuske (<em>Deutzia</em>) är en släkt av buskar som är kända för sina små, vita eller rosa blommor som blommar på sommaren. De har små, gröna blad och en buskig form. Kameleontbuske är populär i trädgårdar och parker för sin skönhet och låga underhåll.",
+    },
+    "Vipphortensia": {
+        "description": "Vipphortensia (<em>Hydrangea paniculata</em>) är en buske som är känd för sina stora, konformade blomställningar som kan vara vita, rosa eller lila. Den blommar på sommaren och har gröna blad. Vipphortensia är populär i trädgårdar och parker för sin skönhet och låga underhåll.",
+    },
+    "Mörkbladig fläder \"Black lace\"": {
+        "description": "Fläder \"Black lace\" (<em>Sambucus</em>) är en buske som är känd för sina mörka, nästan svarta blad och sina små, vita blommor som blommar på sommaren. Den har en buskig form och producerar små, svarta bär som är populära bland fåglar. Fläder \"Black lace\" är populär i trädgårdar och parker för sin unika färg och attraktiva blommor.",
+    },
+    "Finnslide": {
+        "description": "Finnslide (<em>Aconogonon × fennicum</em>) är en buske som är känd för sina små, rosa blommor och sina gyllene, ljust gröna blad. Den blommar på sommaren och har en buskig form. Finnslide är populär i trädgårdar och parker för sin skönhet och låga underhåll.",
+    },
+    "Azalea northern lights": {
+        "description": "Azalea northern lights (<em>Rhododendron</em>) är en buske som är känd för sina stora, färgglada blommor som blommar på våren. Den har mörkgröna blad och en kompakt, buskig form. Azalea northern lights är populär i trädgårdar och parker för sin skönhet och tidiga blomning.",
+    },
+    "Vingad benved": {
+        "description": "Vingad benved (<em>Euonymus alatus</em>) är en buske eller litet träd som är känt för sina karakteristiska, vingformade grenar och vackra höstfärger. Den har små, gröna blad som blir röda eller lila på hösten. Vingad benved är populär i trädgårdar och landskap för sin unika form och färg.",
+    },
+};
+
+export const specificTreeData = {
+    "katsura_1": {
+        "description": "Detta träd planterades något år!",
+        "images": [
+            "/nodes/dalgard19/IMG_1324.JPG",
+        ],
+    },
+    "ginnalalonn_1": {
+        "description": "Fungerar som ett paraply mot solen när man sitter utanför lusthuset!"
+    },
+    "kinesisk-sequoia_1": {
+        "description": "Lätt det coolaste trädet i parken!"
+    }
+};
