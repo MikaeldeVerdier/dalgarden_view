@@ -16,6 +16,8 @@ import { MarkersPlugin } from "@photo-sphere-viewer/markers-plugin";
 
 import { getNodes } from "/src/nodes.js";
 
+import { lang } from "/src/lang.js";
+
 Cache.maxItems = 25;
 
 getNodes()  // getNodesFromJSONFile("./data.json")
@@ -34,16 +36,16 @@ getNodes()  // getNodesFromJSONFile("./data.json")
 
         const viewer = new Viewer({
             plugins: [
-                [MarkersPlugin, {
+                MarkersPlugin.withConfig({
                     defaultHoverScale: true,
-                }],
-                [VirtualTourPlugin, {
+                }),
+                VirtualTourPlugin.withConfig({
                     positionMode: "manual",
                     nodes: nodes,
                     preload: true,
                     showLinkTooltip: false,
                     renderMode: "2d",  // 3d doesn"t work at all (laggy and wrong position)
-                }],
+                }),
                 /* DEBUG: Gallery
                 [GalleryPlugin, {
                     items: gallery,
@@ -56,7 +58,9 @@ getNodes()  // getNodesFromJSONFile("./data.json")
                 */
             ],
             container: document.querySelector(".viewer"),
-            adapter: EquirectangularTilesAdapter,
+            adapter: EquirectangularTilesAdapter.withConfig({
+                baseBlur: false,
+            }),
             navbar: [
                 "zoom",
                 "move",
@@ -66,6 +70,7 @@ getNodes()  // getNodesFromJSONFile("./data.json")
                 "fullscreen",
                 // "markers",
             ],
+            lang: lang,
             rendererParameters: {
                 debug: false,
             },
