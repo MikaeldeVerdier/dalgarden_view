@@ -115,7 +115,7 @@ export const nodeData = [
                     "yaw": 1.9566016424367625,
                     "pitch": -0.3239004580094098
                 },
-            }
+            },
         ],
         "links": [
             {
@@ -123,21 +123,21 @@ export const nodeData = [
                 "position": {
                     "yaw": 3.377563376359585,
                     "pitch": -0.14441858600296031
-                }
+                },
             },
             {
                 "nodeId": "dalgard19",
                 "position": {
                     "yaw": 4.911215906485333,
                     "pitch": -0.06858083649022362
-                }
+                },
             },
             {
                 "nodeId": "dalgard22",
                 "position": {
                     "yaw": 3.733099874006463,
                     "pitch": -0.27108324624332814
-                }
+                },
             },
         ],
         "heading": 3.3775891123402326
@@ -273,22 +273,22 @@ export const nodeData = [
                 "position": {
                     "yaw": 1.9809906063918654,
                     "pitch": -0.12030962172424053
-                }
+                },
             },
             {
                 "nodeId": "dalgard3",
                 "position": {
                     "yaw": 5.999391442544193,
                     "pitch": -0.26915147280088436
-                }
+                },
             },
             {
                 "nodeId": "dalgard22",
                 "position": {
                     "yaw": 1.209437247290838,
                     "pitch": -0.28713701023161176
-                }
-            }
+                },
+            },
         ],
         "heading": 5.1553739803636205
     },
@@ -444,29 +444,29 @@ export const nodeData = [
                 "position": {
                     "yaw": 6.102642456873019,
                     "pitch": 0.016635844419101268
-                }
+                },
             },
             {
                 "nodeId": "dalgard2",
                 "position": {
                     "yaw": 0.33390236210506474,
                     "pitch": -0.20266077207521915
-                }
+                },
             },
             {
                 "nodeId": "dalgard4",
                 "position": {
                     "yaw": 4.1161479549896,
                     "pitch": -0.11008610628244464
-                }
+                },
             },
             {
                 "nodeId": "dalgard20",
                 "position": {
                     "yaw": 4.776739924190238,
                     "pitch": 0.0031594746212282396
-                }
-            }
+                },
+            },
         ],
         "heading": 2.969568331141952
     },
@@ -657,22 +657,22 @@ export const nodeData = [
                 "position": {
                     "yaw": 3.8921050576317495,
                     "pitch": -0.11599675834795264
-                }
+                },
             },
             {
                 "nodeId": "dalgard5",
                 "position": {
                     "yaw": 0.46631536569575116,
                     "pitch": -0.15650474252735735
-                }
+                },
             },
             {
                 "nodeId": "dalgard20",
                 "position": {
                     "yaw": 1.9453906030385824,
                     "pitch": -0.0754496136924101
-                }
-            }
+                },
+            },
         ],
         "heading": 5.586846303733822
     },
@@ -729,7 +729,7 @@ export const nodeData = [
                     "yaw": 3.233015446176479,
                     "pitch": -0.042245247241091466
                 },
-            }
+            },
         ],
         "links": [
             {
@@ -737,29 +737,29 @@ export const nodeData = [
                 "position": {
                     "yaw": 3.4595658643528346,
                     "pitch": -0.14731508855281716
-                }
+                },
             },
             {
                 "nodeId": "dalgard6",
                 "position": {
                     "yaw": 0.6876928118355173,
                     "pitch": -0.17074271445871503
-                }
+                },
             },
             {
                 "nodeId": "dalgard7",
                 "position": {
                     "yaw": 1.2743581457503645,
                     "pitch": -0.14055031362258408
-                }
+                },
             },
             {
                 "nodeId": "dalgard18",
                 "position": {
                     "yaw": 2.654492463146046,
                     "pitch": -0.013699985705297086
-                }
-            }
+                },
+            },
         ],
         "heading": 5.725160153120154
     },
@@ -802,7 +802,7 @@ export const nodeData = [
                     "yaw": 1.9044595007355518,
                     "pitch": 0.03586907819054619
                 },
-            }
+            },
         ],
         "links": [
             {
@@ -810,22 +810,22 @@ export const nodeData = [
                 "position": {
                     "yaw": 2.8484454432053417,
                     "pitch": -0.3025999894070799
-                }
+                },
             },
             {
                 "nodeId": "dalgard7",
                 "position": {
                     "yaw": 1.2251918408825437,
                     "pitch": -0.39815815339597904
-                }
+                },
             },
             {
                 "nodeId": "dalgard8",
                 "position": {
                     "yaw": 1.1906464269349784,
                     "pitch": -0.0918768117573654
-                }
-            }
+                },
+            },
         ],
         "heading": 4.68275101194163
     },
@@ -868,7 +868,7 @@ export const nodeData = [
                     "yaw": 5.950740082351949,
                     "pitch": -0.012725497159008278
                 },
-            }
+            },
         ],
         "links": [
             {
@@ -876,29 +876,29 @@ export const nodeData = [
                 "position": {
                     "yaw": 0.7028370607925101,
                     "pitch": -0.21015673071105367
-                }
+                },
             },
             {
                 "nodeId": "dalgard6",
                 "position": {
                     "yaw": 1.7289721036104897,
                     "pitch": -0.4668308106250547
-                }
+                },
             },
             {
                 "nodeId": "dalgard8",
                 "position": {
                     "yaw": 4.786337865181352,
                     "pitch": -0.19483039032038119
-                }
+                },
             },
             {
                 "nodeId": "dalgard8",
                 "position": {
                     "yaw": 4.854573930810898,
                     "pitch": -0.05856187760065268
-                }
-            }
+                },
+            },
         ],
         "heading": 1.8923994212038162
     },
@@ -984,7 +984,7 @@ export const nodeData = [
                     "yaw": 5.41393775953141,
                     "pitch": 0.6025894737323192
                 },
-            }
+            },
         ],
         "links": [
             {
@@ -992,29 +992,29 @@ export const nodeData = [
                 "position": {
                     "yaw": 0.9367373420498771,
                     "pitch": -0.22405091843328728
-                }
+                },
             },
             {
                 "nodeId": "dalgard9",
                 "position": {
                     "yaw": 4.4033121282399375,
                     "pitch": -0.22967867246853468
-                }
+                },
             },
             {
                 "nodeId": "dalgard10",
                 "position": {
                     "yaw": 4.324368756569757,
                     "pitch": 0.06915943542158765
-                }
+                },
             },
             {
                 "nodeId": "dalgard17",
                 "position": {
                     "yaw": 4.946236932513398,
                     "pitch": -0.08520867354479145
-                }
-            }
+                },
+            },
         ],
         "heading": 1.0409990620045637
     },
@@ -1092,7 +1092,7 @@ export const nodeData = [
                     "yaw": 5.876919823095532,
                     "pitch": 0.1356732926559594
                 },
-            }
+            },
         ],
         "links": [
             {
@@ -1100,29 +1100,29 @@ export const nodeData = [
                 "position": {
                     "yaw": 2.4612368517186507,
                     "pitch": -0.15810235263040462
-                }
+                },
             },
             {
                 "nodeId": "dalgard8",
                 "position": {
                     "yaw": 2.614349453743426,
                     "pitch": -0.3686532812627539
-                }
+                },
             },
             {
                 "nodeId": "dalgard10",
                 "position": {
                     "yaw": 5.659794125507752,
                     "pitch": -0.03208712239204381
-                }
+                },
             },
             {
                 "nodeId": "dalgard17",
                 "position": {
                     "yaw": 0.6113678298995248,
                     "pitch": -0.27624297790466934
-                }
-            }
+                },
+            },
         ],
         "heading": 2.5019654985286452
     },
@@ -1186,7 +1186,7 @@ export const nodeData = [
                     "yaw": 0.08780336896942836,
                     "pitch": -0.04092420174788436
                 },
-            }
+            },
         ],
         "links": [
             {
@@ -1194,29 +1194,29 @@ export const nodeData = [
                 "position": {
                     "yaw": 0.9521081282885019,
                     "pitch": -0.19478364238861934
-                }
+                },
             },
             {
                 "nodeId": "dalgard9",
                 "position": {
                     "yaw": 0.9033433190580583,
                     "pitch": -0.2849607682841715
-                }
+                },
             },
             {
                 "nodeId": "dalgard11",
                 "position": {
                     "yaw": 4.47960589961757,
                     "pitch": -0.036391493311797696
-                }
+                },
             },
             {
                 "nodeId": "dalgard16",
                 "position": {
                     "yaw": 6.10105964446265,
                     "pitch": -0.5095319285423436
-                }
-            }
+                },
+            },
         ],
         "heading": 0.8935714529222901
     },
@@ -1301,7 +1301,7 @@ export const nodeData = [
                     "yaw": 3.8936208508357604,
                     "pitch": -0.0746157638357323
                 },
-            }
+            },
         ],
         "links": [
             {
@@ -1309,15 +1309,15 @@ export const nodeData = [
                 "position": {
                     "yaw": 5.378246539655657,
                     "pitch": -0.23208824150219676
-                }
+                },
             },
             {
                 "nodeId": "dalgard12",
                 "position": {
                     "yaw": 3.9332950087152243,
                     "pitch": -0.5775068676911823
-                }
-            }
+                },
+            },
         ],
         "heading": 4.917524762913157
     },
@@ -1409,7 +1409,7 @@ export const nodeData = [
                     "yaw": 4.791471790218692,
                     "pitch": -0.09418604587593914
                 },
-            }
+            },
         ],
         "links": [
             {
@@ -1417,15 +1417,15 @@ export const nodeData = [
                 "position": {
                     "yaw": 1.6412062263546312,
                     "pitch": -0.3131322228381572
-                }
+                },
             },
             {
                 "nodeId": "dalgard13",
                 "position": {
                     "yaw": 4.611749469432073,
                     "pitch": -0.398804193611924
-                }
-            }
+                },
+            },
         ],
         "heading": 5.777985466454688
     },
@@ -1517,7 +1517,7 @@ export const nodeData = [
                     "yaw": 5.6377142445553785,
                     "pitch": -0.10649339937069045
                 },
-            }
+            },
         ],
         "links": [
             {
@@ -1525,15 +1525,15 @@ export const nodeData = [
                 "position": {
                     "yaw": 2.3261857010692943,
                     "pitch": -0.2293565507112043
-                }
+                },
             },
             {
                 "nodeId": "dalgard14",
                 "position": {
                     "yaw": 5.79890966834114,
                     "pitch": -0.47667101144900514
-                }
-            }
+                },
+            },
         ],
         "heading": 0.3790896004387685
     },
@@ -1625,7 +1625,7 @@ export const nodeData = [
                     "yaw": 4.1275826260001285,
                     "pitch": 0.14223460720046188
                 },
-            }
+            },
         ],
         "links": [
             {
@@ -1633,22 +1633,22 @@ export const nodeData = [
                 "position": {
                     "yaw": 4.020755883232665,
                     "pitch": -0.19293492236703735
-                }
+                },
             },
             {
                 "nodeId": "dalgard15",
                 "position": {
                     "yaw": 2.2567492578613457,
                     "pitch": -0.39154160571935925
-                }
+                },
             },
             {
                 "nodeId": "dalgard19",
                 "position": {
                     "yaw": 1.0463414084488398,
                     "pitch": -0.42137897416217185
-                }
-            }
+                },
+            },
         ],
         "heading": 1.5955122207909482
     },
@@ -1755,22 +1755,22 @@ export const nodeData = [
                 "position": {
                     "yaw": 4.3505134458774295,
                     "pitch": -0.28845597976368564
-                }
+                },
             },
             {
                 "nodeId": "dalgard18",
                 "position": {
                     "yaw": 0.5685826089176976,
                     "pitch": -0.3625248258939566
-                }
+                },
             },
             {
                 "nodeId": "dalgard20",
                 "position": {
                     "yaw": 0.4613342410140493,
                     "pitch": -0.2684284130174561
-                }
-            }
+                },
+            },
         ],
         "heading": 0.34397741141688487
     },
@@ -1876,7 +1876,7 @@ export const nodeData = [
                     "yaw": 5.6870979161084625,
                     "pitch": 0.500028424609319
                 },
-            }
+            },
         ],
         "links": [
             {
@@ -1884,15 +1884,15 @@ export const nodeData = [
                 "position": {
                     "yaw": 2.1450369122527846,
                     "pitch": -0.3302402445326571
-                }
+                },
             },
             {
                 "nodeId": "dalgard17",
                 "position": {
                     "yaw": 6.077661799107866,
                     "pitch": -0.4058585802749375
-                }
-            }
+                },
+            },
         ],
         "heading": 6.143937128521642
     },
@@ -1992,29 +1992,29 @@ export const nodeData = [
                 "position": {
                     "yaw": 2.276307084195678,
                     "pitch": -0.301053586926576
-                }
+                },
             },
             {
                 "nodeId": "dalgard16",
                 "position": {
                     "yaw": 3.9636216793034427,
                     "pitch": -0.10090856712713525
-                }
+                },
             },
             {
                 "nodeId": "dalgard18",
                 "position": {
                     "yaw": 5.9204524423406815,
                     "pitch": -0.29901419345337144
-                }
+                },
             },
             {
                 "nodeId": "dalgard20",
                 "position": {
                     "yaw": 0.1361622042415113,
                     "pitch": -0.27790027018296315
-                }
-            }
+                },
+            },
         ],
         "heading": 0.9737829977308656
     },
@@ -2183,7 +2183,7 @@ export const nodeData = [
                     "yaw": 0.9250939197379029,
                     "pitch": -0.09822974167566655
                 },
-            }
+            },
         ],
         "links": [
             {
@@ -2191,43 +2191,43 @@ export const nodeData = [
                 "position": {
                     "yaw": 0.9921086825581384,
                     "pitch": -0.16814090129412684
-                }
+                },
             },
             {
                 "nodeId": "dalgard15",
                 "position": {
                     "yaw": 4.659133295993029,
                     "pitch": -0.27312447761373826
-                }
+                },
             },
             {
                 "nodeId": "dalgard17",
                 "position": {
                     "yaw": 3.036100130932943,
                     "pitch": -0.18795165940190484
-                }
+                },
             },
             {
                 "nodeId": "dalgard19",
                 "position": {
                     "yaw": 5.7001402209795415,
                     "pitch": -0.20004757740663215
-                }
+                },
             },
             {
                 "nodeId": "dalgard20",
                 "position": {
                     "yaw": 1.3023527062087845,
                     "pitch": -0.5503475545504444
-                }
+                },
             },
             {
                 "nodeId": "dalgard21",
                 "position": {
                     "yaw": 0.3341303150152568,
                     "pitch": -0.26087618324110173
-                }
-            }
+                },
+            },
         ],
         "heading": 1.4120979712343216
     },
@@ -2348,22 +2348,22 @@ export const nodeData = [
                 "position": {
                     "yaw": 5.531514216106869,
                     "pitch": -0.15751238207593965
-                }
+                },
             },
             {
                 "nodeId": "dalgard14",
                 "position": {
                     "yaw": 3.5363312565649863,
                     "pitch": -0.08707718233582629
-                }
+                },
             },
             {
                 "nodeId": "dalgard18",
                 "position": {
                     "yaw": 1.9359494763152978,
                     "pitch": -0.1712410030852427
-                }
-            }
+                },
+            },
         ],
         "heading": 0.913741887142094
     },
@@ -2560,7 +2560,7 @@ export const nodeData = [
                     "yaw": 5.342846885192868,
                     "pitch": -0.011318446981187549
                 },
-            }
+            },
         ],
         "links": [
             {
@@ -2568,36 +2568,36 @@ export const nodeData = [
                 "position": {
                     "yaw": 0.06069435950967284,
                     "pitch": -0.1613476170436241
-                }
+                },
             },
             {
                 "nodeId": "dalgard15",
                 "position": {
                     "yaw": 3.499392080498202,
                     "pitch": -0.048354266154714276
-                }
+                },
             },
             {
                 "nodeId": "dalgard17",
                 "position": {
                     "yaw": 2.5570803303542853,
                     "pitch": -0.021975199079844906
-                }
+                },
             },
             {
                 "nodeId": "dalgard18",
                 "position": {
                     "yaw": 3.2939575977210716,
                     "pitch": -0.25476207541113816
-                }
+                },
             },
             {
                 "nodeId": "dalgard21",
                 "position": {
                     "yaw": 5.2264961074372875,
                     "pitch": -0.28063894210433804
-                }
-            }
+                },
+            },
         ],
         "heading": 0.494007666948537
     },
@@ -2738,7 +2738,7 @@ export const nodeData = [
                     "yaw": 4.305448924980514,
                     "pitch": 0.022186404708438138
                 },
-            }
+            },
         ],
         "links": [
             {
@@ -2746,22 +2746,22 @@ export const nodeData = [
                 "position": {
                     "yaw": 2.1275280164636587,
                     "pitch": -0.010309503557377472
-                }
+                },
             },
             {
                 "nodeId": "dalgard20",
                 "position": {
                     "yaw": 1.6676018606504506,
                     "pitch": -0.1910967814836977
-                }
+                },
             },
             {
                 "nodeId": "dalgard22",
                 "position": {
                     "yaw": 4.748044010400324,
                     "pitch": -0.22542530116910164
-                }
-            }
+                },
+            },
         ],
         "heading": 0.3175431939303857
     },
@@ -2930,7 +2930,7 @@ export const nodeData = [
                     "yaw": 3.126620635956865,
                     "pitch": -0.056382840811384005
                 },
-            }
+            },
         ],
         "links": [
             {
@@ -2938,25 +2938,25 @@ export const nodeData = [
                 "position": {
                     "yaw": 2.7742271744147144,
                     "pitch": -0.13680421739120918
-                }
+                },
             },
             {
                 "nodeId": "dalgard2",
                 "position": {
                     "yaw": 4.652486376652885,
                     "pitch": -0.25040625801652516
-                }
+                },
             },
             {
                 "nodeId": "dalgard21",
                 "position": {
                     "yaw": 0.4634952955452002,
                     "pitch": -0.24407093246122646
-                }
-            }
+                },
+            },
         ],
         "heading": 5.5229222982468436
-    }
+    },
 ];
 
 export const treeData = {
@@ -3099,17 +3099,18 @@ export const treeData = {
     ],
     "Vingad benved": [
         "vingad-benved_1"
-    ]
+    ],
 };
 
-// ^\s*"id":(?!.*\d+",\s*$).*
+// ^\s*"id":(?!.*\d+",\s*$).*  // Regex to match IDs that do not end with a number
+// (?<!,)\n  // Regex to match a newline that is not preceded by a comma
 
 export const treeTypeData = {
     "Blodplommon": {
         "description": "Blodplommon (<em>Prunus cerasifera \"Pissardii\"</em>) är ett träd som är känt för sina vackra, mörkröda blad och rosa blommor på våren. Det är en populär prydnadsväxt i trädgårdar.",
         "images": [
             "./trees/blodplommon-leaves.png",
-        ]
+        ],
     },
     "Koreansk lönn": {
         "description": "Koreansk lönn (<em>Acer pseudosieboldianum</em>) är en trädart som är känd för sina vackra, flikiga blad och sin motståndskraft mot kalla klimat. Den har en attraktiv bark och producerar små, röda frukter som är populära bland fåglar. Koreansk lönn är en utmärkt prydnadsväxt för trädgårdar och landskap.",
@@ -3143,7 +3144,7 @@ export const treeTypeData = {
         ],
     },
     "Kinesisk sequoia": {
-        "description": "idk",
+        "description": "Kinesisk sequoia (<em>Metasequoia glyptostroboides</em>) är ett träd som är känt för sin höga, upprätta växtsätt och sina fjäderlika, gröna blad. Det är en snabbväxande art som kan bli mycket stor och är populär i trädgårdar och parker för sin majestätiska form.",
     },
     "Kranskornell": {
         "description": "Kranskornell (<em>Cornus controversa</em>) är ett träd som är känt för sina horisontella grenar som ger en karakteristisk kransform. Det har vita blommor på våren och bär som är populära bland fåglar. Kranskornell är en utmärkt prydnadsväxt för trädgårdar och parker för sin unika form och attraktiva blommor.",
@@ -3167,7 +3168,7 @@ export const treeTypeData = {
         "description": "Praktvide (<em>Salix matsudana \"Tortusa\"</em>) är en trädart som är känd för sina vridna, spiralformade grenar och smala, lansettformade blad. Den har en karakteristisk form och producerar små, hängande kottar. Praktvide är populär i trädgårar och parker för sin unika form och eleganta utseende.",
     },
     "Rhododendron": {
-        "description": "Rhododendron är en släkt av buskar och träd som är kända för sina stora, färgglada blommor. De finns i många olika färger och storlekar och trivs bäst i sur jord. Rhododendron är en populär prydnadsväxt i trädgårdar och parker för sina vackra blommor and lush foliage.",
+        "description": "Rhododendron är en släkt av buskar och träd som är kända för sina stora, färgglada blommor. De finns i många olika färger och storlekar och trivs bäst i sur jord. Rhododendron är en populär prydnadsväxt i trädgårdar och parker för sina vackra blommor och frodiga blad.",
     },
     "Japansk äppelblomma": {
         "description": "Japansk äppelblomma (<em>Malus floribunda</em>) är en trädart som är känd för sina vackra, rosa blommor och små, ätliga frukter. Den har en rundad form och producerar små, röda frukter som är populära bland fåglar. Japansk äppelblomma är en utmärkt prydnadsväxt för trädgårdar och parker för sin skönhet och attraktiva frukter.",
@@ -3239,9 +3240,9 @@ export const specificTreeData = {
         ],
     },
     "ginnalalonn_1": {
-        "description": "Fungerar som ett paraply mot solen när man sitter utanför lusthuset!"
+        "description": "Fungerar som ett paraply mot solen när man sitter utanför lusthuset!",
     },
     "kinesisk-sequoia_1": {
-        "description": "Lätt det coolaste trädet i parken!"
-    }
+        "description": "Lätt det coolaste trädet i parken!",
+    },
 };

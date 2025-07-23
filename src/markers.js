@@ -1,4 +1,4 @@
-import { treeData, treeTypeData, specificTreeData } from "/src/data.js"
+import { treeData, treeTypeData, specificTreeData } from "/src/data.js";
 
 /*
 export function getMarkerDataFromJSONFile(json_file) {
@@ -57,7 +57,7 @@ export function getMarkersFromJSON(jsonData, heading = 0, diameter = 32) {
             content: getDescriptionHTML(entry.id, entryName),
         };
 
-        markers.push(marker)
+        markers.push(marker);
 
         // console.log(`Marker added: ${entry.id} at position (${entry.position.yaw}, ${entry.position.pitch})`); DEBUG: log
     });
@@ -70,7 +70,7 @@ export function getMarkersFromJSON(jsonData, heading = 0, diameter = 32) {
 function getDescriptionHTML(entryId, entryName) {
     const [descriptions, images] = getDescriptionsAndImages(entryId, entryName);
 
-    var descriptionHTML = ""
+    var descriptionHTML = "";
     if (descriptions.length) {
         descriptionHTML += `<div class="description-wrapper">`;
         descriptions.forEach(description => {
@@ -79,9 +79,9 @@ function getDescriptionHTML(entryId, entryName) {
             descriptionHTML += `</div>`;
         });
         descriptionHTML += `</div>`;
-    }
+    };
 
-    var imagesHTML = ""
+    var imagesHTML = "";
     if (images.length) {
         imagesHTML += `<div class="img-wrapper">`;
         images.forEach(image => {
@@ -90,25 +90,25 @@ function getDescriptionHTML(entryId, entryName) {
             imagesHTML += `</div>`;
         });
         imagesHTML += `</div>`;
-    }
+    };
 
     if (!descriptionHTML && !imagesHTML) {
         return `<h2>${entryName}</h2>`;
-    }
+    };
 
     if (!descriptionHTML) {
         return `
             <h2>${entryName}</h2>
             ${imagesHTML}
         `;
-    }
+    };
 
     if (!imagesHTML) {
         return `
             <h2>${entryName}</h2>
             ${descriptionHTML}
         `;
-    }
+    };
 
     /*
     return `
@@ -126,16 +126,16 @@ function getDescriptionHTML(entryId, entryName) {
 }
 
 function getDescriptionsAndImages(entryId, entryName) {
-    const mainData = treeTypeData[entryName] || {}
-    const specificData = specificTreeData[entryId] || {}
+    const mainData = treeTypeData[entryName] || {};
+    const specificData = specificTreeData[entryId] || {};
 
     var descriptions = [];
     if (mainData.description) {
         descriptions.push(mainData.description);
-    }
+    };
     if (specificData.description) {
         descriptions.push(specificData.description);
-    }
+    };
 
     const mainImages = mainData.images || [];
     const specificImages = specificData.images || [];

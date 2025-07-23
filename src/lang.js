@@ -18,4 +18,4 @@ export const lang = {
     webglError: "Din webbläsare verkar inte stödja WebGL",
     markers: "Växter",
     markersList: "Växtlista",
-}
+};

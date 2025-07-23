@@ -1,6 +1,6 @@
 import { getMarkersFromJSON } from "/src/markers.js";
 
-import { nodeData } from "/src/data.js"
+import { nodeData } from "/src/data.js";
 
 /*
 export async function getNodesFromJSONFile(json_file) {
@@ -57,7 +57,7 @@ async function getNodesFromJSON(jsonData) {
             data: {
                 heading: entry.heading,
             }
-        }
+        };
 
         // console.log(entry.links); DEBUG: log
 

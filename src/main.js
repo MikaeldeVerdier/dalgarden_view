@@ -32,7 +32,7 @@ getNodes()  // getNodesFromJSONFile("./data.json")
             })
         });
         */
-        console.log(nodes)
+        // console.log(nodes);
 
         const viewer = new Viewer({
             plugins: [
@@ -77,7 +77,7 @@ getNodes()  // getNodesFromJSONFile("./data.json")
         });
 
         viewer.addEventListener("ready", () => {
-            console.log("Viewer is ready!");
+            // console.log("Viewer is ready!");
 
             // fetch("/markers.json")
             //     .then(response => response.json())
@@ -110,7 +110,7 @@ getNodes()  // getNodesFromJSONFile("./data.json")
             // console.log(`${data.rightclick ? "right " : ""}clicked at textureX: ${data.textureX} pitch: ${data.textureY}`);
         });
         */
-    })
+    });
 
 /* DEBUG: Click
 function offsetYawPitch(yaw, pitch, viewer, offsetX = 0, offsetY = -16) {
