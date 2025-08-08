@@ -4369,49 +4369,49 @@ export const treeTypeData = {
     "Blodplommon": {
         "description": "Blodplommon (<em>Prunus cerasifera \"Pissardii\"</em>) är ett träd som är känt för sina vackra, mörkröda blad och rosa blommor på våren. Det är en populär prydnadsväxt i trädgårdar.",
         "images": [
-            "./utils/plant_feature_images/blodplommon_leaves.PNG",
+            "./plant_feature_images/blodplommon_leaves.PNG",
         ],
     },
     "Koreansk lönn": {
         "description": "Koreansk lönn (<em>Acer pseudosieboldianum</em>) är en trädart som är känd för sina vackra, flikiga blad och sin motståndskraft mot kalla klimat. Den har en attraktiv bark och producerar små, röda frukter som är populära bland fåglar. Koreansk lönn är en utmärkt prydnadsväxt för trädgårdar och landskap.",
         "images": [
-            "./utils/plant_feature_images/koreansk-lönn_leaves.PNG",
+            "./plant_feature_images/koreansk-lönn_leaves.PNG",
         ],
     },
     "Japansk lönn": {
         "description": "Japansk lönn (<em>Acer palmatum</em>) är en trädart som är känd för sina vackra, flikiga blad och sin eleganta form. Den finns i många olika sorter med varierande bladfärger, inklusive rött, grönt och gult. Japansk lönn är en populär prydnadsväxt i trädgårdar och parker för sin skönhet och mångfald.",
         "images": [
-            "./utils/plant_feature_images/japansk-lönn_leaves.PNG",
+            "./plant_feature_images/japansk-lönn_leaves.PNG",
         ],
     },
     "Skogslönn": {
         "description": "Skogslönn (<em>Acer platanoides</em>) är en trädart som är känd för sina stora, handflikiga blad och sina gula blommor som blommar på våren. Den har en rundad form och producerar små, gröna frukter som är populära bland fåglar. Skogslönn är en utmärkt prydnadsväxt för trädgårdar och parker för sin skönhet och attraktiva frukter.",
         "images": [
-            "./utils/plant_feature_images/skogslönn_leaves.PNG",
+            "./plant_feature_images/skogslönn_leaves.PNG",
         ],
     },
     "Rödbladig skogslönn": {
         "description": "Rödbladig skogslönn (<em>Acer platanoides \"Crimson King\"</em>) är en trädart som är känd för sina mörkröda blad som behåller sin färg under hela växtsäsongen. Den har en rundad form och producerar små, gröna frukter som är populära bland fåglar. Rödbladig skogslönn är en utmärkt prydnadsväxt för trädgårdar och parker för sin unika färg och attraktiva form.",
         "images": [
-            "./utils/plant_feature_images/rödbladig-skogslönn_leaves.PNG",
+            "./plant_feature_images/rödbladig-skogslönn_leaves.PNG",
         ],
     },
     "Gyllenlönn": {
         "description": "Gyllenlönn (<em>Acer shirasawanum \"Aureum\"</em>) är en trädart som är känd för sina gyllene, ljust gröna blad som blir mer intensiva under hösten. Den har en rundad form och är populär för sin ljusa färg och eleganta utseende. Gyllenlönn är en utmärkt prydnadsväxt för trädgårdar och parker.",
         "images": [
-            "./utils/plant_feature_images/gyllenlönn_leaves.PNG",
+            "./plant_feature_images/gyllenlönn_leaves.PNG",
         ],
     },
     "Klöverlönn": {
         "description": "Klöverlönn (<em>Acer campestre</em>) är en liten till medelstor trädart som är känd för sina små, klöverliknande blad och sin motståndskraft mot urbana miljöer. Den har en rundad form och producerar små, gröna frukter som är populära bland fåglar. Klöverlönn är en utmärkt prydnadsväxt för trädgårdar och parker för sin tålighet och attraktiva form.",
         "images": [
-            "./utils/plant_feature_images/klöverlönn_leaves.PNG",
+            "./plant_feature_images/klöverlönn_leaves.PNG",
         ],
     },
     "Solfjäderslönn": {
         "description": "Solfjäderslönn (<em>Acer palmatum \"Dissectum\"</em>) är en trädart som är känd för sina fint flikiga, solfjäderformade blad. Den har en elegant, hängande växtsätt och är populär i japanska trädgårdar. Solfjäderslönn är uppskattad för sin skönhet och unika bladform.",
         "images": [
-            "./utils/plant_feature_images/solfjäderslönn_leaves.PNG",
+            "./plant_feature_images/solfjäderslönn_leaves.PNG",
         ],
     },
     "Sköldbräcka": {
@@ -4420,31 +4420,31 @@ export const treeTypeData = {
     "Magnolia": {
         "description": "Magnolia är en släkt av träd och buskar som är kända för sina stora, doftande blommor. De finns i många olika färger, inklusive vitt, rosa och lila. Magnolior är ofta tidiga blommare på våren och är uppskattade för sin skönhet och doft.",
         "images": [
-            "./utils/plant_feature_images/magnolia_leaves2.PNG",
+            "./plant_feature_images/magnolia_leaves2.PNG",
         ],
     },
     "Katsura": {
         "description": "Katsura (<em>Cercidiphyllum japonicum</em>) är ett träd som är känt för sina hjärtformade blad och vackra höstfärger. Det är också känt för sin söta doft av förmultnande löv på hösten. Katsura-trädet är populärt i trädgårdar och parker för sin unika form och doft.",
         "images": [
-            "./utils/plant_feature_images/katsura_leaves.PNG",
+            "./plant_feature_images/katsura_leaves.PNG",
         ],
     },
     "Kinesisk sekvoja": {
         "description": "Kinesisk sekvoja (<em>Metasekvoja glyptostroboides</em>) är ett träd som är känt för sin höga, upprätta växtsätt och sina fjäderlika, gröna blad. Det är en snabbväxande art som kan bli mycket stor och är populär i trädgårdar och parker för sin majestätiska form.",
         "images": [
-            "./utils/plant_feature_images/kinesisk-sekvoja_needles.PNG",
+            "./plant_feature_images/kinesisk-sekvoja_needles.PNG",
         ],
     },
     "Kranskornell": {
         "description": "Kranskornell (<em>Cornus controversa</em>) är ett träd som är känt för sina horisontella grenar som ger en karakteristisk kransform. Det har vita blommor på våren och bär som är populära bland fåglar. Kranskornell är en utmärkt prydnadsväxt för trädgårdar och parker för sin unika form och attraktiva blommor.",
         "images": [
-            "./utils/plant_feature_images/kranskornell_leaves.PNG",
+            "./plant_feature_images/kranskornell_leaves.PNG",
         ],
     },
     "Körsbärskornell": {
         "description": "Körsbärskornell (<em>Cornus mas</em>) är en buske eller litet träd som är känt för sina tidiga, gula blommor som blommar på våren. Den producerar små, röda bär som är ätliga och populära bland fåglar. Körsbärskornell är en utmärkt prydnadsväxt för trädgårdar och parker för sin tidiga blomning och attraktiva bär.",
         "images": [
-            "./utils/plant_feature_images/körsbärskornell_leaves.PNG",
+            "./plant_feature_images/körsbärskornell_leaves.PNG",
         ],
     },
     "Rodgersia": {
@@ -4453,7 +4453,7 @@ export const treeTypeData = {
     "Koreansk stewartia (skenkamelia)": {
         "description": "Koreansk stewartia (<em>Stewartia pseudocamellia</em>) är ett träd som är känt för sina vackra, vita blommor som liknar kamelior. Det har en attraktiv bark och producerar små, ätliga frukter. Koreansk stewartia är populär i trädgårdar och parker för sin eleganta form och vackra blommor.",
         "images": [
-            "./utils/plant_feature_images/koreansk-stewartia_leaves2.PNG",
+            "./plant_feature_images/koreansk-stewartia_leaves2.PNG",
         ],
     },
     "Hosta": {
@@ -4462,52 +4462,52 @@ export const treeTypeData = {
     "Kopparbjörk": {
         "description": "Kopparbjörk (<em>Betula nana \"Purpurea\"</em>) är en trädart som är känd för sin karakteristiska kopparfärgade bark och sina små, triangulära blad. Den har en upprätt växtsätt och producerar små, hängande kottar. Kopparbjörk är populär i trädgårdar och parker för sin unika bark och eleganta form.",
         "images": [
-            "./utils/plant_feature_images/kopparbjörk_leaves.PNG",
-            "./utils/plant_feature_images/kopparbjörk_bark.PNG",
+            "./plant_feature_images/kopparbjörk_leaves.PNG",
+            "./plant_feature_images/kopparbjörk_bark.PNG",
         ],
     },
     "Himalayabjörk": {
         "description": "Himalayabjörk (<em>Betula utilis</em>) är en trädart som är känd för sin vita, papperstunna bark och sina små, triangulära blad. Den har en upprätt växtsätt och producerar små, hängande kottar. Himalayabjörk är populär i trädgårdar och parker för sin unika bark och eleganta form.",
         "images": [
-            "./utils/plant_feature_images/himalayabjörk_leaves.PNG",
-            "./utils/plant_feature_images/himalayabjörk_bark.PNG",
+            "./plant_feature_images/himalayabjörk_leaves.PNG",
+            "./plant_feature_images/himalayabjörk_bark.PNG",
         ],
     },
     "Praktvide": {
         "description": "Praktvide (<em>Salix matsudana \"Tortusa\"</em>) är en trädart som är känd för sina vridna, spiralformade grenar och smala, lansettformade blad. Den har en karakteristisk form och producerar små, hängande kottar. Praktvide är populär i trädgårar och parker för sin unika form och eleganta utseende.",
         "images": [
-            "./utils/plant_feature_images/praktvide_leaves.PNG",
+            "./plant_feature_images/praktvide_leaves.PNG",
         ],
     },
     "Rhododendron": {
         "description": "Rhododendron är en släkt av buskar och träd som är kända för sina stora, färgglada blommor. De finns i många olika färger och storlekar och trivs bäst i sur jord. Rhododendron är en populär prydnadsväxt i trädgårdar och parker för sina vackra blommor och frodiga blad.",
         "images": [
-            "./utils/plant_feature_images/rhododendron_leaves2.PNG",
+            "./plant_feature_images/rhododendron_leaves2.PNG",
         ],
     },
     "Japanskt gaffelolvon": {
         "description": "Japanskt gaffelolvon (<em>Deutzia gracilis</em>) är en buske som är känd för sina vita blommor som blommar på våren och sina små, gröna blad. Den har en buskig form och producerar små, ätliga frukter som är popul",
         "images": [
-            "./utils/plant_feature_images/japanskt-gaffelolvon_leaves.PNG",
+            "./plant_feature_images/japanskt-gaffelolvon_leaves.PNG",
         ],
     },
     "Näverhägg": {
         "description": "Näverhägg (<em>Prunus padus</em>) är ett träd som är känt för sina vita blommor som blommar på våren och producerar små, svarta bär som är populära bland fåglar. Den har en rundad form och producerar små, hängande kottar. Näverhägg är en utmärkt prydnadsväxt för trädgårdar och parker för sin skönhet och attraktiva bär.",
         "images": [
-            // "./utils/plant_feature_images/Näverhägg_leaves.PNG",
-            "./utils/plant_feature_images/näverhägg_bark.PNG",
+            // "./plant_feature_images/Näverhägg_leaves.PNG",
+            "./plant_feature_images/näverhägg_bark.PNG",
         ],
     },
     "Ginnalalönn": {
         "description": "Ginnalalönn (<em>Acer ginnala</em>) är en liten till medelstor trädart som är känd för sina små, klöverliknande blad och sin motståndskraft mot urbana miljöer. Den har en rundad form och producerar små, gröna frukter som är populära bland fåglar. Ginnalalönn är en utmärkt prydnadsväxt for trädgårdar och parker för sin tålighet och attraktiva form.",
         "images": [
-            "./utils/plant_feature_images/ginnalalönn_leaves.PNG",
+            "./plant_feature_images/ginnalalönn_leaves.PNG",
         ],
     },
     "Hästkastanj": {
         "description": "Hästkastanj (<em>Aesculus hippocastanum</em>) är ett stort träd som är känt för sina stora, vita blommor och stora, handflikiga blad. Den har en rundad form och producerar stora, bruna frukter som är inte ätliga.",
         "images": [
-            "./utils/plant_feature_images/hästkastanj_leaves.PNG",
+            "./plant_feature_images/hästkastanj_leaves.PNG",
         ],
     },
     "Rödbladig smällspirea": {
@@ -4519,67 +4519,67 @@ export const treeTypeData = {
     "Hängpil": {
         "description": "Hängpil (<em>Salix babylonica</em>) är en trädart som är känd för sina långa, hängande grenar och smala, lansettformade blad. Den trivs bäst i fuktiga miljöer och är populär i trädgårdar och parker för sin karakteristiska form och eleganta utseende.",
         "images": [
-            "./utils/plant_feature_images/hängpil_leaves.PNG",
+            "./plant_feature_images/hängpil_leaves.PNG",
         ],
     },
     "Schuberthägg": {
         "description": "Schuberthägg (<em>Prunus subhirtella</em>) är ett träd som är känt för sina rosa blommor som blommar tidigt på våren. Den har en rundad form och producerar små, ätliga frukter som är populära bland fåglar. Schuberthägg är en utmärkt prydnadsväxt för trädgårdar och parker för sin skönhet och attraktiva blommor.",
         "images": [
-            "./utils/plant_feature_images/schuberthägg_leaves.PNG",
+            "./plant_feature_images/schuberthägg_leaves.PNG",
         ],
     },
     "Häxal": {
         "description": "Häxal (<em>Hamamelis</em>) är en buske eller litet träd som är känt för sina gula, spindelliknande blommor som blommar på vintern. Den har en buskig form och producerar små, ätliga frukter som är populära bland fåglar. Häxal är en utmärkt prydnadsväxt för trädgårdar och parker för sin tidiga blomning och attraktiva färg.",
         "images": [
-            "./utils/plant_feature_images/häxal_leaves.PNG",
+            "./plant_feature_images/häxal_leaves.PNG",
         ],
     },
     "Vitoxel": {
         "description": "Vitoxel (<em>Oxydendrum arboreum</em>) är ett träd som är känt för sina vita blommor som blommar på sommaren och sina vackra höstfärger. Den har en upprätt växtsätt och producerar små, ätliga frukter som är populära bland fåglar. Vitoxel är en utmärkt prydnadsväxt för trädgårdar och parker för sin skönhet och attraktiva frukter.",
         "images": [
-            "./utils/plant_feature_images/vitoxel_leaves.PNG",
+            "./plant_feature_images/vitoxel_leaves.PNG",
         ],
     },
     "Ask": {
         "description": "Ask (<em>Fraxinus</em>) är en släkt av träd som är kända för sina fjäderlika blad och sina små, gröna frukter. De trivs bäst i fuktiga miljöer och är populära i trädgårdar och parker för sin eleganta form och attraktiva blad.",
         "images": [
-            "./utils/plant_feature_images/ask_leaves.PNG",
+            "./plant_feature_images/ask_leaves.PNG",
         ],
     },
     "Lind (winter orange)": {
         "description": "Lind (<em>Tilia</em>) är en släkt av träd som är kända för sina stora, hjärtformade blad och sina doftande blommor. De trivs bäst i fuktiga miljöer och är populära i trädgårdar och parker för sin skönhet och doft.",
         "images": [
-            "./utils/plant_feature_images/lind_leaves.PNG",
+            "./plant_feature_images/lind_leaves.PNG",
         ],
     },
     "Sibiriskt korkträd": {
         "description": "Sibiriskt korkträd (<em>Phellodendron amurense</em>) är ett träd som är känt för sin karakteristiska, korkliknande bark och sina små, gröna frukter. Den har en upprätt växtsätt och producerar små, ätliga frukter som är populära bland fåglar. Sibiriskt korkträd är en utmärkt prydnadsväxt för trädgårdar och parker för sin unika bark och attraktiva frukter.",
         "images": [
-            "./utils/plant_feature_images/sibiriskt-korktrad_leaves.PNG",
+            "./plant_feature_images/sibiriskt-korktrad_leaves.PNG",
         ],
     },
     "Gulbladig jasmin": {
         "description": "Gulbladig jasmin (<em>Jasminum nudiflorum</em>) är en buske som är känd för sina små, gula blommor som blommar på vintern och tidigt på våren. Den har små, gröna blad och en buskig form. Gulbladig jasmin är populär i trädgårdar och parker för sin tidiga blomning och attraktiva färg.",
         "images": [
-            "./utils/plant_feature_images/gulbladig-jasmin_leaves.PNG",
+            "./plant_feature_images/gulbladig-jasmin_leaves.PNG",
         ],
     },
     "Kameleontbuske": {
         "description": "Kameleontbuske (<em>Deutzia</em>) är en släkt av buskar som är kända för sina små, vita eller rosa blommor som blommar på sommaren. De har små, gröna blad och en buskig form. Kameleontbuske är populär i trädgårdar och parker för sin skönhet och låga underhåll.",
         "images": [
-            "./utils/plant_feature_images/kameleontbuske_leaves2.PNG",
+            "./plant_feature_images/kameleontbuske_leaves2.PNG",
         ],
     },
     "Vipphortensia": {
         "description": "Vipphortensia (<em>Hydrangea paniculata</em>) är en buske som är känd för sina stora, konformade blomställningar som kan vara vita, rosa eller lila. Den blommar på sommaren och har gröna blad. Vipphortensia är populär i trädgårdar och parker för sin skönhet och låga underhåll.",
         "images": [
-            "./utils/plant_feature_images/vipphortensia_leaves.PNG",
+            "./plant_feature_images/vipphortensia_leaves.PNG",
         ],
     },
     "Mörkbladig fläder \"Black lace\"": {
         "description": "Fläder \"Black lace\" (<em>Sambucus</em>) är en buske som är känd för sina mörka, nästan svarta blad och sina små, vita blommor som blommar på sommaren. Den har en buskig form och producerar små, svarta bär som är populära bland fåglar. Fläder \"Black lace\" är populär i trädgårdar och parker för sin unika färg och attraktiva blommor.",
         "images": [
-            "./utils/plant_feature_images/mörkbladig-fläder_leaves.PNG",
+            "./plant_feature_images/mörkbladig-fläder_leaves.PNG",
         ],
     },
     "Finnslide": {
@@ -4591,7 +4591,7 @@ export const treeTypeData = {
     "Vingad benved": {
         "description": "Vingad benved (<em>Euonymus alatus</em>) är en buske eller litet träd som är känt för sina karakteristiska, vingformade grenar och vackra höstfärger. Den har små, gröna blad som blir röda eller lila på hösten. Vingad benved är populär i trädgårdar och landskap för sin unika form och färg.",
         "images": [
-            "./utils/plant_feature_images/vingad-benved_leaves2.PNG",
+            "./plant_feature_images/vingad-benved_leaves2.PNG",
         ],
     },
 };
