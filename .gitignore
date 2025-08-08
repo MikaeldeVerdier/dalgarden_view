@@ -23,4 +23,8 @@ dist-ssr
 *.sln
 *.sw?
 
+# Project files
 public/tiles
+
+# Restricted files
+original_panoramas

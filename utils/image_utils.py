@@ -15,7 +15,7 @@ class ImageHandler:
         tilesDir = f"./public/tiles/{nodeId}"
         os.makedirs(tilesDir, exist_ok=True)
 
-        img_path = f"./utils/original_panoramas/{nodeId}.JPG"
+        img_path = f"./utils/fullsize_panoramas/{nodeId}.JPG"
         img = Image.open(img_path)
         img_arr = np.array(img)
 
