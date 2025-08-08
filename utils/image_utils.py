@@ -35,14 +35,15 @@ class ImageHandler:
 
         return rotated_img, lowres_img
 
-    def split_image(self, node_id, img, tile_size=512, quality=95):
+    def split_image(self, node_id, img, shape=(8, 16), quality=95):
         tilesDir = f"./public/tiles/{node_id}"
         os.makedirs(tilesDir, exist_ok=True)
 
         width, height = img.size
+        tile_size = width // shape[1]
 
-        num_cols = (width + tile_size - 1) // tile_size
-        num_rows = (height + tile_size - 1) // tile_size
+        num_cols = shape[1]
+        num_rows = shape[0]
         for row in range(num_rows):
             for col in range(num_cols):
                 left = col * tile_size
@@ -62,7 +63,7 @@ if __name__ == "__main__":
         ("dalgard1", 3.3775891123402326),
         ("dalgard2", 5.1553739803636205),
         ("dalgard3", 2.969568331141952),
-        ("dalgard4", 5.586846303733822),  # 2.2282876075912337),
+        ("dalgard4", 5.586846303733822),  # 2.2282876075912337 for dalgard4 CORRUPTED
         ("dalgard5", 5.725160153120154),
         ("dalgard6", 4.68275101194163),
         ("dalgard7", 1.8923994212038162),
@@ -80,7 +81,18 @@ if __name__ == "__main__":
         ("dalgard19", 0.913741887142094),
         ("dalgard20", 0.494007666948537),
         ("dalgard21", 0.3175431939303857),
-        ("dalgard22", 5.5229222982468436)
+        ("dalgard22", 5.5229222982468436),
+        ("dalgard23", 0.9575386483362853),
+        ("dalgard24", 0.2969985364872193),
+        ("dalgard25", 0.06923287390896413),
+        ("dalgard26", 0.9054315642747313),
+        ("dalgard27", 1.3998385206547455),
+        ("dalgard28", 0.9734593052970268),
+        ("dalgard29", 0.5692937015238393),
+        ("dalgard30", 0.19781740281942206),
+        ("dalgard31", 5.069692201749612),
+        ("dalgard32", 4.682096975985327),
+        ("dalgard33", 4.014758061173792),
     ]
     """
     node_ids_headings = [

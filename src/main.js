@@ -1,9 +1,9 @@
 import { Viewer } from "@photo-sphere-viewer/core";
 // import "@photo-sphere-viewer/core/index.css";
 
-import { EquirectangularTilesAdapter } from '@photo-sphere-viewer/equirectangular-tiles-adapter';
+import { EquirectangularTilesAdapter } from "@photo-sphere-viewer/equirectangular-tiles-adapter";
 
-import { Cache } from '@photo-sphere-viewer/core';
+import { Cache } from "@photo-sphere-viewer/core";
 
 import { VirtualTourPlugin } from "@photo-sphere-viewer/virtual-tour-plugin";
 // import "@photo-sphere-viewer/virtual-tour-plugin/index.css";
@@ -77,7 +77,7 @@ getNodes()  // getNodesFromJSONFile("./data.json")
         });
 
         viewer.addEventListener("ready", () => {
-            // console.log("Viewer is ready!");
+            console.log("Viewer is ready!");
 
             // fetch("/markers.json")
             //     .then(response => response.json())
@@ -87,33 +87,51 @@ getNodes()  // getNodesFromJSONFile("./data.json")
             //     .catch(err => {
             //         console.error("Failed to load markers.json:", err);
             //     });
-            const preloadImages = [
-                "./trees/blodplommon-leaves.png",
-                "./trees/katsura-bark.png",
-                "./trees/katsura-leaves.png",
-            ];
-            preloadImages.forEach(image => {
-                const img = new Image();
-                img.src = image;
-            });
         }, { once: true });
 
-        /* DEBUG: Click
+        const markersPlugin = viewer.getPlugin(MarkersPlugin);
+
+        markersPlugin.addEventListener("enter-marker", (e) => {
+            const marker = e.marker.config;
+            if (marker.data && !marker.data.preloaded) {
+                const markerHtml = new DOMParser().parseFromString(marker.content, "text/html");
+                const imageToPreload = markerHtml.querySelector("img");
+
+                if (imageToPreload) {
+                    const tempImg = new Image();
+                    tempImg.src = imageToPreload.src;
+                    // console.log(`Preloading image: ${tempImg.src}`);
+                }
+
+                marker.data.preloaded = true;
+            }
+        });
+
+        // /* DEBUG: Click
         viewer.addEventListener("click", ({ data }) => {
-            const centerCoordinate = offsetYawPitch(data.yaw, data.pitch, viewer);
             const currNode = viewer.getPlugin("virtual-tour").getCurrentNode()
             const currHeading = currNode.data.heading || 0;
-            const clickedYaw = (centerCoordinate.yaw + currHeading) % (2 * Math.PI);
 
-            console.log(`${data.rightclick ? "right " : ""}clicked at yaw: ${clickedYaw}, pitch: ${centerCoordinate.pitch}`);
+            const adjustedCoordinate = offsetYawPitch(data.yaw, data.pitch, viewer);
+            const clickedYaw = (adjustedCoordinate.yaw + currHeading) % (2 * Math.PI);
+
+            console.log(`${data.rightclick ? "right " : ""}clicked at yaw: ${clickedYaw}, pitch: ${adjustedCoordinate.pitch}`);
+
+            console.log(`{
+                "id": "some",
+                "position": {
+                    "yaw": ${clickedYaw},
+                    "pitch": ${adjustedCoordinate.pitch}
+                },
+            },`);
             // console.log(`${data.rightclick ? "right " : ""}clicked at yaw: ${centerCoordinate.yaw * 180 / Math.PI} deg, pitch: ${centerCoordinate.pitch* 180 / Math.PI} deg`);
             // console.log(`${data.rightclick ? "right " : ""}clicked at textureX: ${data.textureX} pitch: ${data.textureY}`);
         });
-        */
+        // */
     });
 
-/* DEBUG: Click
-function offsetYawPitch(yaw, pitch, viewer, offsetX = 0, offsetY = -16) {
+// /* DEBUG: Click
+function offsetYawPitch(yaw, pitch, viewer, offsetX = 0, offsetY = 0) {
     const vFov = viewer.defaultZoomLvl || 50 * (Math.PI / 180); // Default vertical field of view in radians
     const canvas = viewer.container;
 
@@ -129,4 +147,4 @@ function offsetYawPitch(yaw, pitch, viewer, offsetX = 0, offsetY = -16) {
         pitch: pitch + deltaPitch
     };
 }
-*/
+// */

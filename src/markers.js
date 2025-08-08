@@ -53,8 +53,11 @@ export function getMarkersFromJSON(jsonData, heading = 0, diameter = 32) {
             },
             image: "./icons/leaf.circle.fill@2x.png",
             tooltip: `<strong>${entryName}</strong>`,
-            anchor: "bottom center",
+            anchor: "center",
             content: getDescriptionHTML(entry.id, entryName),
+            data: {
+                preloaded: false,
+            }
         };
 
         markers.push(marker);
@@ -128,6 +131,10 @@ function getDescriptionHTML(entryId, entryName) {
 function getDescriptionsAndImages(entryId, entryName) {
     const mainData = treeTypeData[entryName] || {};
     const specificData = specificTreeData[entryId] || {};
+
+    if (!treeTypeData[entryName]) {
+        console.log(`Main data missing from ${entryName} (${entryId})`)
+    }
 
     var descriptions = [];
     if (mainData.description) {
