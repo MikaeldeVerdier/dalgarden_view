@@ -3285,6 +3285,13 @@ export const nodeData = [
                 },
             },
             {
+                "id": "naverhagg_2",
+                "position": {
+                    "yaw": 4.6376345188562915,
+                    "pitch": 0.2613538222756384
+                },
+            },
+            {
                 "id": "ligularia-dentata_1",
                 "position": {
                     "yaw": 1.8490566787114031,
