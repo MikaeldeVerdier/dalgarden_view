@@ -91,7 +91,7 @@ getNodes()  // getNodesFromJSONFile("./data.json")
 
         const markersPlugin = viewer.getPlugin(MarkersPlugin);
 
-        markersPlugin.addEventListener("enter-marker", (e) => {
+        markersPlugin.addEventListener("marker-visibility", (e) => {
             const marker = e.marker.config;
             if (marker.data && !marker.data.preloaded) {
                 const markerHtml = new DOMParser().parseFromString(marker.content, "text/html");
@@ -107,7 +107,7 @@ getNodes()  // getNodesFromJSONFile("./data.json")
             }
         });
 
-        /* DEBUG: Click
+        // /* DEBUG: Click
         viewer.addEventListener("click", ({ data }) => {
             const currNode = viewer.getPlugin("virtual-tour").getCurrentNode()
             const currHeading = currNode.data.heading || 0;
@@ -127,10 +127,10 @@ getNodes()  // getNodesFromJSONFile("./data.json")
             // console.log(`${data.rightclick ? "right " : ""}clicked at yaw: ${centerCoordinate.yaw * 180 / Math.PI} deg, pitch: ${centerCoordinate.pitch* 180 / Math.PI} deg`);
             // console.log(`${data.rightclick ? "right " : ""}clicked at textureX: ${data.textureX} pitch: ${data.textureY}`);
         });
-        */
+        // */
     });
 
-/* DEBUG: Click
+// /* DEBUG: Click
 function offsetYawPitch(yaw, pitch, viewer, offsetX = 0, offsetY = 0) {
     const vFov = viewer.defaultZoomLvl || 50 * (Math.PI / 180); // Default vertical field of view in radians
     const canvas = viewer.container;
@@ -147,4 +147,4 @@ function offsetYawPitch(yaw, pitch, viewer, offsetX = 0, offsetY = 0) {
         pitch: pitch + deltaPitch
     };
 }
-*/
+// */

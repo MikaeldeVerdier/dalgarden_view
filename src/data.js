@@ -60,6 +60,13 @@ export const nodeData = [
                 },
             },
             {
+                "id": "klatterhortensia_1",
+                "position": {
+                    "yaw": 6.16939685017248,
+                    "pitch": 0.1801974470347143
+                },
+            },
+            {
                 "id": "rhododendron_1",
                 "position": {
                     "yaw": 5.235695957783912,
@@ -248,6 +255,13 @@ export const nodeData = [
                 "position": {
                     "yaw": 1.7251000666448952,
                     "pitch": 0.12346006891216432
+                },
+            },
+            {
+                "id": "klatterhortensia_1",
+                "position": {
+                    "yaw": 1.8490747239457512,
+                    "pitch": 0.12385016045240271
                 },
             },
             {
@@ -1520,6 +1534,13 @@ export const nodeData = [
                 },
             },
             {
+                "id": "klatterhortensia_1",
+                "position": {
+                    "yaw": 4.78359820508106,
+                    "pitch": -0.05411971503136881
+                },
+            },
+            {
                 "id": "vipphortensia_1",
                 "position": {
                     "yaw": 6.186137450934143,
@@ -1610,6 +1631,13 @@ export const nodeData = [
                 "position": {
                     "yaw": 5.17732413230267,
                     "pitch": 0.1904336099181556
+                },
+            },
+            {
+                "id": "klatterhortensia_1",
+                "position": {
+                    "yaw": 5.521794162261203,
+                    "pitch": 0.03327834635355931
                 },
             },
             {
@@ -1894,6 +1922,13 @@ export const nodeData = [
                 "position": {
                     "yaw": 4.495140810137837,
                     "pitch": 0.014949093207250689
+                },
+            },
+            {
+                "id": "klatterhortensia_1",
+                "position": {
+                    "yaw": 4.2939046047091844,
+                    "pitch": 0.07877976028625677
                 },
             },
             {
@@ -3674,6 +3709,13 @@ export const nodeData = [
                     "pitch": 0.12106412769101205
                 },
             },
+            {
+                "id": "klatterhortensia_1",
+                "position": {
+                    "yaw": 2.392128274120979,
+                    "pitch": 0.12099172320767004
+                },
+            },
         ],
         "links": [
             {
@@ -3758,6 +3800,13 @@ export const nodeData = [
                 "position": {
                     "yaw": 1.8321964261851276,
                     "pitch": 0.05539644580757774
+                },
+            },
+            {
+                "id": "klatterhortensia_1",
+                "position": {
+                    "yaw": 1.8804919545370415,
+                    "pitch": 0.05786018187775577
                 },
             },
         ],
@@ -4176,6 +4225,13 @@ export const nodeData = [
                     "pitch": 0.13386219467768035
                 },
             },
+            {
+                "id": "klatterhortensia_1",
+                "position": {
+                    "yaw": 0.3191522879171842,
+                    "pitch": 0.1193235026002275
+                },
+            },
         ],
         "links": [
             {
@@ -4343,6 +4399,9 @@ export const treeData = {
     "Vipphortensia": [
         "vipphortensia_1",
         "vipphortensia_2",
+    ],
+    "Klätterhortensia": [
+        "klatterhortensia_1",
     ],
     "Mörkbladig fläder \"Black lace\"": [
         "morkbladig-flader_1",
@@ -4555,7 +4614,7 @@ export const treeTypeData = {
     "Sibiriskt korkträd": {
         "description": "Sibiriskt korkträd (<em>Phellodendron amurense</em>) är ett träd som är känt för sin karakteristiska, korkliknande bark och sina små, gröna frukter. Den har en upprätt växtsätt och producerar små, ätliga frukter som är populära bland fåglar. Sibiriskt korkträd är en utmärkt prydnadsväxt för trädgårdar och parker för sin unika bark och attraktiva frukter.",
         "images": [
-            "./plant_feature_images/sibiriskt-korktrad_leaves.PNG",
+            "./plant_feature_images/sibiriskt-korkträd_leaves.PNG",
         ],
     },
     "Gulbladig jasmin": {
@@ -4575,6 +4634,9 @@ export const treeTypeData = {
         "images": [
             "./plant_feature_images/vipphortensia_leaves.PNG",
         ],
+    },
+    "Klätterhortensia": {
+        "description": "Klätterhortensia (<em>Hydrangea petiolaris</em>) är en klättrande buske som är känd för sina vita blommor och sina stora, hjärtformade blad. Den trivs bäst i skuggiga eller halvskuggiga områden och är populär i trädgårdar och parker för sin förmåga att klättra på väggar och staket.",
     },
     "Mörkbladig fläder \"Black lace\"": {
         "description": "Fläder \"Black lace\" (<em>Sambucus</em>) är en buske som är känd för sina mörka, nästan svarta blad och sina små, vita blommor som blommar på sommaren. Den har en buskig form och producerar små, svarta bär som är populära bland fåglar. Fläder \"Black lace\" är populär i trädgårdar och parker för sin unika färg och attraktiva blommor.",
