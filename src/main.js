@@ -72,6 +72,8 @@ getNodes()  // getNodesFromJSONFile("./data.json")
             ],
             lang: lang,
             rendererParameters: {
+                // alpha: true,
+                // antialias: true,
                 debug: false,
             },
         });
@@ -89,25 +91,45 @@ getNodes()  // getNodesFromJSONFile("./data.json")
             //     });
         }, { once: true });
 
+        viewer.addEventListener("position-updated", ({ position }) => {
+            viewer.panel.hide();
+        });
+
         const markersPlugin = viewer.getPlugin(MarkersPlugin);
 
         markersPlugin.addEventListener("marker-visibility", (e) => {
             const marker = e.marker.config;
-            if (marker.data && !marker.data.preloaded) {
-                const markerHtml = new DOMParser().parseFromString(marker.content, "text/html");
-                const imageToPreload = markerHtml.querySelector("img");
-
-                if (imageToPreload) {
-                    const tempImg = new Image();
-                    tempImg.src = imageToPreload.src;
-                    // console.log(`Preloading image: ${tempImg.src}`);
-                }
-
-                marker.data.preloaded = true;
+            if (!marker.data || marker.data.preloaded) {
+                return  // Already preloaded this marker, no need to do it again.
             }
+
+            const markerHtml = new DOMParser().parseFromString(marker.content, "text/html");
+            const imageToPreload = markerHtml.querySelector("img");
+
+            if (imageToPreload) {
+                const tempImg = new Image();
+                tempImg.src = imageToPreload.src;
+
+                const updateMarkerAspectRatio = () => {
+                    imageToPreload.style.aspectRatio = tempImg.naturalWidth / tempImg.naturalHeight;
+                    markersPlugin.updateMarker({
+                        id: marker.id,
+                        content: new XMLSerializer().serializeToString(markerHtml)
+                    });
+                }
+                tempImg.decode()
+                    .then(updateMarkerAspectRatio)
+                    .catch(() => {
+                        tempImg.onload = updateMarkerAspectRatio;
+                    });
+
+                // console.log(`Preloaded image: ${tempImg.src}`);
+            }
+
+            marker.data.preloaded = true;
         });
 
-        // /* DEBUG: Click
+        /* DEBUG: Click
         viewer.addEventListener("click", ({ data }) => {
             const currNode = viewer.getPlugin("virtual-tour").getCurrentNode()
             const currHeading = currNode.data.heading || 0;
@@ -127,10 +149,10 @@ getNodes()  // getNodesFromJSONFile("./data.json")
             // console.log(`${data.rightclick ? "right " : ""}clicked at yaw: ${centerCoordinate.yaw * 180 / Math.PI} deg, pitch: ${centerCoordinate.pitch* 180 / Math.PI} deg`);
             // console.log(`${data.rightclick ? "right " : ""}clicked at textureX: ${data.textureX} pitch: ${data.textureY}`);
         });
-        // */
+        */
     });
 
-// /* DEBUG: Click
+/* DEBUG: Click
 function offsetYawPitch(yaw, pitch, viewer, offsetX = 0, offsetY = 0) {
     const vFov = viewer.defaultZoomLvl || 50 * (Math.PI / 180); // Default vertical field of view in radians
     const canvas = viewer.container;
@@ -147,4 +169,4 @@ function offsetYawPitch(yaw, pitch, viewer, offsetX = 0, offsetY = 0) {
         pitch: pitch + deltaPitch
     };
 }
-// */
+*/

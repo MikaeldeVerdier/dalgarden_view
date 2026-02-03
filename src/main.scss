@@ -23,8 +23,8 @@
 
 // general styles
 body {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     margin: 0;
     padding: 0;
 
@@ -36,6 +36,9 @@ body {
 }
 
 .viewer {
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100vw;
     height: 100vh;
 }
@@ -61,9 +64,9 @@ p {
 
 .img-content {
     width: 100%;
-    // height: 100%;
+    height: 100%;
     object-fit: contain;
-    object-position: left;
+    object-position: center;
     display: block;
     border-radius: 5px;
 }
@@ -71,7 +74,7 @@ p {
 // further psv overrides
 /*
 .psv-panel {
-    max-width: 50% !important;  /* Cosnider adapating for smaller screens (phones) * /
+    max-width: 50% !important;
 }
 */
 

@@ -38,6 +38,12 @@ export function getMarkersFromJSON(jsonData, heading = 0, diameter = 32) {
     }
         */
     jsonData.forEach(entry => {
+        // // /*  // DEBUG: naming
+        if (entry.id.includes("nanting")) {
+            return
+        }
+        // // /*
+
         const entryName = Object.entries(treeData).filter(([key, value]) => value.includes(entry.id))[0]?.[0] || entry.id;
         // console.log(entryName)
 
